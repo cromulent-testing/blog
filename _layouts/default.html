@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ page.title}}</title>
+    <link href="/stylesheets/reset.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="/stylesheets/style.css" media="screen" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body class="centre-with-margin">
+    <header class="full-width">
+      <span class="smaller-text right"><a href="/">the cromulent testing blog</a></span>
+      <h1 class="header" style="width:50%;">{{ page.title}}</h1>
+    </header>
+
+    <nav class="right" style="width:25%; min-height: 20em; margin-left: 2em; padding-left: 0.6em;">
+      <div id="meta" class="content-group">
+        <span class="smaller-text">
+          published on the <strong>6th of June, 2011</strong> (<em>it was a Monday</em>)
+        </span>
+      </div>
+
+      <div id="author" class="content-group">
+        <p class="name">Ash Rollke</p>
+        <p class="bio smaller-text aside">Quality Assurance Einherjar and madman</p>
+        <ul class="text-right smaller-text">
+          <li><a href="http://twitter.com/higlak" target="_blank">twitter</a></li>
+        </ul>
+      </div>
+      <div id="author" class="content-group">
+        <p class="name">Ryan Boucher</p>
+        <p class="defocus smaller-text aside">Team guy</p>
+        <ul class="text-right smaller-text">
+          <li><a href="http://twitter.com/distributedlife" target="_blank">twitter</a></li>
+          <li><a href="http://distributedlife.com/" target="_blank">blog</a></li>
+        </ul>
+      </div>
+      <div id="author" class="content-group">
+        <p class="name">Mike Bain</p>
+        <p class="defocus smaller-text aside">Alpha tester</p>
+      </div>
+
+      <div id="legalese" class="content-group">
+        <p class="defocus smaller-text aside">tags</p>
+        <p class="defocus smaller-text aside">copyright</p>
+      </div>
+    </nav>
+
+    <div id="articles" class="left" style="width:50%;">
+      <article>
+
+        <section id="content">
+
+
+          <!-- MARK DOWN -->
+
+          {{ content }}
+          <!-- MARK DOWN -->
+
+
+
+        </section>
+      </artticle>
+    </div>
+
+  </body>
+</html>

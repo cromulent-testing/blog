@@ -1,0 +1,23 @@
+body {font-size: 1.4em; }
+header {padding-top:0.3em; padding-bottom: 1.2em;}
+article {padding-right: 1.0em}
+nav {border-left: 1px dotted grey;}
+
+h1 {font-size: 1.8em; padding-top: 0.6em; padding-bottom: 0.3em;}
+p {padding-bottom: 0.6em;}
+a {text-decoration: none; color: orange}
+a:visited {color: orange;}
+a:hover {color: #00CC33;}
+
+.header {color:#108B97;}
+.centre-with-margin {margin-left:10%; margin-right: 10%}
+.full_width {clear:both; width:100%;}
+.smaller-text {font-size: 0.8em;}
+.aside {font-style: italic;}
+.right {float:right;}
+.left {float:left;}
+.content-group{padding-bottom: 1.2em;}
+.text-right{text-align:right;}
+
+.name {color: #108B97;}
+.defocus {color: grey;}
