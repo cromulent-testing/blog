@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>The Cromulent Testing Blog</title>
+    <title>{{ page.title}}</title>
     <link href="/stylesheets/reset.css" media="screen" rel="stylesheet" type="text/css" />
     <link href="/stylesheets/style.css" media="screen" rel="stylesheet" type="text/css" />
   </head>
@@ -9,7 +9,7 @@
   <body class="centre-with-margin">
     <header class="full-width">
       <span class="smaller-text right"><a href="/">the cromulent testing blog</a></span>
-      <h1 class="header" style="width:60%;">The Cromulent Testing Blog</h1>
+      <h1 class="header" style="width:60%;">{{ page.title}}</h1>
     </header>
 
     <nav class="right" style="width:25%; min-height: 20em; margin-left: 2em; padding-left: 0.6em;">
@@ -46,71 +46,7 @@
 
           <!-- MARK DOWN -->
 
-          <ul class="archive">
-  
-
-    
-      <h2>2012</h2>
-    
-
-    
-      <h3>May</h3>
-    
-
-    <li>24 <a href="/2012/05/24/future-post.html">future post</a></li>
-  
-
-    
-      
-      
-      
-        <h2>2011</h2>
-      
-    
-
-    
-      
-      
-      
-        <h3>June</h3>
-      
-    
-
-    <li>05 <a href="/2011/06/05/two-in-a-month.html">two in a month</a></li>
-  
-
-    
-      
-      
-      
-    
-
-    
-      
-      
-      
-    
-
-    <li>04 <a href="/2011/06/04/this-is-a-test.html">How do we deal with a backlog of automation?</a></li>
-  
-
-    
-      
-      
-      
-    
-
-    
-      
-      
-      
-        <h3>April</h3>
-      
-    
-
-    <li>04 <a href="/2011/04/04/in-the-past.html">In the past</a></li>
-  
-</ul>
+          {{ content }}
           <!-- MARK DOWN -->
 
 

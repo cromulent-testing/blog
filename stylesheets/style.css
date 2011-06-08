@@ -3,7 +3,9 @@ header {padding-top:0.3em; padding-bottom: 1.2em;}
 article {padding-right: 1.0em}
 nav {border-left: 1px dotted grey;}
 
-h1 {font-size: 1.8em; padding-top: 0.6em; padding-bottom: 0.3em;}
+h1 {font-size: 1.8em; padding-top: 0.6em; padding-bottom: 0.3em; min-height: 2.0em}
+h2 {}
+h3 {padding-left: 2.0em;}
 p {padding-bottom: 0.6em;}
 a {text-decoration: none; color: orange}
 a:visited {color: orange;}
@@ -21,3 +23,5 @@ a:hover {color: #00CC33;}
 
 .name {color: #108B97;}
 .defocus {color: grey;}
+
+ul.archive li {padding-left: 4.0em;}
