@@ -1,0 +1,4 @@
+build=clean and build site using Jekyll
+default=Serve on Localhost with port 4000
+deploy\:prod=Deploy to Prod
+deploy\:staging=Deploy to Pre-prod
