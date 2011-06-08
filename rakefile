@@ -1,0 +1,23 @@
+desc "clean and build site using Jekyll"
+task :build do
+  sh "rm -rf _site/"
+  sh "jekyll"
+end
+
+desc "Serve on Localhost with port 4000"
+task :default do
+  sh "rm -rf _site/"
+  sh "jekyll --server --auto"
+end
+
+namespace :deploy do
+  desc "Deploy to Pre-prod"
+  task :staging => :build do
+    sh "git push heroku-preprod master"
+  end
+
+  desc "Deploy to Prod"
+  task :prod => :build do
+    sh "git push heroku master"
+  end
+end

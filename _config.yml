@@ -1,2 +1,2 @@
 pygments: true
-exclude: nbproject
+exclude: nbproject, rakefile

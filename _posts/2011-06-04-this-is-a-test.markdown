@@ -1,6 +1,9 @@
 ---
 layout: default
 title: How do we deal with a backlog of automation?
+tags:
+- automation
+- backlog
 ---
 We'll answer this question from the perspective of a tester falling behind in their automation workload.
 
