@@ -12,3 +12,7 @@ end
 get '/' do
   File.read('_site/index.html')
 end
+
+get '/feed' do
+  File.read('_site/feed/index.xml')
+end
