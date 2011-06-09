@@ -7,12 +7,12 @@ h1 {font-size: 1.8em; padding-top: 0.6em; padding-bottom: 0.0em; }
 h2 {font-size: 0.6em; padding-bottom: 0.3em; }
 h3 {}
 p {padding-bottom: 0.6em;}
-a {text-decoration: none; color: orange}
-a:visited {color: orange;}
-a:hover {color: #00CC33;}
+a {text-decoration: none; color: #B9764D}
+a:visited {color: #8E7450;}
+a:hover {color: #E7764D;}
 
 .title {min-height:3.0em;}
-.header {color:#108B97;}
+.header {color: #385691;}
 .centre-with-margin {margin-left:10%; margin-right: 10%}
 .full_width {clear:both; width:100%;}
 .smaller-text {font-size: 0.8em;}
@@ -23,7 +23,7 @@ a:hover {color: #00CC33;}
 .content-group{padding-bottom: 1.2em;}
 .text-right{text-align:right;}
 
-.name {color: #108B97;}
+.name {color: #385691;}
 .defocus {color: grey;}
 
 .year {text-align:right; display: inline-block; min-width: 3.0em; padding-bottom: 0.15em; padding-top: 2.0em; color: grey; border-bottom: 1px dotted black;}
