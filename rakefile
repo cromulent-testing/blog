@@ -4,8 +4,10 @@ task :build do
   sh "jekyll"
 end
 
-desc "Serve on Localhost with port 4000"
-task :default do
+task :default => [:server]
+
+desc "run the server on localhost:4000"
+task :server do
   sh "rm -rf _site/"
   sh "jekyll --server --auto"
 end
