@@ -11,15 +11,12 @@ layout: nil
  <id>http://cromulent-testing.com/</id>
  <author>
    <name>Ash Rollke</name>
-   <email>ashley.rollke@gmail.com</email>
  </author>
  <author>
    <name>Mike Bain</name>
-   <email>agent.bain@gmail.com</email>
  </author>
  <author>
    <name>Ryan Boucher</name>
-   <email>ryan.boucher@distributedlife.com</email>
  </author>
 
   {% for post in site.posts %}

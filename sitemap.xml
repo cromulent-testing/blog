@@ -5,7 +5,7 @@ layout: nil
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://cromulent-testing.com/</loc>
-    <lastmod>{{ 'now' | date_to_xmlschema }}</lastmod>
+    <lastmod>{{ 'now' | date: '%Y-%m-%dT%H:%M:%S+10:00' }}</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
