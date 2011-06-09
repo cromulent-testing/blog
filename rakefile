@@ -10,6 +10,12 @@ task :default do
   sh "jekyll --server --auto"
 end
 
+desc "Get the required gems"
+task :bootstrap do
+  sh 'gem install bundler'
+  sh 'bundle install'
+end
+
 namespace :deploy do
   desc "Deploy to Pre-prod"
   task :staging do

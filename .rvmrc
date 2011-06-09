@@ -1,0 +1,11 @@
+rvm_gemset_create_on_use_flag=1
+rvm_project_rvmrc_default=1
+
+rvm 1.8.7@ct-blog
+
+if ! command -v rake >/dev/null; then
+   printf "The rubygem 'rake' is not installed. Installing it now.\n"
+   gem install rake
+fi
+
+
