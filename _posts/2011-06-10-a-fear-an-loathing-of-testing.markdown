@@ -5,6 +5,9 @@ tags:
 - testing
 - life
 - the future
+- pairing
+- waterfall
+- waterfail
 published: yes
 ---
 
