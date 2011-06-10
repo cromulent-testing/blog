@@ -33,6 +33,7 @@ namespace :deploy do
 
   desc "Deploy to Prod"
   task :prod do
+    sh "git push github master"
     sh "git push heroku master"
   end
 end
