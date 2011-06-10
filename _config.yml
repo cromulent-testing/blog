@@ -1,2 +1,3 @@
 pygments: true
-exclude: nbproject, rakefile
+exclude: nbproject, rakefile, Gemfile
+url: http://cromulent-testing.com/
