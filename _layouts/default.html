@@ -22,7 +22,19 @@
       <div id="meta" class="content-group">
         <span class="smaller-text">
           published on the <strong>{{page.date | date: "%B %d, %Y" }}</strong> (<em>it was a {{page.date | date: "%A" }}</em>) under the broad topics of:
-        <span class="defocus smaller-text aside">{{page.tags | sort | join(tags, ", ")}}</span>
+          <span class="defocus smaller-text aside">
+            {% for tag in page.tags %}
+              {% if forloop.last %}
+                and {{ tag }}
+              {% else %}
+                {% if forloop.rindex0 > 1 %}
+                  {{ tag }},
+                {% else %}
+                  {{ tag }}
+                {% endif %}
+              {% endif %}
+            {% endfor %}
+          </span>
         by your cheery authors:
         </span>
       </div>
