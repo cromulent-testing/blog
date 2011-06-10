@@ -15,14 +15,14 @@ subtitle: It's a perfectly cromulent blog
     {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
     {% capture nmonth %}{{ post.next.date | date: '%B' }}{% endcapture %}
 
-<!--    {% unless post.next %}-->
-<!--      {% if year <= cyear %}
+    {% unless post.next %}
+      {% if year <= cyear %}
         <span class="year-first">{{ post.date | date: '%Y' }}</span>
       {% endif %}
       {% if month <= cmonth %}
         <span class="month-first">{{ post.date | date: '%B' }}</span>
-      {% endif %}-->
-<!--    {% else %}-->
+      {% endif %}
+    {% else %}
       {% if year <= cyear %}
         {% if year != nyear %}
           {% if first_year == 'yes' %}
@@ -49,7 +49,7 @@ subtitle: It's a perfectly cromulent blog
           {% endif %}
         {% endif %}
       {% endif %}
-<!--    {% endunless %}-->
+    {% endunless %}
 
 
 

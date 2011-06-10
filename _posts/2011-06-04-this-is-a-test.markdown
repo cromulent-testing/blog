@@ -4,6 +4,7 @@ title: How do we deal with a backlog of automation?
 tags:
 - automation
 - backlog
+published: no
 ---
 We'll answer this question from the perspective of a tester behind in their automation workload.
 
