@@ -4,11 +4,8 @@ title: How do we deal with a backlog of automation?
 tags:
 - automation
 - backlog
-ryan: yes
-mike: no
-ash: yes
 ---
-We'll answer this question from the perspective of a tester falling behind in their automation workload.
+We'll answer this question from the perspective of a tester behind in their automation workload.
 
 The question that should be asked first is why do we have backlog of automation?
 
