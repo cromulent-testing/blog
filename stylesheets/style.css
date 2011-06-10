@@ -22,6 +22,7 @@ a:hover {color: #FF865D;}
 .left {float:left;}
 .content-group{padding-bottom: 1.2em;}
 .text-right{text-align:right;}
+.clear-both{clear:both;}
 
 .name {color: #385691;}
 .defocus {color: #515151;}
@@ -34,3 +35,16 @@ a:hover {color: #FF865D;}
 .day {display: inline-block; margin-left: 3.3em; padding-right: 3.0em; padding-bottom: 0.6em; color: #656565;}
 ul {margin:0; padding:0;}
 li {margin:0; padding:0;}
+
+.gravatar
+{
+  border: 2px solid white;
+  float: right;
+  border-radius: 5px;
+  clear: both;
+  -moz-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  width: 64px;
+  height: 64px;
+}
