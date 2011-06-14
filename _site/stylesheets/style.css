@@ -9,7 +9,7 @@ h3 {}
 p {padding-bottom: 0.6em;}
 a {text-decoration: none; color: #E7764D}
 a:visited {color: #8E7450;}
-a:hover {color: #FF865D;}
+a:hover {text-decoration: underline; color: #FF865D;}
 
 .title {min-height:3.0em;}
 .header {color: #385691;}

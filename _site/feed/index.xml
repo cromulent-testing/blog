@@ -4,7 +4,7 @@
  <title>The Cromulent Testing Blog</title>
  <link href="http://cromulent-testing.com/feed/" rel="self"/>
  <link href="http://cromulent-testing.com/"/>
- <updated>2011-06-10T21:07:07+10:00</updated>
+ <updated>2011-06-14T23:45:00+10:00</updated>
  <id>http://cromulent-testing.com/</id>
  <author>
    <name>Ash Rollke</name>
@@ -16,6 +16,31 @@
    <name>Ryan Boucher</name>
  </author>
 
+  
+    
+    
+    
+    
+
+    
+      
+        <entry>
+          <title>when should we be doing automation testing?</title>
+          <link href="http://cromulent-testing.com/2011/06/14/when-should-we-be-doing-automation-testing.html"/>
+          <updated>2011-06-14T00:00:00+10:00</updated>
+          <id>http://cromulent-testing.com/2011/06/14/when-should-we-be-doing-automation-testing</id>
+          <content type="html">&lt;p&gt;Automated tests, that are written &lt;strong&gt;before&lt;/strong&gt; the code; capture the intention of the code, inform design decisions, provide rapid feedback and let us know when we are done. All of this gets us thinking about testing and ensuring that our code can be automated.&lt;/p&gt;
+
+&lt;p&gt;One view of test automation is to write it &lt;strong&gt;after&lt;/strong&gt; the system code has been written so the automation has to cope with less change. We&amp;#8217;ve found this view doesn&amp;#8217;t hold up in practice, firstly we spend a lot of time reverse engineering the code to automate it. Secondly, if the code is changing then this is when we need test automation the most to provide us with a safety net.&lt;/p&gt;
+
+&lt;p&gt;Automated tests that are written &lt;strong&gt;after&lt;/strong&gt; the code do not directly inform the design nor do they provide rapid feedback. When writing automated tests in this way we need to ask ourselves; why are we taking this approach?&lt;/p&gt;
+
+&lt;p&gt;If we are doing it to provide test coverage or run in the CI build then we are coming to the party late. Without visibility into what automation already exists we could be duplicating test effort. If these tests will help us build a better product then they should be written &lt;strong&gt;before&lt;/strong&gt; the code.&lt;/p&gt;
+
+&lt;p&gt;If we are using automation to do exploratory testing and we intend to throw the automation code away afterwards then we can write the tests &lt;strong&gt;after&lt;/strong&gt;. Not all automation needs to be kept it just has to help us explore.&lt;/p&gt;</content>
+        </entry>
+      
+    
   
     
     
