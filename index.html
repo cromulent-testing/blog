@@ -3,17 +3,21 @@ layout: index
 title: The Cromulent Testing Blog
 subtitle: It's a perfectly cromulent blog
 ---
+<div class="content-group"></div>
+<div class="content-group"></div>
 
 <div class="content-group">
-  <p>Our latest thoughts: <a class="" href="{{ site.posts[0].url }}">{{ site.posts.first.title }}</a></p>
+  <p>What we're currently talking about:</p>
+  <a style="" class="" href="{{ site.posts[0].url }}">
+    <p style="font-size: 2.0em; text-align: center;">{{ site.posts.first.title }}</p>
+  </a>
 </div>
-<div class="" style="border-bottom: 1px dotted black; width: 80%; margin-left: 20%;"></div>
+<div class="" style="border-bottom: 1px dotted black; width: 60%; margin-left: 20%;"></div>
 
-<div class="content-group"></div>
 <div class="content-group"></div>
 
 <ul class="archive">
-  <p>What we've said earlier:</p>
+  <p>Previously on the cromulent testing blog...</p>
   {% capture first_year  %}{{ 'yes' }}{% endcapture %}
   {% capture first_month  %}{{ 'yes' }}{% endcapture %}
   
