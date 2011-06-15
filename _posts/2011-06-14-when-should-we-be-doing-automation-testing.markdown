@@ -1,6 +1,6 @@
 ---
 layout: default
-title: when should we be doing automation testing?
+title: when should we be doing automated testing?
 tags:
 - testing
 - automation

@@ -4,7 +4,7 @@
  <title>The Cromulent Testing Blog</title>
  <link href="http://cromulent-testing.com/feed/" rel="self"/>
  <link href="http://cromulent-testing.com/"/>
- <updated>2011-06-15T19:06:56+10:00</updated>
+ <updated>2011-06-15T19:23:24+10:00</updated>
  <id>http://cromulent-testing.com/</id>
  <author>
    <name>Ash Rollke</name>
@@ -25,7 +25,7 @@
     
       
         <entry>
-          <title>when should we be doing automation testing?</title>
+          <title>when should we be doing automated testing?</title>
           <link href="http://cromulent-testing.com/2011/06/14/when-should-we-be-doing-automation-testing.html"/>
           <updated>2011-06-14T00:00:00+10:00</updated>
           <id>http://cromulent-testing.com/2011/06/14/when-should-we-be-doing-automation-testing</id>
