@@ -4,7 +4,7 @@ article {padding-right: 1.0em}
 nav {border-left: 1px dotted darkgrey;}
 
 h1 {font-size: 1.8em; padding-top: 0.6em; padding-bottom: 0.0em; }
-h2 {font-size: 0.6em; padding-bottom: 0.3em; }
+h2 {font-size: 0.8em; padding-bottom: 0.3em; }
 h3 {}
 p {padding-bottom: 1.0em; line-height: 1.2em;}
 a {text-decoration: none; color: #E7764D}
@@ -27,14 +27,15 @@ a:hover {text-decoration: underline; color: #FF865D;}
 .name {color: #385691;}
 .defocus {color: #515151;}
 
-.year {text-align:right; display: inline-block; min-width: 3.0em; padding-bottom: 0.15em; padding-top: 2.0em; color: #656565; border-bottom: 1px dotted black;}
-.year-first {text-align:right; display: inline-block; min-width: 3.0em; padding-bottom: 0.15em; color: #656565; border-bottom: 1px dotted black;}
-.year-silent {display: inline-block; min-width: 3.0em; color: #656565;}
-.month {display: inline-block; min-width: 1.0em; padding-top: 1.0em; padding-bottom: 0.3em; color: #656565; }
-.month-first {display: inline-block; min-width: 1.0em; padding-bottom: 0.3em; color: #656565;}
-.day {display: inline-block; margin-left: 3.3em; padding-right: 3.0em; padding-bottom: 0.6em; color: #656565;}
+.year {text-align:right; display: inline-block; padding-bottom: 0.15em; padding-top: 2.0em;   }
+.year-first {text-align:right; display: inline-block; padding-bottom: 0.15em; }
+.year-silent {display: inline-block;}
+.month {display: inline-block; padding-top: 1.0em; padding-bottom: 0.3em; }
+.month-first {display: inline-block; padding-bottom: 0.3em; }
+.day {display: inline-block; padding-bottom: 0.6em; }
 ul {margin:0; padding:0;}
 li {margin:0; padding:0;}
+.subscript {font-variant: small-caps; font-size: 0.8em;}
 
 .gravatar
 {

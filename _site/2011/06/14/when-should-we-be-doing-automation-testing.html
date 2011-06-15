@@ -5,17 +5,18 @@
     <link href="/stylesheets/reset.css" media="screen" rel="stylesheet" type="text/css" />
     <link href="/stylesheets/style.css" media="screen" rel="stylesheet" type="text/css" />
     <link rel=”alternate” type="application/atom+xml" title="The Cromulent Testing Blog" href="http://feeds.feedburner.com/CromulentTestingBlog" />
-    <link  href="http://fonts.googleapis.com/css?family=Anonymous+Pro:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css" >
-    <link  href="http://fonts.googleapis.com/css?family=Rock+Salt:regular" rel="stylesheet" type="text/css" >
+    <link href="http://fonts.googleapis.com/css?family=Anonymous+Pro:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css" >
+    <link href="http://fonts.googleapis.com/css?family=Rock+Salt:regular" rel="stylesheet" type="text/css" >
   </head>
 
   <body class="centre-with-margin">
-  <header class="full-width">
+    <header class="full-width">
         <span class="smaller-text right"><a href="/">the cromulent testing blog</a></span>
           <p class="tiny-text right" style="clear:both;">[<a href="http://feeds.feedburner.com/CromulentTestingBlog" target="_blank">subscribe</a>] [<a target="_blank" href="https://github.com/cromulent-testing"]>github</a>]</p>
           <div class="title">
             <h1 class="header" style="width:60%; font-family: 'Rock Salt', serif;">when should we be doing automated testing?</h1>
             <h2 class="header" style="width:60%;"></h2>
+            <div class="content-group"></div>
           </div>
       </header>
 
@@ -86,7 +87,7 @@
       </div>
     </nav>
 
-    <div id="articles" class="left" style="width:60%;">
+    <div id="articles" class="left" style="width:65%;">
       <article>
         <section id="content" style="font-family: 'Anonymous Pro', serif;"><p>Automated tests, that are written <strong>before</strong> the code; capture the intention of the code, inform design decisions, provide rapid feedback and let us know when we are done. All of this gets us thinking about testing and ensuring that our code can be automated.</p>
 
@@ -97,6 +98,27 @@
 <p>If we are doing it to provide test coverage or run in the CI build then we are coming to the party late. Without visibility into what automation already exists we could be duplicating test effort. If these tests will help us build a better product then they should be written <strong>before</strong> the code.</p>
 
 <p>If we are using automation to do exploratory testing and we intend to throw the automation code away afterwards then we can write the tests <strong>after</strong>. Not all automation needs to be kept it just has to help us explore.</p></section>
+
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+            var disqus_shortname = 'thecromulenttestingblog'; // required: replace example with your forum shortname
+
+            // The following are highly recommended additional parameters. Remove the slashes in front to use.
+            var disqus_identifier = 'http://cromulent-testing.com//2011/06/14/when-should-we-be-doing-automation-testing.html';
+            var disqus_url = 'http://cromulent-testing.com//2011/06/14/when-should-we-be-doing-automation-testing.html';
+
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
       </artticle>
     </div>
     <script type="text/javascript">
