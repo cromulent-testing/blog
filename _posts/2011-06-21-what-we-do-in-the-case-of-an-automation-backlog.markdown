@@ -16,7 +16,7 @@ The behaviour people have when they are behind is often more damaging then being
 
 Firstly, get the team to help us catch up!
 
-Moving the culture to a test driven approach will fix the backlog and prevent it from happening. As changing culture can be long term, we can use WIP (Work In Progress) limits; an easily implemented tool from Lean, to make the team aware of the problem and to move in the right direction.
+Moving the culture to a test driven approach will fix the backlog and prevent it from happening. As changing culture can be long term, we can use [WIP](http://leanandkanban.wordpress.com/2009/05/14/wip-and-limits/) (Work In Progress) limits; an easily implemented tool from Lean, to make the team aware of the problem and to move in the right direction.
 
 For example, once the tester's WIP limit is reached, before anyone can start more work, they need to help the tester finish something. Get the team to stop starting and to start finishing. Optimizing the team as a whole increases work flow more than optimizing individual components.
 
