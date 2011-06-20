@@ -12,7 +12,7 @@ tags:
 - TDD
 published: yes
 ---
-The behaviour people have when they are behind is often more damaging then the act being behind. We're going to focus on a couple of ways we can climb out of this hole.
+The behaviour people have when they are behind is often more damaging then being behind. We're going to focus on a couple of ways we can climb out of this hole.
 
 Firstly, get the team to help us catch up!
 
