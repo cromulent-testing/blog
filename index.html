@@ -32,21 +32,26 @@ subtitle: It's a perfectly cromulent blog
       {% capture nmonth %}{{ post.next.date | date: '%B' }}{% endcapture %}
     <li>
       <a href="{{ post.url }}">{{ post.title }} - 
+        <span class="month-first subscript">{{ post.date | date: '%B' }}</span>
+        <span class="day subscript">{{ post.date | date:"%d" }},</span>
+        <span class="year-first subscript">{{ post.date | date: '%Y' }}</span>
+      </a>
+    </li>
 
-      {% if year <= cyear %}
-        {% if month <= cmonth %}
-            <span class="day subscript">{{ post.date | date:"%d" }}</span>
-        {% endif %}
-      {% endif %}
+<!--      {% if year <= cyear %}-->
+<!--        {% if month <= cmonth %}-->
+<!--            <span class="day subscript">{{ post.date | date:"%d" }}</span>-->
+<!--        {% endif %}-->
+<!--      {% endif %}-->
 
-      {% unless post.next %}
-        {% if month <= cmonth %}
-          <span class="month-first subscript">{{ post.date | date: '%B' }}</span>
-        {% endif %}
-        {% if year <= cyear %}
-          <span class="year-first subscript">{{ post.date | date: '%Y' }}</span>
-        {% endif %}
-      {% else %}
+<!--      {% unless post.next %}-->
+<!--        {% if month <= cmonth %}-->
+<!--          <span class="month subscript">{{ post.date | date: '%B' }}</span>-->
+<!--        {% endif %}-->
+<!--        {% if year <= cyear %}-->
+<!--          <span class="year subscript">{{ post.date | date: '%Y' }}</span>-->
+<!--        {% endif %}-->
+<!--      {% else %}
         {% if month <= cmonth %}
           {% if month != nmonth or forloop.last %}
             {% if first_month == 'yes' %}
@@ -76,8 +81,7 @@ subtitle: It's a perfectly cromulent blog
             {% endif %}
           {% endif %}
         {% endif %}
-      {% endunless %}
-
+      {% endunless %}-->
 
 
     
