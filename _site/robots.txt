@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: http://cromulent-testing.com/sitemap.xml

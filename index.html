@@ -18,8 +18,8 @@ subtitle: It's a perfectly cromulent blog
 
 <ul class="archive">
   <p>Previously on the cromulent testing blog:</p>
-  {% capture first_year  %}{{ 'yes' }}{% endcapture %}
-  {% capture first_month  %}{{ 'yes' }}{% endcapture %}
+<!--  {% capture first_year  %}{{ 'yes' }}{% endcapture %}-->
+<!--  {% capture first_month  %}{{ 'yes' }}{% endcapture %}-->
   
   {% for post in site.posts %}
     {% if forloop.first == false %}
@@ -28,8 +28,10 @@ subtitle: It's a perfectly cromulent blog
       {% capture month  %}{{ post.date | date: '%B' }}{% endcapture %}
       {% capture cyear %}{{ 'now' | date: '%Y' }}{% endcapture %}
       {% capture cmonth %}{{ 'now' | date: '%B' }}{% endcapture %}
-      {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
-      {% capture nmonth %}{{ post.next.date | date: '%B' }}{% endcapture %}
+<!--      {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}-->
+<!--      {% capture nmonth %}{{ post.next.date | date: '%B' }}{% endcapture %}-->
+      {% if year <= cyear %}
+        {% if month <= cmonth %}
     <li>
       <a href="{{ post.url }}">{{ post.title }} - 
         <span class="month-first subscript">{{ post.date | date: '%B' }}</span>
@@ -37,6 +39,8 @@ subtitle: It's a perfectly cromulent blog
         <span class="year-first subscript">{{ post.date | date: '%Y' }}</span>
       </a>
     </li>
+        {% endif %}
+      {% endif %}
 
 <!--      {% if year <= cyear %}-->
 <!--        {% if month <= cmonth %}-->
