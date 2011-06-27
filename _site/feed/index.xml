@@ -4,7 +4,7 @@
  <title>The Cromulent Testing Blog</title>
  <link href="http://cromulent-testing.com/feed/" rel="self"/>
  <link href="http://cromulent-testing.com/"/>
- <updated>2011-06-25T15:07:45+10:00</updated>
+ <updated>2011-06-27T19:35:54+10:00</updated>
  <id>http://cromulent-testing.com/</id>
  <author>
    <name>Ash Rollke</name>
@@ -16,6 +16,33 @@
    <name>Ryan Boucher</name>
  </author>
 
+  
+    
+    
+    
+    
+
+    
+      
+        <entry>
+          <title>testing integration projects</title>
+          <link href="http://cromulent-testing.com/2011/06/27/testing-integration-projects.html"/>
+          <updated>2011-06-27T00:00:00+10:00</updated>
+          <id>http://cromulent-testing.com/2011/06/27/testing-integration-projects</id>
+          <content type="html">&lt;p&gt;When problems arise (often) in integration projects (all of them) a lot of time and energy is spent arguing who&amp;#8217;s at fault. This is as about as useful as arguing whose side of the boat has a leak.&lt;/p&gt;
+
+&lt;p&gt;It&amp;#8217;s common for Team Upstream and Team Downstream to test their systems in isolation. However, the problems lurk in international waters, between teams. You must test the integration. Integration testing is like voting, do it early and do it often.&lt;/p&gt;
+
+&lt;p&gt;Traditionally, groups are brought together through marriage. In lieu of this, we&amp;#8217;ve had a lot of success sending emissaries to work with other teams. This doesn&amp;#8217;t mean endless meetings. It means joining forces and working together, reducing the them and us mentality.&lt;/p&gt;
+
+&lt;p&gt;You may be told that your responsibility ends with your boundary, stay out of international waters. You may be told that it will all just work if we build it to the spec. The reality is that we need to make sure the entire system works across all teams.&lt;/p&gt;
+
+&lt;p&gt;Current thinking is that our brains are geared towards living in small family groups, in competition with others. This distorts our view of other teams, causing us to presume they are either malicious or incompetent. We even dehumanize them, giving them nicknames like Team Downstream, instead of recognizing them as fellow people doing the same job as you.&lt;/p&gt;
+
+&lt;p&gt;As the elders say: you must test the integration (and take these mushrooms!)&lt;/p&gt;</content>
+        </entry>
+      
+    
   
     
     
