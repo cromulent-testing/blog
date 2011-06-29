@@ -24,10 +24,10 @@
 </header>
 
 
-  <nav class="right" style="width:25%; min-height: 20em; margin-left: 2em; padding-left: 0.6em;">
+  <nav>
     <div id="meta" class="content-group">
       <span class="small-text">
-        published on the <strong>{{page.date | date: "%B %d, %Y" }}</strong> (<em>it was a {{page.date | date: "%A" }}</em>) under the broad topics of:
+        Published on the <strong>{{page.date | date: "%A %B %d, %Y" }}</strong> under the broad topics of:
         <span class="defocus small-text aside">
           {% for tag in page.tags %}
             {% if forloop.last %}
@@ -41,7 +41,7 @@
             {% endif %}
           {% endfor %}
         </span>
-      by your cheery authors:
+        <p>by your cheery authors:</p>
       </span>
     </div>
 

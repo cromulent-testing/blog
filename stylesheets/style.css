@@ -16,6 +16,7 @@ article {
 }
 
 nav {
+  float: right;
   border-left: 1px dotted darkgrey;
   width:25%;
   min-height: 20em;
