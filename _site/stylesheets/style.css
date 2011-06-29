@@ -16,9 +16,25 @@ footer {
   border-left: 1px dotted darkgrey;
   width:25%;
   min-height: 20em;
-  margin-left: 2em;
   padding-left: 0.6em;
+  margin-left: 3em;
 }
+
+.content {
+  font-family: 'Anonymous Pro', serif;
+}
+
+div#title {
+  min-height: 3.0em;
+}
+
+div#title-links{
+  float: right;
+  width:25%;
+  text-align:right;
+  clear: both;
+}
+
 
 h1 {
   font-size: 1.8em;
@@ -63,24 +79,6 @@ ul {
 li {
   margin: 0;
   padding: 0;
-}
-
-div#title {
-  min-height: 3.0em;
-}
-
-div#title-links{
-  float: right;
-  width:25%;
-  text-align:right;
-  clear: both;
-}
-
-.content {
-  width:60%;
-  float:left;
-  font-family: 'Anonymous Pro', serif;
-  padding-right: 1.0em
 }
 
 a.current-post {
