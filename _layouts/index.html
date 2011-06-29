@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-AU" lang="en-AU">
+<html>
 <head>
 {% include meta.html %}
 </head>
@@ -7,16 +7,45 @@
 <body>
 {% include header.html %}
 
-<nav>
+<footer>
 {% include authors.html %}
 {% include legalese.html %}
-</nav>
+</footer>
 
-<div id="articles">
-  <article>
-    <section id="content">{{ content }}</section>
-  </article>
-</div>
+<article class="content">
+  <section>
+    <div class="content-group">
+      <p>What we're currently talking about:</p>
+      <a class="current-post" href="{{ site.posts[0].url }}">"{{ site.posts.first.title }}"</a>
+    </div>
+  </section>
+</article>
+
+<nav class="content">
+  <div class="content-group"></div>
+  <p>Previously on the cromulent testing blog:</p>
+  <ul class="archive">
+    {% for post in site.posts %}
+      {% if forloop.first == false %}
+        {% capture year  %}{{ post.date | date: '%Y' }}{% endcapture %}
+        {% capture month  %}{{ post.date | date: '%B' }}{% endcapture %}
+        {% capture cyear %}{{ 'now' | date: '%Y' }}{% endcapture %}
+        {% capture cmonth %}{{ 'now' | date: '%B' }}{% endcapture %}
+        {% if year <= cyear %}
+          {% if month <= cmonth %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }} -
+          <span class="month-first subscript">{{ post.date | date: '%B' }}</span>
+          <span class="day subscript">{{ post.date | date:"%d" }},</span>
+          <span class="year-first subscript">{{ post.date | date: '%Y' }}</span>
+        </a>
+      </li>
+          {% endif %}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  </ul>
+</nav>
 {% include analytics.html %}
 </body>
 </html>

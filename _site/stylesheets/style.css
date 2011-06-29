@@ -11,11 +11,7 @@ header {
   padding-bottom: 1.2em;
 }
 
-article {
-  padding-right: 1.0em
-}
-
-nav {
+footer {
   float: right;
   border-left: 1px dotted darkgrey;
   width:25%;
@@ -59,20 +55,37 @@ a:hover {
   color: #FF865D;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+}
+
 div#title {
   min-height: 3.0em;
 }
 
 div#title-links{
+  float: right;
   width:25%;
   text-align:right;
   clear: both;
 }
 
-div#articles {
+.content {
   width:60%;
   float:left;
   font-family: 'Anonymous Pro', serif;
+  padding-right: 1.0em
+}
+
+a.current-post {
+  font-size: 2.0em;
+  text-align: left;
 }
 
 .header {
@@ -90,10 +103,6 @@ div#articles {
 
 .aside {
   font-style: italic;
-}
-
-.right {
-  float: right;
 }
 
 .content-group {
@@ -147,16 +156,6 @@ div#articles {
 .day {
   display: inline-block;
   padding-bottom: 0.6em;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-}
-
-li {
-  margin: 0;
-  padding: 0;
 }
 
 .subscript {
