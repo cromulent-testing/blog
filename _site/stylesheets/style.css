@@ -68,10 +68,12 @@ div#title-links{
   text-align:right;
   clear: both;
 }
+
 div#articles {
+  width:60%;
+  float:left;
   font-family: 'Anonymous Pro', serif;
 }
-
 
 .header {
   color: #385691;
@@ -92,10 +94,6 @@ div#articles {
 
 .right {
   float: right;
-}
-
-.left {
-  float: left;
 }
 
 .content-group {
