@@ -6,7 +6,8 @@ tags:
 - disposable automation
 - technical debt
 - record & playback
-- exploratory
+- exploratory testing
+- exploratory automation
 published: yes
 ---
 In our experience, testers have an unhealthy attachment to automated tests. We’re going to talk about times when throwaway automation is really helpful.
