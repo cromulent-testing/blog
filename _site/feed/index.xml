@@ -4,7 +4,7 @@
  <title>The Cromulent Testing Blog</title>
  <link href="http://cromulent-testing.com/feed/" rel="self"/>
  <link href="http://cromulent-testing.com/"/>
- <updated>2011-06-30T20:27:01+10:00</updated>
+ <updated>2011-07-05T20:36:58+10:00</updated>
  <id>http://cromulent-testing.com/</id>
  <author>
    <name>Ash Rollke</name>
@@ -25,21 +25,25 @@
     
       
         <entry>
-          <title>testing integration projects</title>
-          <link href="http://cromulent-testing.com/2011/06/27/testing-integration-projects.html"/>
-          <updated>2011-06-27T00:00:00+10:00</updated>
-          <id>http://cromulent-testing.com/2011/06/27/testing-integration-projects</id>
-          <content type="html">&lt;p&gt;When problems arise (often) in integration projects (all of them) a lot of time and energy is spent arguing who&amp;#8217;s at fault. This is as about as useful as arguing whose side of the boat has a leak.&lt;/p&gt;
+          <title>Disposable Automation</title>
+          <link href="http://cromulent-testing.com/2011/07/05/disposable-automation.html"/>
+          <updated>2011-07-05T00:00:00+10:00</updated>
+          <id>http://cromulent-testing.com/2011/07/05/disposable-automation</id>
+          <content type="html">&lt;p&gt;In our experience, testers have an unhealthy attachment to automated tests. We’re going to talk about times when throwaway automation is really helpful.&lt;/p&gt;
 
-&lt;p&gt;It&amp;#8217;s common for Team Upstream and Team Downstream to test their systems in isolation. However, the problems lurk in international waters, between teams. We must test the integration. Integration testing is like voting, do it early and do it often.&lt;/p&gt;
+&lt;h3 id='record_and_playback'&gt;Record and playback&lt;/h3&gt;
 
-&lt;p&gt;Traditionally, groups are brought together through marriage. In lieu of this, we&amp;#8217;ve had a lot of success sending emissaries to work with other teams. This doesn&amp;#8217;t mean endless meetings. It means joining forces and working together, reducing the us and them mentality.&lt;/p&gt;
+&lt;p&gt;Sick and tired of clicking through page after page to find what you want to test? Record your path, run it, and test what actually matters. Record and playback is quick and easy. The code it creates will make your eyes bleed which doesn’t matter as long you dump it as soon as you’re done with it.&lt;/p&gt;
 
-&lt;p&gt;We may be told that our responsibility ends with our system boundary, stay out of international waters. We may be told that it will all just work if we build it to spec. The reality is that we need to make sure the entire system works across all teams.&lt;/p&gt;
+&lt;h3 id='exploratory_automation'&gt;Exploratory Automation&lt;/h3&gt;
 
-&lt;p&gt;Current thinking is that our brains are geared towards living in small family groups, in competition with others. This distorts our view of other teams, causing us to presume they are either malicious or incompetent. We even dehumanise them, giving them nicknames like Team Downstream, instead of recognising them as fellow people doing the same job as us.&lt;/p&gt;
+&lt;p&gt;Sometimes you need to test things that can’t easily be done manually. We were exploring a bug lurking deep within a server and found ourselves manually crafting HTTP headers in telnet. We realised it’s a lot easier to do this in code. So we did. We found the bug and threw the automation away.&lt;/p&gt;
 
-&lt;p&gt;As the elders say: you must test the integration (and take these mushrooms!)&lt;/p&gt;</content>
+&lt;h3 id='permutations_and_combinations'&gt;Permutations and Combinations&lt;/h3&gt;
+
+&lt;p&gt;There’s an adage that you can’t test everything. Sometimes, your tester senses tell you to cover a part of the system thoroughly. This can be done with a script that generates the various combinations. Run it over night and don’t leave your number.&lt;/p&gt;
+
+&lt;p&gt;Automation you decide to keep, you decide to maintain and “The things you own, end up owning you.” Tyler Durden&lt;/p&gt;</content>
         </entry>
       
     
@@ -51,23 +55,14 @@
 
     
       
-        <entry>
-          <title>what we do in the case of an automation backlog?</title>
-          <link href="http://cromulent-testing.com/2011/06/21/what-we-do-in-the-case-of-an-automation-backlog.html"/>
-          <updated>2011-06-21T00:00:00+10:00</updated>
-          <id>http://cromulent-testing.com/2011/06/21/what-we-do-in-the-case-of-an-automation-backlog</id>
-          <content type="html">&lt;p&gt;The behaviour people have when they are behind is often more damaging then being behind. We&amp;#8217;re going to focus on a couple of ways we can climb out of this hole.&lt;/p&gt;
+    
+  
+    
+    
+    
+    
 
-&lt;p&gt;Firstly, get the team to help us catch up!&lt;/p&gt;
-
-&lt;p&gt;Moving the culture to a test driven approach will fix the backlog and prevent it from happening. As changing culture can be long term, we can use &lt;a href='http://leanandkanban.wordpress.com/2009/05/14/wip-and-limits/'&gt;WIP&lt;/a&gt; (Work In Progress) limits; an easily implemented tool from Lean, to make the team aware of the problem and to move in the right direction.&lt;/p&gt;
-
-&lt;p&gt;For example, once the tester&amp;#8217;s WIP limit is reached, before anyone can start more work, they need to help the tester finish something. Get the team to stop starting and to start finishing. Optimizing the team as a whole increases work flow more than optimizing individual components.&lt;/p&gt;
-
-&lt;p&gt;The second tactic is damage control, and will stop us chasing our tails until the end of time. This approach assumes a team that is unwilling/unable to support the testers. For new work, we prioritise based on risk; covering the low priority work with mostly manual testing to stop the backlog from growing. To deal with the existing backlog, we write smoke tests to give us thin coverage and confidence over the functionality, filling in the gaps based on priority, balanced with the new work coming in.&lt;/p&gt;
-
-&lt;p&gt;More on information on WIP limits: &lt;a href='http://leanandkanban.wordpress.com/2009/05/14/wip-and-limits/'&gt;http://leanandkanban.wordpress.com/2009/05/14/wip-and-limits/&lt;/a&gt;&lt;/p&gt;</content>
-        </entry>
+    
       
     
   
@@ -78,22 +73,6 @@
 
     
       
-        <entry>
-          <title>when should we be doing automated testing?</title>
-          <link href="http://cromulent-testing.com/2011/06/14/when-should-we-be-doing-automation-testing.html"/>
-          <updated>2011-06-14T00:00:00+10:00</updated>
-          <id>http://cromulent-testing.com/2011/06/14/when-should-we-be-doing-automation-testing</id>
-          <content type="html">&lt;p&gt;Automated tests, that are written &lt;strong&gt;before&lt;/strong&gt; the code; capture the intention of the code, inform design decisions, provide rapid feedback and let us know when we are done. All of this gets us thinking about testing and ensuring that our code can be automated.&lt;/p&gt;
-
-&lt;p&gt;One view of test automation is to write it &lt;strong&gt;after&lt;/strong&gt; the system code has been written so the automation has to cope with less change. We&amp;#8217;ve found this view doesn&amp;#8217;t hold up in practice, firstly we spend a lot of time reverse engineering the code to automate it. Secondly, if the code is changing then this is when we need test automation the most to provide us with a safety net.&lt;/p&gt;
-
-&lt;p&gt;Automated tests that are written &lt;strong&gt;after&lt;/strong&gt; the code do not directly inform the design nor do they provide rapid feedback. When writing automated tests in this way we need to ask ourselves; why are we taking this approach?&lt;/p&gt;
-
-&lt;p&gt;If we are doing it to provide test coverage or run in the CI build then we are coming to the party late. Without visibility into what automation already exists we could be duplicating test effort. If these tests will help us build a better product then they should be written &lt;strong&gt;before&lt;/strong&gt; the code.&lt;/p&gt;
-
-&lt;p&gt;If we are using automation to do exploratory testing and we intend to throw the automation code away afterwards then we can write the tests &lt;strong&gt;after&lt;/strong&gt;. Not all automation needs to be kept it just has to help us explore.&lt;/p&gt;</content>
-        </entry>
-      
     
   
     
@@ -102,26 +81,6 @@
     
 
     
-      
-        <entry>
-          <title>a fear and loathing of testing</title>
-          <link href="http://cromulent-testing.com/2011/06/10/a-fear-an-loathing-of-testing.html"/>
-          <updated>2011-06-10T00:00:00+10:00</updated>
-          <id>http://cromulent-testing.com/2011/06/10/a-fear-an-loathing-of-testing</id>
-          <content type="html">&lt;p&gt;&lt;strong&gt;Ash&lt;/strong&gt;: &lt;em&gt;We were somewhere around the waterfall, on the edge of the software lifecycle, when the tests began to take hold. I remember saying something like:&lt;/em&gt;&lt;/p&gt;
-&lt;br /&gt;
-&lt;p&gt;I feel a bit lightheaded. Maybe you should drive.&lt;/p&gt;
-&lt;br /&gt;
-&lt;p&gt;&lt;em&gt;Suddenly, there was a terrible roar all around us, and the software was full of what looked like huge bugs, all swooping and screeching and diving around the computer, and a voice was screaming:&lt;/em&gt;&lt;/p&gt;
-&lt;br /&gt;
-&lt;p&gt;Holy Jesus. What are these goddamn bugs?&lt;/p&gt;
-&lt;br /&gt;
-&lt;p&gt;&lt;strong&gt;Dr. Gonzo&lt;/strong&gt;: Did you say something?&lt;/p&gt;
-&lt;br /&gt;
-&lt;p&gt;&lt;strong&gt;Ash&lt;/strong&gt;: Hm? Never mind. It&amp;#8217;s your turn to test.&lt;/p&gt;
-&lt;br /&gt;
-&lt;p&gt;&lt;strong&gt;Ash&lt;/strong&gt;: &lt;em&gt;No point in mentioning these bugs, I thought. Poor bastard will see them soon enough.&lt;/em&gt;&lt;/p&gt;</content>
-        </entry>
       
     
   

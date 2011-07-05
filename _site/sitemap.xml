@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.cromulent-testing.com/</loc>
-    <lastmod>2011-06-30T20:27:01+10:00</lastmod>
+    <lastmod>2011-07-05T20:36:58+10:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -16,8 +16,8 @@
     
       
         <url>
-          <loc>http://www.cromulent-testing.com/2011/06/27/testing-integration-projects.html</loc>
-          <lastmod>2011-06-27T00:00:00+10:00</lastmod>
+          <loc>http://www.cromulent-testing.com/2011/07/05/disposable-automation.html</loc>
+          <lastmod>2011-07-05T00:00:00+10:00</lastmod>
           <changefreq>monthly</changefreq>
           <priority>0.8</priority>
         </url>
@@ -31,12 +31,14 @@
 
     
       
-        <url>
-          <loc>http://www.cromulent-testing.com/2011/06/21/what-we-do-in-the-case-of-an-automation-backlog.html</loc>
-          <lastmod>2011-06-21T00:00:00+10:00</lastmod>
-          <changefreq>monthly</changefreq>
-          <priority>0.8</priority>
-        </url>
+    
+  
+    
+    
+    
+    
+
+    
       
     
   
@@ -47,13 +49,6 @@
 
     
       
-        <url>
-          <loc>http://www.cromulent-testing.com/2011/06/14/when-should-we-be-doing-automation-testing.html</loc>
-          <lastmod>2011-06-14T00:00:00+10:00</lastmod>
-          <changefreq>monthly</changefreq>
-          <priority>0.8</priority>
-        </url>
-      
     
   
     
@@ -62,13 +57,6 @@
     
 
     
-      
-        <url>
-          <loc>http://www.cromulent-testing.com/2011/06/10/a-fear-an-loathing-of-testing.html</loc>
-          <lastmod>2011-06-10T00:00:00+10:00</lastmod>
-          <changefreq>monthly</changefreq>
-          <priority>0.8</priority>
-        </url>
       
     
   
