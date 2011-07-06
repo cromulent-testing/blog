@@ -10,7 +10,8 @@
 <footer>
   <div id="meta" class="content-group">
     <span class="small-text">
-      Published on the <strong>{{page.date | date: "%A %B %d, %Y" }}</strong> under the broad topics of:
+      Published on <strong>{{page.date | date: "%B %d, %Y" }}</strong>
+      <span class="defocus aside">(it was a {{page.date | date: "%A"}})</span> under the broad topics of:
       <span class="defocus small-text aside">
         {% for tag in page.tags %}
           {% if forloop.last %}
