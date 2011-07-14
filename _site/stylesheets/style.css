@@ -173,3 +173,11 @@ a.current-post {
   width: 80px;
   height: 80px;
 }
+
+blockquote
+{
+  margin-left: 0.5em;
+  padding-left: 0.5em;
+  border-left: 1px dotted black;
+  font-style: italic;
+}
