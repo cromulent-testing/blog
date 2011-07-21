@@ -4,7 +4,7 @@
  <title>The Cromulent Testing Blog</title>
  <link href="http://cromulent-testing.com/feed/index.xml" rel="self"/>
  <link href="http://cromulent-testing.com/"/>
- <updated>2011-07-21T23:00:37+10:00</updated>
+ <updated>2011-07-22T07:38:12+10:00</updated>
  <id>http://cromulent-testing.com/</id>
  <author>
    <name>Ash Rollke</name>
@@ -31,17 +31,17 @@
           <id>http://cromulent-testing.com/2011/07/21/dealing-with-test-fatigue</id>
           <content type="html">&lt;p&gt;Here are the problems we raised in our &lt;a href='http://cromulent-testing.com/2011/07/14/do-you-know-about-test-fatigue.html'&gt;last post&lt;/a&gt; and ways we deal with them.&lt;/p&gt;
 
-&lt;p&gt;working overtime - You can’t test tired. If you’re going to be working overtime for several hours, have a break. Take time away from the project and go out for dinner, like a second lunch. Adjust the workplace to your style, watch &lt;a href='http://www.youtube.com/watch?v=oHg5SJYRHA0'&gt;YouTube&lt;/a&gt; together and take frequent communal breaks.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;working overtime&lt;/strong&gt; - You can’t test tired. If you’re going to be working overtime for several hours, have a break. Take time away from the project and go out for dinner, like a second lunch. Adjust the workplace to your style, watch &lt;a href='http://www.youtube.com/watch?v=oHg5SJYRHA0'&gt;YouTube&lt;/a&gt; together and take frequent communal breaks.&lt;/p&gt;
 
-&lt;p&gt;delivery pressures - The more pressure the team is under, the more likely they are to make mistakes and the more you need to test. &lt;a href='http://bit.ly/lOw9RM'&gt;DON’T PANIC.&lt;/a&gt; The less time you have the more you need to get it right the first time.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;delivery pressures&lt;/strong&gt; - The more pressure the team is under, the more likely they are to make mistakes and the more you need to test. &lt;a href='http://bit.ly/lOw9RM'&gt;DON’T PANIC.&lt;/a&gt; The less time you have the more you need to get it right the first time.&lt;/p&gt;
 
-&lt;p&gt;thrashing - Make a task list of what needs doing and divvy up the work. Stop people from interrupting (think: cone of silence) by politely explaining the urgency of what you’re working on. Remember, prioritisation! It’s normally better to finish some things than to partially complete lots of them.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;thrashing&lt;/strong&gt; - Make a task list of what needs doing and divvy up the work. Stop people from interrupting (think: cone of silence) by politely explaining the urgency of what you’re working on. Remember, prioritisation! It’s normally better to finish some things than to partially complete lots of them.&lt;/p&gt;
 
-&lt;p&gt;uninteresting work - Spice up boring work by trying it in a new way. Any technique will do, invent your own or try something from your &lt;a href='http://cromulent-testing.com'&gt;favourite testing blog&lt;/a&gt;. You can make work fun.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;uninteresting work&lt;/strong&gt; - Spice up boring work by trying it in a new way. Any technique will do, invent your own or try something from your &lt;a href='http://cromulent-testing.com'&gt;favourite testing blog&lt;/a&gt;. You can make work fun.&lt;/p&gt;
 
-&lt;p&gt;mechanical work - Automate it, computers love repetitive tasks. Even if you &lt;a href='http://cromulent-testing.com/2011/07/05/disposable-automation.html'&gt;dispose of it later&lt;/a&gt;, you’re saving time. Delegate it to the development team, they love repetitive tasks.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;mechanical work&lt;/strong&gt; - Automate it, computers love repetitive tasks. Even if you &lt;a href='http://cromulent-testing.com/2011/07/05/disposable-automation.html'&gt;dispose of it later&lt;/a&gt;, you’re saving time. Delegate it to the development team, they love repetitive tasks.&lt;/p&gt;
 
-&lt;p&gt;bad practices &amp;amp; disenfranchisement - Why are you doing this to yourself? Good testers are a rare breed. Other companies want you, we want you. If you can’t fix it, leave.&lt;/p&gt;</content>
+&lt;p&gt;&lt;strong&gt;bad practices &amp;amp; disenfranchisement&lt;/strong&gt; - Why are you doing this to yourself? Good testers are a rare breed. Other companies want you, we want you. If you can’t fix it, leave.&lt;/p&gt;</content>
         </entry>
       
     
