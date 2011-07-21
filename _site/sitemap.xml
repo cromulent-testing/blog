@@ -2,11 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.cromulent-testing.com/</loc>
-    <lastmod>2011-07-14T19:25:19+10:00</lastmod>
+    <lastmod>2011-07-21T23:00:37+10:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   
+  
+    
+    
+    
+    
+
+    
+      
+        <url>
+          <loc>http://www.cromulent-testing.com/2011/07/21/dealing-with-test-fatigue.html</loc>
+          <lastmod>2011-07-21T00:00:00+10:00</lastmod>
+          <changefreq>monthly</changefreq>
+          <priority>0.8</priority>
+        </url>
+      
+    
   
     
     
