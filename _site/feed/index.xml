@@ -4,7 +4,7 @@
  <title>The Cromulent Testing Blog</title>
  <link href="http://cromulent-testing.com/feed/index.xml" rel="self"/>
  <link href="http://cromulent-testing.com/"/>
- <updated>2011-07-29T22:04:28+10:00</updated>
+ <updated>2011-08-07T15:18:39+10:00</updated>
  <id>http://cromulent-testing.com/</id>
  <author>
    <name>Ash Rollke</name>
@@ -16,6 +16,41 @@
    <name>Ryan Boucher</name>
  </author>
 
+  
+    
+    
+    
+    
+
+    
+      
+        <entry>
+          <title>Chicken Little</title>
+          <link href="http://cromulent-testing.com/2011/08/07/chicken-little.html"/>
+          <updated>2011-08-07T00:00:00+10:00</updated>
+          <id>http://cromulent-testing.com/2011/08/07/chicken-little</id>
+          <content type="html">&lt;p&gt;&lt;em&gt;Once upon a time there was a tiny chicken [tester] named Chicken Little. One day Chicken Little was scratching in the garden when an acorn fell on her head.&lt;/em&gt; &lt;em&gt;&amp;#8220;Oh,&amp;#8221; cried Chicken Little, &amp;#8220;The sky is falling! I must go tell the king [project manager].&amp;#8221;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;It’s important to remember that this is a tester who really cares, we need to harness their passion. A panicked approach causes stress and real problems get lost in the noise. The tester will lose credibility, become marginalised and burnout.&lt;/p&gt;
+
+&lt;h2 id='harness_the_passion'&gt;Harness the passion!&lt;/h2&gt;
+
+&lt;p&gt;We need to work closely with these testers who are emotionally invested and vulnerable to criticism. How they arrived at this behaviour is irrelevant. Two things we’ve found that help are to teach them prioritisation and to value quality over quantity.&lt;/p&gt;
+
+&lt;h2 id='teach_them_to_prioritise'&gt;Teach them to prioritise&lt;/h2&gt;
+
+&lt;p&gt;Ask them to rank bugs in the order they would like them fixed. If they struggle, begin by ranking one critical and one trivial bug. This forces them to understand some bugs are more important than others. Once they’re all ranked, discuss at which point we could release with the remaining bugs.&lt;/p&gt;
+
+&lt;h2 id='value_them'&gt;Value them&lt;/h2&gt;
+
+&lt;p&gt;Publicly acknowledge them for finding the good bugs. Let them see their good bugs being fixed. Recognise their less important bugs and use their prioritisation to explain why they won&amp;#8217;t be fixed.&lt;/p&gt;
+
+&lt;p&gt;Teach them how to find the important bugs &amp;#8230; coming soon&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&amp;#8230;and they all lived happily ever after.&lt;/em&gt;&lt;/p&gt;</content>
+        </entry>
+      
+    
   
     
     

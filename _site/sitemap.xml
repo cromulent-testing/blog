@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.cromulent-testing.com/</loc>
-    <lastmod>2011-07-29T22:04:28+10:00</lastmod>
+    <lastmod>2011-08-07T15:18:39+10:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -16,8 +16,8 @@
     
       
         <url>
-          <loc>http://www.cromulent-testing.com/2011/07/29/testing-in-the-deep-end.html</loc>
-          <lastmod>2011-07-29T00:00:00+10:00</lastmod>
+          <loc>http://www.cromulent-testing.com/2011/08/07/chicken-little.html</loc>
+          <lastmod>2011-08-07T00:00:00+10:00</lastmod>
           <changefreq>monthly</changefreq>
           <priority>0.8</priority>
         </url>
@@ -31,12 +31,14 @@
 
     
       
-        <url>
-          <loc>http://www.cromulent-testing.com/2011/07/21/dealing-with-test-fatigue.html</loc>
-          <lastmod>2011-07-21T00:00:00+10:00</lastmod>
-          <changefreq>monthly</changefreq>
-          <priority>0.8</priority>
-        </url>
+    
+  
+    
+    
+    
+    
+
+    
       
     
   
@@ -47,13 +49,6 @@
 
     
       
-        <url>
-          <loc>http://www.cromulent-testing.com/2011/07/14/do-you-know-about-test-fatigue.html</loc>
-          <lastmod>2011-07-14T00:00:00+10:00</lastmod>
-          <changefreq>monthly</changefreq>
-          <priority>0.8</priority>
-        </url>
-      
     
   
     
@@ -62,13 +57,6 @@
     
 
     
-      
-        <url>
-          <loc>http://www.cromulent-testing.com/2011/07/05/disposable-automation.html</loc>
-          <lastmod>2011-07-05T00:00:00+10:00</lastmod>
-          <changefreq>monthly</changefreq>
-          <priority>0.8</priority>
-        </url>
       
     
   
