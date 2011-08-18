@@ -181,3 +181,10 @@ blockquote
   border-left: 1px dotted black;
   font-style: italic;
 }
+
+article.content section ul
+{
+  list-style: inside;
+  padding-bottom: 1.2em;
+  list-style-type: square;
+}

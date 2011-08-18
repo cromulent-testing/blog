@@ -4,7 +4,7 @@
  <title>The Cromulent Testing Blog</title>
  <link href="http://cromulent-testing.com/feed/index.xml" rel="self"/>
  <link href="http://cromulent-testing.com/"/>
- <updated>2011-08-07T15:18:39+10:00</updated>
+ <updated>2011-08-18T18:54:11+10:00</updated>
  <id>http://cromulent-testing.com/</id>
  <author>
    <name>Ash Rollke</name>
@@ -16,6 +16,41 @@
    <name>Ryan Boucher</name>
  </author>
 
+  
+    
+    
+    
+    
+
+    
+      
+        <entry>
+          <title>Validation and Verification</title>
+          <link href="http://cromulent-testing.com/2011/08/18/validation-and-verification.html"/>
+          <updated>2011-08-18T00:00:00+10:00</updated>
+          <id>http://cromulent-testing.com/2011/08/18/validation-and-verification</id>
+          <content type="html">&lt;p&gt;So what is the difference?&lt;/p&gt;
+
+&lt;p&gt;It’s simple really, as long as you don’t read the plethora of arduous ISO and IEEE standards.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Verification&lt;/strong&gt; is making sure what we built is working as we intended. This is acceptance testing, executable specifications and exploratory testing. These are testing fundamentals.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Validation&lt;/strong&gt; is asking the question, did we build the right thing? There is little point in building a entirely configurable system if the owners have no want or need to.&lt;/p&gt;
+
+&lt;p&gt;Our definitions, like most of the ones we’ve found, are defined in the past tense, which illustrates the real problem. Why wait to ask such important questions? It’s &lt;a href='http://www.youtube.com/watch?v=eZeYVIWz99I'&gt;Madness!&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Ask these questions early and often, then you’ll never have to bother with these definitions again:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Are building the right thing?&lt;/li&gt;
+
+&lt;li&gt;Is it working?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Defining your testing as verification or validation is largely irrelevant in the grand scheme of things. Dissecting testing into small chunks is a useful way to learn new things, however in the real world, evolving your expertise to include new things, like user experience design, is more effective.&lt;/p&gt;</content>
+        </entry>
+      
+    
   
     
     
