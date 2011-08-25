@@ -12,6 +12,7 @@
 
   <link href="/stylesheets/reset.css" media="screen" rel="stylesheet" type="text/css"/>
   <link href="/stylesheets/style.css" media="screen" rel="stylesheet" type="text/css"/>
+  <link href="/stylesheets/pygment.css" media="screen" rel="stylesheet" type="text/css"/>
   <link rel="icon" type="image/ico" href="/favicon.ico">
 
   <link href="http://fonts.googleapis.com/css?family=Anonymous+Pro:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
@@ -34,7 +35,46 @@
   </div>
   <div class="author content-group"></div>
 </header>
+<article class="content">
+  <section><p>Testers don’t have the luxury of a friendly group of people checking our work. Instead we get an angry mob with torches and pitch forks. We have to be honest about our limitations. It’s better you reveal them at the beginning, then get bitten by them at the end.</p>
 
+<p>As a rule: If you’re testing something that you can’t explain to someone else, then you probably don’t understand enough to effectively test it.</p>
+
+<p><strong>How do you approach testing something you don’t understand?</strong></p>
+
+<p>Find people who understand it better than you. Talk to them. If you can’t find real people, find Google. Regardless of your source, cross reference information and consider the author’s bias.</p>
+
+<p>There are fundamental techniques in testing that apply to most problems. Use them to explore, break it down and ask good questions. A common testing pattern is:</p>
+
+<p>Given <em>precondition</em> <br /> When <em>action</em> <br /> Then <em>expected thing</em> <br /></p>
+
+<p>Use this to think about what you need to set up, what you need to do and what results you should expect.</p>
+
+<p>Since we can’t know everything we’re always out of our depth to some extent. So <a href='http://bit.ly/lOw9RM'>don’t panic</a>. We have touched on three techniques to approach this problem: be honest, find someone who can help and fall back on your testing fundamentals.</p>
+
+<p>Sometimes the most intelligent thing you can say is “I don’t know”.</p></section>
+
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+      /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+      var disqus_shortname = 'thecromulenttestingblog'; // required: replace example with your forum shortname
+
+      // The following are highly recommended additional parameters. Remove the slashes in front to use.
+      var disqus_identifier = 'http://cromulent-testing.com//2011/07/29/testing-in-the-deep-end.html';
+      var disqus_url = 'http://cromulent-testing.com//2011/07/29/testing-in-the-deep-end.html';
+
+      /* * * DON'T EDIT BELOW THIS LINE * * */
+      (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+</article>
 <footer>
   <div id="meta" class="content-group">
     <span class="small-text">
@@ -137,46 +177,6 @@
   <div class="content-group"></div>
 
 </footer>
-<article class="content">
-  <section><p>Testers don’t have the luxury of a friendly group of people checking our work. Instead we get an angry mob with torches and pitch forks. We have to be honest about our limitations. It’s better you reveal them at the beginning, then get bitten by them at the end.</p>
-
-<p>As a rule: If you’re testing something that you can’t explain to someone else, then you probably don’t understand enough to effectively test it.</p>
-
-<p><strong>How do you approach testing something you don’t understand?</strong></p>
-
-<p>Find people who understand it better than you. Talk to them. If you can’t find real people, find Google. Regardless of your source, cross reference information and consider the author’s bias.</p>
-
-<p>There are fundamental techniques in testing that apply to most problems. Use them to explore, break it down and ask good questions. A common testing pattern is:</p>
-
-<p>Given <em>precondition</em> <br /> When <em>action</em> <br /> Then <em>expected thing</em> <br /></p>
-
-<p>Use this to think about what you need to set up, what you need to do and what results you should expect.</p>
-
-<p>Since we can’t know everything we’re always out of our depth to some extent. So <a href='http://bit.ly/lOw9RM'>don’t panic</a>. We have touched on three techniques to approach this problem: be honest, find someone who can help and fall back on your testing fundamentals.</p>
-
-<p>Sometimes the most intelligent thing you can say is “I don’t know”.</p></section>
-
-  <div id="disqus_thread"></div>
-  <script type="text/javascript">
-      /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-      var disqus_shortname = 'thecromulenttestingblog'; // required: replace example with your forum shortname
-
-      // The following are highly recommended additional parameters. Remove the slashes in front to use.
-      var disqus_identifier = 'http://cromulent-testing.com//2011/07/29/testing-in-the-deep-end.html';
-      var disqus_url = 'http://cromulent-testing.com//2011/07/29/testing-in-the-deep-end.html';
-
-      /* * * DON'T EDIT BELOW THIS LINE * * */
-      (function() {
-          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-          dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-      })();
-  </script>
-  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-  <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
-
-
-</article>
 <script type="text/javascript">
 
   var _gaq = _gaq || [];

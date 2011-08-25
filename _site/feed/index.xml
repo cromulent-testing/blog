@@ -4,7 +4,7 @@
  <title>The Cromulent Testing Blog</title>
  <link href="http://cromulent-testing.com/feed/index.xml" rel="self"/>
  <link href="http://cromulent-testing.com/"/>
- <updated>2011-08-18T18:54:11+10:00</updated>
+ <updated>2011-08-25T19:35:07+10:00</updated>
  <id>http://cromulent-testing.com/</id>
  <author>
    <name>Ash Rollke</name>
@@ -16,6 +16,39 @@
    <name>Ryan Boucher</name>
  </author>
 
+  
+    
+    
+    
+    
+
+    
+      
+        <entry>
+          <title>Mule Testing - proactively testing assumptions</title>
+          <link href="http://cromulent-testing.com/2011/08/25/mule-testing-proactively-testing-assumptions.html"/>
+          <updated>2011-08-25T00:00:00+10:00</updated>
+          <id>http://cromulent-testing.com/2011/08/25/mule-testing-proactively-testing-assumptions</id>
+          <content type="html">&lt;p&gt;We were building a shiny new system that relied on data from a poorly understood legacy monster. Assumptions about this data were baked into our system. These unchallenged assumptions turned out to be wrong. Our shiny new system was no longer so shiny.&lt;/p&gt;
+
+&lt;p&gt;The wider the belief in the assumption, the more it’s en-grained in the business, the greater the need for it to be tested.&lt;/p&gt;
+
+&lt;p&gt;Why trust when you can know?&lt;/p&gt;
+
+&lt;p&gt;An example Mule test (&lt;em&gt;it&amp;#8217;s blogging by example!&lt;/em&gt;)&lt;/p&gt;
+
+&lt;p&gt;Start with the assumption: &lt;em&gt;&amp;#8220;All products must have a category&amp;#8221;&lt;/em&gt; Find a way to challenge or validate it. In this case we would run a simple query against production data:&lt;/p&gt;
+&lt;div class='highlight'&gt;&lt;pre&gt;    &lt;span class='k'&gt;SELECT&lt;/span&gt; &lt;span class='o'&gt;*&lt;/span&gt; &lt;span class='k'&gt;FROM&lt;/span&gt; &lt;span class='n'&gt;products&lt;/span&gt; &lt;span class='k'&gt;WHERE&lt;/span&gt; &lt;span class='n'&gt;category&lt;/span&gt; &lt;span class='k'&gt;IS&lt;/span&gt; &lt;span class='k'&gt;NULL&lt;/span&gt;
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;If the assumption holds true then rest easy. If it turns out to be false, congratulations you have just prevented a major bug. Share it with the team and update your old assumption to include the new facts. In this example &lt;em&gt;&amp;#8220;A product does not require a category&amp;#8221;&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Mule testing has limits. It only helps you test assumptions that you know about. If the magic combination of data that breaks your assumptions doesn’t yet exist, it won’t fail. It only works with access to the latest production data.&lt;/p&gt;
+
+&lt;p&gt;Why the name mule testing? Because some people got the wrong idea when we called it ass testing.&lt;/p&gt;</content>
+        </entry>
+      
+    
   
     
     

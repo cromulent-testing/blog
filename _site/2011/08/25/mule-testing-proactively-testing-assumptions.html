@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <title>what we do in the case of an automation backlog?</title>
+  <title>Mule Testing - proactively testing assumptions</title>
 
   <link rel=”alternate” type="application/atom+xml" title="The Cromulent Testing Blog" href="http://feeds.feedburner.com/CromulentTestingBlog"/>
 
@@ -30,23 +30,29 @@
     </p>
   </div>
   <div id="title">
-    <h1 class="header">what we do in the case of an automation backlog?</h1>
+    <h1 class="header">Mule Testing - proactively testing assumptions</h1>
     <h2 class="header padding-top"></h2>
   </div>
   <div class="author content-group"></div>
 </header>
 <article class="content">
-  <section><p>The behaviour people have when they are behind is often more damaging then being behind. We&#8217;re going to focus on a couple of ways we can climb out of this hole.</p>
+  <section><p>We were building a shiny new system that relied on data from a poorly understood legacy monster. Assumptions about this data were baked into our system. These unchallenged assumptions turned out to be wrong. Our shiny new system was no longer so shiny.</p>
 
-<p>Firstly, get the team to help us catch up!</p>
+<p>The wider the belief in the assumption, the more it’s en-grained in the business, the greater the need for it to be tested.</p>
 
-<p>Moving the culture to a test driven approach will fix the backlog and prevent it from happening. As changing culture can be long term, we can use <a href='http://leanandkanban.wordpress.com/2009/05/14/wip-and-limits/'>WIP</a> (Work In Progress) limits; an easily implemented tool from Lean, to make the team aware of the problem and to move in the right direction.</p>
+<p>Why trust when you can know?</p>
 
-<p>For example, once the tester&#8217;s WIP limit is reached, before anyone can start more work, they need to help the tester finish something. Get the team to stop starting and to start finishing. Optimizing the team as a whole increases work flow more than optimizing individual components.</p>
+<p>An example Mule test (<em>it&#8217;s blogging by example!</em>)</p>
 
-<p>The second tactic is damage control, and will stop us chasing our tails until the end of time. This approach assumes a team that is unwilling/unable to support the testers. For new work, we prioritise based on risk; covering the low priority work with mostly manual testing to stop the backlog from growing. To deal with the existing backlog, we write smoke tests to give us thin coverage and confidence over the functionality, filling in the gaps based on priority, balanced with the new work coming in.</p>
+<p>Start with the assumption: <em>&#8220;All products must have a category&#8221;</em> Find a way to challenge or validate it. In this case we would run a simple query against production data:</p>
+<div class='highlight'><pre>    <span class='k'>SELECT</span> <span class='o'>*</span> <span class='k'>FROM</span> <span class='n'>products</span> <span class='k'>WHERE</span> <span class='n'>category</span> <span class='k'>IS</span> <span class='k'>NULL</span>
+</pre>
+</div>
+<p>If the assumption holds true then rest easy. If it turns out to be false, congratulations you have just prevented a major bug. Share it with the team and update your old assumption to include the new facts. In this example <em>&#8220;A product does not require a category&#8221;</em>.</p>
 
-<p>More on information on WIP limits: <a href='http://leanandkanban.wordpress.com/2009/05/14/wip-and-limits/'>http://leanandkanban.wordpress.com/2009/05/14/wip-and-limits/</a></p></section>
+<p>Mule testing has limits. It only helps you test assumptions that you know about. If the magic combination of data that breaks your assumptions doesn’t yet exist, it won’t fail. It only works with access to the latest production data.</p>
+
+<p>Why the name mule testing? Because some people got the wrong idea when we called it ass testing.</p></section>
 
   <div id="disqus_thread"></div>
   <script type="text/javascript">
@@ -54,8 +60,8 @@
       var disqus_shortname = 'thecromulenttestingblog'; // required: replace example with your forum shortname
 
       // The following are highly recommended additional parameters. Remove the slashes in front to use.
-      var disqus_identifier = 'http://cromulent-testing.com//2011/06/21/what-we-do-in-the-case-of-an-automation-backlog.html';
-      var disqus_url = 'http://cromulent-testing.com//2011/06/21/what-we-do-in-the-case-of-an-automation-backlog.html';
+      var disqus_identifier = 'http://cromulent-testing.com//2011/08/25/mule-testing-proactively-testing-assumptions.html';
+      var disqus_url = 'http://cromulent-testing.com//2011/08/25/mule-testing-proactively-testing-assumptions.html';
 
       /* * * DON'T EDIT BELOW THIS LINE * * */
       (function() {
@@ -72,54 +78,12 @@
 <footer>
   <div id="meta" class="content-group">
     <span class="small-text">
-      Published on <strong>June 21, 2011</strong>
-      <span class="defocus aside">(it was a Tuesday)</span> under the broad topics of:
+      Published on <strong>August 25, 2011</strong>
+      <span class="defocus aside">(it was a Thursday)</span> under the broad topics of:
       <span class="defocus small-text aside">
         
           
-            
-              automation,
-            
-          
-        
-          
-            
-              backlog,
-            
-          
-        
-          
-            
-              lean,
-            
-          
-        
-          
-            
-              work in progress,
-            
-          
-        
-          
-            
-              WIP,
-            
-          
-        
-          
-            
-              kanban,
-            
-          
-        
-          
-            
-              test driven development
-            
-          
-        
-          
-            and TDD
+            and testing
           
         
       </span>

@@ -17,7 +17,11 @@ footer {
   width:25%;
   min-height: 20em;
   padding-left: 0.6em;
-  margin-left: 3em;
+}
+
+article
+{
+  float: left;
 }
 
 .content {
@@ -187,4 +191,13 @@ article.content section ul
   list-style: inside;
   padding-bottom: 1.2em;
   list-style-type: square;
+}
+
+pre
+{
+  border: 1px solid #E9E9E9;
+  background-color: #F8F8F8;
+  padding-top: 1.0em;
+  padding-bottom: 1.0em;
+  margin-bottom: 1.2em;
 }
