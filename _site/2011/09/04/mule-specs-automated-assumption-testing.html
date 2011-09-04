@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Mule Specs - automated assumption testing</title>
+
+  <link rel=”alternate” type="application/atom+xml" title="The Cromulent Testing Blog" href="http://feeds.feedburner.com/CromulentTestingBlog"/>
+
+  <meta name="description" content="Cromulent Testing. A perfectly cromulent blog about testing.">
+  <meta name="keywords" content="cromulent testing,testing,test,quality assurance,qa,agile,agile testing,lean,test automation,automated testing,bugs,exploratory testing, manual testing">
+  <meta name="author" content="Mike Bain, Ryan Boucher, Ash Rollke">
+
+  <link href="/stylesheets/reset.css" media="screen" rel="stylesheet" type="text/css"/>
+  <link href="/stylesheets/style.css" media="screen" rel="stylesheet" type="text/css"/>
+  <link href="/stylesheets/pygment.css" media="screen" rel="stylesheet" type="text/css"/>
+  <link rel="icon" type="image/ico" href="/favicon.ico">
+
+  <link href="http://fonts.googleapis.com/css?family=Anonymous+Pro:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Rock+Salt:regular" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+<header>
+  <div id="title-links" class="right">
+    <span class="small-text"><a href="/">the cromulent testing blog</a></span>
+    <p class="tiny-text">[<a target="_blank" href="http://feeds.feedburner.com/CromulentTestingBlog">subscribe</a>]
+      [<a target="_blank" href="http://twitter.com/#!/CromulentTest">twitter</a>]
+      [<a target="_blank" href="https://github.com/cromulent-testing">github</a>]
+    </p>
+  </div>
+  <div id="title">
+    <h1 class="header">Mule Specs - automated assumption testing</h1>
+    <h2 class="header padding-top"></h2>
+  </div>
+  <div class="author content-group"></div>
+</header>
+<article class="content">
+  <section><p>In our last post we talked about <a href='http://cromulent-testing.com/2011/08/25/mule-testing-proactively-testing-assumptions.html'>mule testing</a>. Assumptions need automation because they’re the foundation our systems are built upon; they can change at anytime. Mule specs are a way to automate mule tests.</p>
+
+<p>You can use any automated testing tool - the one your project already uses is probably fine. Unless it’s QTP. Below is the example from the <a href='http://cromulent-testing.com/2011/08/25/mule-testing-proactively-testing-assumptions.html'>last post</a> in RSpec using the sequel gem.</p>
+<div class='highlight'><pre><span class='n'>describe</span> <span class='s1'>&#39;products&#39;</span> <span class='k'>do</span>
+  <span class='n'>it</span> <span class='s1'>&#39;do not require a category&#39;</span> <span class='k'>do</span>
+    <span class='n'>sql</span> <span class='o'>=</span> <span class='o'>&lt;&lt;-</span><span class='no'>SQL</span>
+<span class='sh'>      SELECT count(1) as row_count</span>
+<span class='sh'>      FROM product</span>
+<span class='sh'>      WHERE category IS NULL</span>
+<span class='no'>    SQL</span>
+
+    <span class='n'>at_least_one_row_exists</span> <span class='n'>sql</span>
+  <span class='k'>end</span>
+<span class='k'>end</span>
+</pre>
+</div>
+<p>We use two helper functions as we phrase our tests to expect either at least one result or no results.</p>
+<div class='highlight'><pre><span class='k'>def</span> <span class='nf'>at_least_one_row_exists</span> <span class='n'>sql</span>
+  <span class='no'>DB</span><span class='o'>[</span><span class='n'>sql</span><span class='o'>][</span><span class='ss'>:row_count</span><span class='o'>].</span><span class='n'>should</span> <span class='o'>!=</span> <span class='mi'>0</span>
+<span class='k'>end</span>
+
+<span class='k'>def</span> <span class='nf'>no_rows_exists</span> <span class='n'>sql</span>
+  <span class='no'>DB</span><span class='o'>[</span><span class='n'>sql</span><span class='o'>][</span><span class='ss'>:row_count</span><span class='o'>].</span><span class='n'>should</span> <span class='o'>==</span> <span class='mi'>0</span>
+<span class='k'>end</span>
+</pre>
+</div>
+<h3 id='getting_production_data'>Getting production data</h3>
+
+<p>Mule tests require prod data, the older and less realistic it is, the less certainty you have in your assumptions. Running Mule Specs on production data doesn’t mean running them on production, that’s a really bad idea. Copy the data elsewhere before execution. We arranged a sync from production every night and our Mule Specs run against it. So, when we arrive in the morning we know that as of yesterday, all our assumptions are still true.</p>
+
+<p>Mule specs give us more than just a way of verifying assumptions. Written well, with good reporting, you produce verified documentation that’s updated every night when the mules run. Get the entire team involved. Ensure the analysts note their assumptions as they go and have the testers and developers implement them.</p>
+
+<p>Follow your heart, run with the mules every night.</p></section>
+
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+      /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+      var disqus_shortname = 'thecromulenttestingblog'; // required: replace example with your forum shortname
+
+      // The following are highly recommended additional parameters. Remove the slashes in front to use.
+      var disqus_identifier = 'http://cromulent-testing.com//2011/09/04/mule-specs-automated-assumption-testing.html';
+      var disqus_url = 'http://cromulent-testing.com//2011/09/04/mule-specs-automated-assumption-testing.html';
+
+      /* * * DON'T EDIT BELOW THIS LINE * * */
+      (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+</article>
+<footer>
+  <div id="meta" class="content-group">
+    <span class="small-text">
+      Published on <strong>September 04, 2011</strong>
+      <span class="defocus aside">(it was a Sunday)</span> under the broad topics of:
+      <span class="defocus small-text aside">
+        
+          
+            
+              testing,
+            
+          
+        
+          
+            
+              assumptions,
+            
+          
+        
+          
+            
+              rpsec,
+            
+          
+        
+          
+            
+              mule spec,
+            
+          
+        
+          
+            
+              sequel,
+            
+          
+        
+          
+            
+              ruby
+            
+          
+        
+          
+            and mule testing
+          
+        
+      </span>
+      by your cheery authors:
+    </span>
+  </div>
+
+  <div id="authors">
+  <div class="author content-group">
+    <div class="gravatar" style="background: url('http://www.gravatar.com/avatar/8050a341a3a62485639cca1ad52073aa.png')"></div>
+    <p class="name">Ash Rollke</p>
+    <p class="defocus small-text aside">Quality Assurance Einherjar and madman</p>
+    <ul class="text-right small-text clear-both">
+      <li><a href="http://twitter.com/higlak" target="_blank">twitter</a></li>
+    </ul>
+  </div>
+
+  <div class="author content-group">
+    <div class="gravatar" style="background: url('http://www.gravatar.com/avatar/22dbad527eff3657ca5b8e39ae331ced.png')"></div>
+    <p class="name">Ryan Boucher</p>
+
+    <p class="defocus small-text aside">Team guy</p>
+    <ul class="text-right small-text clear-both">
+      <li><a href="http://twitter.com/distributedlife" target="_blank">twitter</a></li>
+      <li><a href="http://distributedlife.com/" target="_blank">distributedlife</a></li>
+    </ul>
+  </div>
+
+  <div class="author content-group">
+    <div class="gravatar" style="background: url('http://www.gravatar.com/avatar/a731f0d13b3333473277f05ca57d51ef.png')"></div>
+    <p class="name">Mike Bain</p>
+    <p class="defocus small-text aside">Alpha tester</p>
+    <ul class="text-right small-text clear-both">
+      <li><a href="http://twitter.com/mike_bain" target="_blank">twitter</a></li>
+    </ul>
+  </div>
+</div>
+  <div id="testify">
+  <div class="content-group">
+    <hr />
+    <a href="#" class="small-text" onClick="(alert('If you clicked that link you\'ve already failed'))">Become Cromulent Certified</a>
+  </div>
+</div>
+  <div id="legalese" class="content-group">
+  <div class="content-group"></div>
+  <p class="defocus tiny-text aside">
+    <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png"/></a><br/>
+    <span>Cromulent Testing Blog</span>
+    by
+    <a rel="author" href="http://cromulent-testing.com/">Mike Bain, Ryan Boucher, Ash Rollke</a>
+    is licensed under a
+    <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.
+  </p>
+</div>
+  <div class="content-group"></div>
+
+</footer>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-24132429-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script');
+    ga.type = 'text/javascript';
+    ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>
