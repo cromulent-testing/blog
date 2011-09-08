@@ -12,7 +12,7 @@ tags:
 - spooner
 - asimov
 - robots
-published: no
+published: yes
 ---
 Everything that follows is a result of what you see here.
 

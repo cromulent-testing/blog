@@ -4,7 +4,7 @@
  <title>The Cromulent Testing Blog</title>
  <link href="http://cromulent-testing.com/feed/index.xml" rel="self"/>
  <link href="http://cromulent-testing.com/"/>
- <updated>2011-09-04T15:21:47+10:00</updated>
+ <updated>2011-09-08T19:34:50+10:00</updated>
  <id>http://cromulent-testing.com/</id>
  <author>
    <name>Ash Rollke</name>
@@ -16,6 +16,33 @@
    <name>Ryan Boucher</name>
  </author>
 
+  
+    
+    
+    
+    
+
+    
+      
+        <entry>
+          <title>Ask better questions - Listen!</title>
+          <link href="http://cromulent-testing.com/2011/09/08/ask-better-questions-listen.html"/>
+          <updated>2011-09-08T00:00:00+10:00</updated>
+          <id>http://cromulent-testing.com/2011/09/08/ask-better-questions-listen</id>
+          <content type="html">&lt;p&gt;Everything that follows is a result of what you see here.&lt;/p&gt;
+
+&lt;p&gt;Testing relies heavily on asking questions. Questions allow us to challenge assumptions, confirm what we already know and uncover the unknown. Coming up with the right questions and understanding what to do with the answers is a real skill. Consider yourself a detective or scientist, whichever you find more motivating.&lt;/p&gt;
+
+&lt;p&gt;Have you read/seen ‘i Robot’? In the story, Detective Spooner has to solve a murder. It starts with him questioning a hologram of the victim, Dr Lanning. The hologram is a simple program, it can only give limited responses to specific questions.&lt;/p&gt;
+
+&lt;p&gt;Detective Spooner collects pieces of information, assesses them and re-evaluates what he knows. He uses that to piece together the right questions, fueling the cycle until he uncovers the fundamental flaw that had made it into (mass) production.&lt;/p&gt;
+
+&lt;p&gt;He could have asked the hologram many mindless questions, but that may never have allowed him to reach the right one. Testing can be as simple as asking questions but they are futile if you’re not listening to the answers and constantly evaluating what you know.&lt;/p&gt;
+
+&lt;p&gt;Beware of robots.&lt;/p&gt;</content>
+        </entry>
+      
+    
   
     
     
