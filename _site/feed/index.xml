@@ -4,7 +4,7 @@
  <title>The Cromulent Testing Blog</title>
  <link href="http://cromulent-testing.com/feed/index.xml" rel="self"/>
  <link href="http://cromulent-testing.com/"/>
- <updated>2011-09-08T19:34:50+10:00</updated>
+ <updated>2011-09-15T19:20:16+10:00</updated>
  <id>http://cromulent-testing.com/</id>
  <author>
    <name>Ash Rollke</name>
@@ -16,6 +16,63 @@
    <name>Ryan Boucher</name>
  </author>
 
+  
+    
+    
+    
+    
+
+    
+      
+        <entry>
+          <title>challenging assumptions</title>
+          <link href="http://cromulent-testing.com/2011/09/22/challenging-assumptions.html"/>
+          <updated>2011-09-22T00:00:00+10:00</updated>
+          <id>http://cromulent-testing.com/2011/09/22/challenging-assumptions</id>
+          <content type="html">&lt;p&gt;Many bugs can be prevented by challenging assumptions. Challenging the assumptions every one holds as well as paying attention to the seemingly small ones, will yield great results.&lt;/p&gt;
+
+&lt;p&gt;Small things can be the most dangerous as they tend to go unnoticed, then gang up on you. It’s more common for projects to get overwhelmed by a build up of small things. The devil’s in the detail.&lt;/p&gt;
+
+&lt;p&gt;To find assumptions, listen to the way people speak. Assumptions can found in sentences that contain:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;must, always, mandatory, required&lt;/li&gt;
+
+&lt;li&gt;impossible, inconceivable, never&lt;/li&gt;
+
+&lt;li&gt;should, ought&lt;/li&gt;
+
+&lt;li&gt;doesn’t make sense&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br /&gt;
+&lt;p&gt;&lt;em&gt;Doesn’t make sense is a favourite.&lt;/em&gt; This planet is filled with humans who do many things that make more money than sense.&lt;/p&gt;
+
+&lt;h3 id='an_example'&gt;An Example!&lt;/h3&gt;
+
+&lt;p&gt;Consider the following story:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;As a customer&lt;/em&gt; &lt;br /&gt; &lt;em&gt;I want to know the average activity&lt;/em&gt; &lt;br /&gt; &lt;em&gt;So that I can compare this month’s activity against the average&lt;/em&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Sounds simple&amp;#8230; but if you look a little deeper:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;What do we mean by ‘know’?&lt;/li&gt;
+
+&lt;li&gt;What do we mean by average? &lt;a href='http://en.wikipedia.org/wiki/Geometric_mean'&gt;Geometric&lt;/a&gt;, &lt;a href='http://en.wikipedia.org/wiki/Harmonic_mean'&gt;harmonic&lt;/a&gt; or &lt;a href='http://en.wikipedia.org/wiki/Arithmetic_mean'&gt;arithmetic mean&lt;/a&gt;?&lt;/li&gt;
+
+&lt;li&gt;What activity?&lt;/li&gt;
+
+&lt;li&gt;What do you mean by month? &lt;a href='http://en.wikipedia.org/wiki/Month#Months_in_various_calendars'&gt;How many days are in it?&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;Over what time span is the average calculated? Does it &lt;a href='http://en.wikipedia.org/wiki/Moving_average'&gt;move&lt;/a&gt;?&lt;/li&gt;
+
+&lt;li&gt;How are the &lt;span&gt;numbers rounded&lt;/span&gt;? How is the &lt;a href='http://en.wikipedia.org/wiki/Rounding#Tie-breaking'&gt;tie broken&lt;/a&gt;?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Remember, the most hidden assumptions are those you yourself hold. As a tester, you need to challenge yourself and question everything.&lt;/p&gt;</content>
+        </entry>
+      
+    
   
     
     
