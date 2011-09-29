@@ -4,7 +4,7 @@
  <title>The Cromulent Testing Blog</title>
  <link href="http://cromulent-testing.com/feed/index.xml" rel="self"/>
  <link href="http://cromulent-testing.com/"/>
- <updated>2011-09-15T19:20:16+10:00</updated>
+ <updated>2011-09-29T17:21:01+10:00</updated>
  <id>http://cromulent-testing.com/</id>
  <author>
    <name>Ash Rollke</name>
@@ -16,6 +16,37 @@
    <name>Ryan Boucher</name>
  </author>
 
+  
+    
+    
+    
+    
+
+    
+      
+        <entry>
+          <title>the limits of automation</title>
+          <link href="http://cromulent-testing.com/2011/09/29/the-limits-of-automation.html"/>
+          <updated>2011-09-29T00:00:00+10:00</updated>
+          <id>http://cromulent-testing.com/2011/09/29/the-limits-of-automation</id>
+          <content type="html">&lt;p&gt;Automation testing is frequently evangelised as the cure-all of software quality woes. However automated testing has limits on its effectiveness. Understanding these limits will keep us from trying to automate something that should never be.&lt;/p&gt;
+
+&lt;h3 id='scoping_limitations'&gt;Scoping Limitations&lt;/h3&gt;
+
+&lt;p&gt;In an automated test, deviations from the norm are not necessarily reported as failures. We can work around that by writing more tests, each of them focusing on one factor of the system.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Practical Limitations&lt;/strong&gt;: automation comes with a maintenance cost as the product evolves. This places practicality limits around what we automate. It’s not feasible to automate everything, as we must maintain everything. We need to be prudent about what tests we want to keep.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Technological Limitations&lt;/strong&gt;: some testing activities are just not possible to automate, like user experience testing. As soon as we move into the area where subjective qualities are being measured automation breaks down.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Usefulness Limitations&lt;/strong&gt;: automated tests do not provide equal value to the team. The high use post-deploy smoke test is more valuable than checking whether the user name field supports “Travis” as well as “Cornelius”. Just like we risk and value assess our manual testing effort we should be doing the same with automation.&lt;/p&gt;
+
+&lt;h3 id='conflicting_limitations'&gt;Conflicting Limitations&lt;/h3&gt;
+
+&lt;p&gt;The limitations we touched on they fall into two categories; those that force us to be smarter about the small set of tests we automate and those that drive us to want more tests. We can’t have both. How we deal with this is what makes a good tester.&lt;/p&gt;</content>
+        </entry>
+      
+    
   
     
     
@@ -66,7 +97,7 @@
 
 &lt;li&gt;Over what time span is the average calculated? Does it &lt;a href='http://en.wikipedia.org/wiki/Moving_average'&gt;move&lt;/a&gt;?&lt;/li&gt;
 
-&lt;li&gt;How are the &lt;span&gt;numbers rounded&lt;/span&gt;? How is the &lt;a href='http://en.wikipedia.org/wiki/Rounding#Tie-breaking'&gt;tie broken&lt;/a&gt;?&lt;/li&gt;
+&lt;li&gt;How are the numbers rounded? How is the &lt;a href='http://en.wikipedia.org/wiki/Rounding#Tie-breaking'&gt;tie broken&lt;/a&gt;?&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Remember, the most hidden assumptions are those you yourself hold. As a tester, you need to challenge yourself and question everything.&lt;/p&gt;</content>

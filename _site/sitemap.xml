@@ -2,11 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.cromulent-testing.com/</loc>
-    <lastmod>2011-09-15T19:20:16+10:00</lastmod>
+    <lastmod>2011-09-29T17:21:01+10:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   
+  
+    
+    
+    
+    
+
+    
+      
+        <url>
+          <loc>http://www.cromulent-testing.com/2011/09/29/the-limits-of-automation.html</loc>
+          <lastmod>2011-09-29T00:00:00+10:00</lastmod>
+          <changefreq>monthly</changefreq>
+          <priority>0.8</priority>
+        </url>
+      
+    
   
     
     

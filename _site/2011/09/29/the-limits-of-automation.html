@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <title>challenging assumptions</title>
+  <title>the limits of automation</title>
 
   <link rel=”alternate” type="application/atom+xml" title="The Cromulent Testing Blog" href="http://feeds.feedburner.com/CromulentTestingBlog"/>
 
@@ -30,53 +30,27 @@
     </p>
   </div>
   <div id="title">
-    <h1 class="header">challenging assumptions</h1>
+    <h1 class="header">the limits of automation</h1>
     <h2 class="header padding-top"></h2>
   </div>
   <div class="author content-group"></div>
 </header>
 <article class="content">
-  <section><p>Many bugs can be prevented by challenging assumptions. Challenging the assumptions every one holds as well as paying attention to the seemingly small ones, will yield great results.</p>
+  <section><p>Automation testing is frequently evangelised as the cure-all of software quality woes. However automated testing has limits on its effectiveness. Understanding these limits will keep us from trying to automate something that should never be.</p>
 
-<p>Small things can be the most dangerous as they tend to go unnoticed, then gang up on you. It’s more common for projects to get overwhelmed by a build up of small things. The devil’s in the detail.</p>
+<h3 id='scoping_limitations'>Scoping Limitations</h3>
 
-<p>To find assumptions, listen to the way people speak. Assumptions can found in sentences that contain:</p>
+<p>In an automated test, deviations from the norm are not necessarily reported as failures. We can work around that by writing more tests, each of them focusing on one factor of the system.</p>
 
-<ul>
-<li>must, always, mandatory, required</li>
+<p><strong>Practical Limitations</strong>: automation comes with a maintenance cost as the product evolves. This places practicality limits around what we automate. It’s not feasible to automate everything, as we must maintain everything. We need to be prudent about what tests we want to keep.</p>
 
-<li>impossible, inconceivable, never</li>
+<p><strong>Technological Limitations</strong>: some testing activities are just not possible to automate, like user experience testing. As soon as we move into the area where subjective qualities are being measured automation breaks down.</p>
 
-<li>should, ought</li>
+<p><strong>Usefulness Limitations</strong>: automated tests do not provide equal value to the team. The high use post-deploy smoke test is more valuable than checking whether the user name field supports “Travis” as well as “Cornelius”. Just like we risk and value assess our manual testing effort we should be doing the same with automation.</p>
 
-<li>doesn’t make sense</li>
-</ul>
-<br />
-<p><em>Doesn’t make sense is a favourite.</em> This planet is filled with humans who do many things that make more money than sense.</p>
+<h3 id='conflicting_limitations'>Conflicting Limitations</h3>
 
-<h3 id='an_example'>An Example!</h3>
-
-<p>Consider the following story:</p>
-
-<p><em>As a customer</em> <br /> <em>I want to know the average activity</em> <br /> <em>So that I can compare this month’s activity against the average</em> <br /></p>
-
-<p>Sounds simple&#8230; but if you look a little deeper:</p>
-
-<ul>
-<li>What do we mean by ‘know’?</li>
-
-<li>What do we mean by average? <a href='http://en.wikipedia.org/wiki/Geometric_mean'>Geometric</a>, <a href='http://en.wikipedia.org/wiki/Harmonic_mean'>harmonic</a> or <a href='http://en.wikipedia.org/wiki/Arithmetic_mean'>arithmetic mean</a>?</li>
-
-<li>What activity?</li>
-
-<li>What do you mean by month? <a href='http://en.wikipedia.org/wiki/Month#Months_in_various_calendars'>How many days are in it?</a></li>
-
-<li>Over what time span is the average calculated? Does it <a href='http://en.wikipedia.org/wiki/Moving_average'>move</a>?</li>
-
-<li>How are the numbers rounded? How is the <a href='http://en.wikipedia.org/wiki/Rounding#Tie-breaking'>tie broken</a>?</li>
-</ul>
-
-<p>Remember, the most hidden assumptions are those you yourself hold. As a tester, you need to challenge yourself and question everything.</p></section>
+<p>The limitations we touched on they fall into two categories; those that force us to be smarter about the small set of tests we automate and those that drive us to want more tests. We can’t have both. How we deal with this is what makes a good tester.</p></section>
 
   <div id="disqus_thread"></div>
   <script type="text/javascript">
@@ -84,8 +58,8 @@
       var disqus_shortname = 'thecromulenttestingblog'; // required: replace example with your forum shortname
 
       // The following are highly recommended additional parameters. Remove the slashes in front to use.
-      var disqus_identifier = 'http://cromulent-testing.com//2011/09/22/challenging-assumptions.html';
-      var disqus_url = 'http://cromulent-testing.com//2011/09/22/challenging-assumptions.html';
+      var disqus_identifier = 'http://cromulent-testing.com//2011/09/29/the-limits-of-automation.html';
+      var disqus_url = 'http://cromulent-testing.com//2011/09/29/the-limits-of-automation.html';
 
       /* * * DON'T EDIT BELOW THIS LINE * * */
       (function() {
@@ -102,7 +76,7 @@
 <footer>
   <div id="meta" class="content-group">
     <span class="small-text">
-      Published on <strong>September 22, 2011</strong>
+      Published on <strong>September 29, 2011</strong>
       <span class="defocus aside">(it was a Thursday)</span> under the broad topics of:
       <span class="defocus small-text aside">
         
@@ -114,36 +88,30 @@
         
           
             
-              assumptions,
+              limits,
             
           
         
           
             
-              listening,
+              automation,
             
           
         
           
             
-              details,
+              practical,
             
           
         
           
             
-              averages,
+              technological
             
           
         
           
-            
-              months
-            
-          
-        
-          
-            and rounding
+            and useful
           
         
       </span>

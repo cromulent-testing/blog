@@ -38,6 +38,6 @@ Sounds simple... but if you look a little deeper:
  -  What activity?
  -  What do you mean by month? [How many days are in it?](http://en.wikipedia.org/wiki/Month#Months_in_various_calendars)
  -  Over what time span is the average calculated? Does it [move](http://en.wikipedia.org/wiki/Moving_average)?
- -  How are the [numbers rounded]? How is the [tie broken](http://en.wikipedia.org/wiki/Rounding#Tie-breaking)?
+ -  How are the numbers rounded? How is the [tie broken](http://en.wikipedia.org/wiki/Rounding#Tie-breaking)?
 
 Remember, the most hidden assumptions are those you yourself hold. As a tester, you need to challenge yourself and question everything.
