@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link href="stylesheets/book.css" media="screen" rel="stylesheet" type="text/css"/>
+    <link href="stylesheets/book.css" media="media" rel="stylesheet" type="text/css"/>
+  </head>
+<body>
+  {{ 'now' | date: '%Y/%M/%D %H:%M:%S' }}
+  
+  <div class="section">
+    <h1>Assumptions</h1>
+    <ul>
+      <li>Challenging Assumptions</li>
+      <li>Mule Testing</li>
+      <li>Mule Specs</li>
+      <li>Something else</li>
+    </ul>
+  </div>
+
+  {% for post in site.posts reversed %}
+    <div class="article">
+      <p>{{ post.title }}</p>
+      <p>{{ post.content }}</p>
+    </div>
+  {% endfor %}
+</body>
+</html>

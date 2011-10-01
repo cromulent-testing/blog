@@ -1,3 +1,4 @@
+book=build a book
 bootstrap=Get the required gems
 build=clean and build site using Jekyll
 default=
