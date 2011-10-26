@@ -5,10 +5,10 @@ layout: nil
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>The Cromulent Testing Blog</title>
- <link href="http://cromulent-testing.com/feed/index.xml" rel="self"/>
- <link href="http://cromulent-testing.com/"/>
+ <link href="{{ site.baseurl }}feed/index.xml" rel="self"/>
+ <link href="{{ site.baseurl }}"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://cromulent-testing.com/</id>
+ <id>{{ site.baseurl }}</id>
  <author>
    <name>Ash Rollke</name>
  </author>
@@ -29,9 +29,9 @@ layout: nil
       {% if month <= cmonth %}
         <entry>
           <title>{{ post.title }}</title>
-          <link href="http://cromulent-testing.com{{ post.url }}"/>
+          <link href="{{ site.baseurl }}{{ post.url }}"/>
           <updated>{{ post.date | date_to_xmlschema }}</updated>
-          <id>http://cromulent-testing.com{{ post.id }}</id>
+          <id>{{ site.baseurl }}{{ post.id }}</id>
           <content type="html">{{ post.content | xml_escape }}</content>
         </entry>
       {% endif %}

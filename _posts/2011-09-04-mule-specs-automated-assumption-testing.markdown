@@ -11,9 +11,9 @@ tags:
 - mule testing
 published: yes
 ---
-In our last post we talked about [mule testing](http://cromulent-testing.com/2011/08/25/mule-testing-proactively-testing-assumptions.html). Assumptions need automation because they’re the foundation our systems are built upon; they can change at anytime. Mule specs are a way to automate mule tests.
+In our last post we talked about [mule testing]({{ site.baseurl }}2011/08/25/mule-testing-proactively-testing-assumptions.html). Assumptions need automation because they’re the foundation our systems are built upon; they can change at anytime. Mule specs are a way to automate mule tests.
 
-You can use any automated testing tool - the one your project already uses is probably fine. Unless it’s QTP. Below is the example from the [last post](http://cromulent-testing.com/2011/08/25/mule-testing-proactively-testing-assumptions.html) in RSpec using the sequel gem.
+You can use any automated testing tool - the one your project already uses is probably fine. Unless it’s QTP. Below is the example from the [last post]({{ site.baseurl }}2011/08/25/mule-testing-proactively-testing-assumptions.html) in RSpec using the sequel gem.
 
 {% highlight ruby %}
 describe 'products' do

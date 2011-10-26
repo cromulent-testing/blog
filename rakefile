@@ -6,6 +6,11 @@ task :build do
   sh "jekyll"
 end
 
+task :build_staging do
+  sh "rm -rf _site/"
+  sh "jekyll --base-url http://cromulent-preprod.heroku.com"
+end
+
 desc "run the server on localhost:4000"
 task :server do
   sh "rm -rf _site/"

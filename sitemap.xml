@@ -4,7 +4,7 @@ layout: nil
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://www.cromulent-testing.com/</loc>
+    <loc>{{ site.baseurl }}</loc>
     <lastmod>{{ 'now' | date: '%Y-%m-%dT%H:%M:%S+10:00' }}</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -19,7 +19,7 @@ layout: nil
     {% if year <= cyear %}
       {% if month <= cmonth %}
         <url>
-          <loc>http://www.cromulent-testing.com{{ post.url }}</loc>
+          <loc>{{ site.baseurl }}{{ post.url }}</loc>
           <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
           <changefreq>monthly</changefreq>
           <priority>0.8</priority>
