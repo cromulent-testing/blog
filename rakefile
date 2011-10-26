@@ -2,45 +2,47 @@ task :default => [:server]
 
 desc "clean and build site using Jekyll"
 task :build do
-  sh "rm -rf _site/"
-  sh "jekyll"
+  `rm -rf _site/`
+  `cp -f _config.yml.prod _config.yml`
+  `jekyll`
 end
 
 task :build_staging do
-  sh "rm -rf _site/"
-  sh "jekyll --base-url http://cromulent-preprod.heroku.com"
+  `rm -rf _site/`
+  `cp -f _config.yml.staging _config.yml`
+  `jekyll`
 end
 
 desc "run the server on localhost:4000"
 task :server do
-  sh "rm -rf _site/"
-  sh "jekyll --server --auto"
+  `rm -rf _site/`
+  `jekyll --server --auto`
 end
 
 desc "Get the required gems"
 task :bootstrap do
   begin
-  temp = sh 'command -v bundle >/dev/null'
+    temp = `command -v bundle >/dev/null`
   rescue
     puts "==Installing bundler"
-    sh 'gem install bundler'
+    `gem install bundler`
   end
 
   puts "==Installing gems"
-  sh 'bundle install'
+  `bundle install`
 end
 
 namespace :deploy do
   desc "Deploy to Pre-prod"
   task :staging do
-    sh "git push heroku-preprod master"
+    `git push heroku-preprod master`
   end
 
   desc "Deploy to Prod"
   task :prod do
-    sh "git pull github master"
-    sh "git push github master"
-    sh "git push heroku master"
+    `git pull github master`
+    `git push github master`
+    `git push heroku master`
   end
 end
 

@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>The Cromulent Testing Blog</title>
- <link href="http://cromulent-testing-preprod.heroku.com/feed/index.xml" rel="self"/>
- <link href="http://cromulent-testing-preprod.heroku.com/"/>
- <updated>2011-10-26T15:48:47+11:00</updated>
- <id>http://cromulent-testing-preprod.heroku.com/</id>
+ <link href="http://cromulent-testing.com/feed/index.xml" rel="self"/>
+ <link href="http://cromulent-testing.com/"/>
+ <updated>2011-10-26T23:06:53+11:00</updated>
+ <id>http://cromulent-testing.com/</id>
  <author>
    <name>Ash Rollke</name>
  </author>
@@ -26,9 +26,9 @@
       
         <entry>
           <title>the limits of automation</title>
-          <link href="http://cromulent-testing-preprod.heroku.com//2011/09/29/the-limits-of-automation.html"/>
+          <link href="http://cromulent-testing.com//2011/09/29/the-limits-of-automation.html"/>
           <updated>2011-09-29T00:00:00+10:00</updated>
-          <id>http://cromulent-testing-preprod.heroku.com//2011/09/29/the-limits-of-automation</id>
+          <id>http://cromulent-testing.com//2011/09/29/the-limits-of-automation</id>
           <content type="html">&lt;p&gt;Automation testing is frequently evangelised as the cure-all of software quality woes. However automated testing has limits on its effectiveness. Understanding these limits will keep us from trying to automate something that should never be.&lt;/p&gt;
 
 &lt;h3 id='scoping_limitations'&gt;Scoping Limitations&lt;/h3&gt;
@@ -57,9 +57,9 @@
       
         <entry>
           <title>challenging assumptions</title>
-          <link href="http://cromulent-testing-preprod.heroku.com//2011/09/22/challenging-assumptions.html"/>
+          <link href="http://cromulent-testing.com//2011/09/22/challenging-assumptions.html"/>
           <updated>2011-09-22T00:00:00+10:00</updated>
-          <id>http://cromulent-testing-preprod.heroku.com//2011/09/22/challenging-assumptions</id>
+          <id>http://cromulent-testing.com//2011/09/22/challenging-assumptions</id>
           <content type="html">&lt;p&gt;Many bugs can be prevented by challenging assumptions. Challenging the assumptions every one holds as well as paying attention to the seemingly small ones, will yield great results.&lt;/p&gt;
 
 &lt;p&gt;Small things can be the most dangerous as they tend to go unnoticed, then gang up on you. It’s more common for projects to get overwhelmed by a build up of small things. The devil’s in the detail.&lt;/p&gt;
@@ -114,9 +114,9 @@
       
         <entry>
           <title>Ask better questions - Listen!</title>
-          <link href="http://cromulent-testing-preprod.heroku.com//2011/09/08/ask-better-questions-listen.html"/>
+          <link href="http://cromulent-testing.com//2011/09/08/ask-better-questions-listen.html"/>
           <updated>2011-09-08T00:00:00+10:00</updated>
-          <id>http://cromulent-testing-preprod.heroku.com//2011/09/08/ask-better-questions-listen</id>
+          <id>http://cromulent-testing.com//2011/09/08/ask-better-questions-listen</id>
           <content type="html">&lt;p&gt;Everything that follows is a result of what you see here.&lt;/p&gt;
 
 &lt;p&gt;Testing relies heavily on asking questions. Questions allow us to challenge assumptions, confirm what we already know and uncover the unknown. Coming up with the right questions and understanding what to do with the answers is a real skill. Consider yourself a detective or scientist, whichever you find more motivating.&lt;/p&gt;
@@ -141,12 +141,12 @@
       
         <entry>
           <title>Mule Specs - automated assumption testing</title>
-          <link href="http://cromulent-testing-preprod.heroku.com//2011/09/04/mule-specs-automated-assumption-testing.html"/>
+          <link href="http://cromulent-testing.com//2011/09/04/mule-specs-automated-assumption-testing.html"/>
           <updated>2011-09-04T00:00:00+10:00</updated>
-          <id>http://cromulent-testing-preprod.heroku.com//2011/09/04/mule-specs-automated-assumption-testing</id>
-          <content type="html">&lt;p&gt;In our last post we talked about &lt;a href='http://cromulent-testing-preprod.heroku.com/2011/08/25/mule-testing-proactively-testing-assumptions.html'&gt;mule testing&lt;/a&gt;. Assumptions need automation because they’re the foundation our systems are built upon; they can change at anytime. Mule specs are a way to automate mule tests.&lt;/p&gt;
+          <id>http://cromulent-testing.com//2011/09/04/mule-specs-automated-assumption-testing</id>
+          <content type="html">&lt;p&gt;In our last post we talked about &lt;a href='http://cromulent-testing.com/2011/08/25/mule-testing-proactively-testing-assumptions.html'&gt;mule testing&lt;/a&gt;. Assumptions need automation because they’re the foundation our systems are built upon; they can change at anytime. Mule specs are a way to automate mule tests.&lt;/p&gt;
 
-&lt;p&gt;You can use any automated testing tool - the one your project already uses is probably fine. Unless it’s QTP. Below is the example from the &lt;a href='http://cromulent-testing-preprod.heroku.com/2011/08/25/mule-testing-proactively-testing-assumptions.html'&gt;last post&lt;/a&gt; in RSpec using the sequel gem.&lt;/p&gt;
+&lt;p&gt;You can use any automated testing tool - the one your project already uses is probably fine. Unless it’s QTP. Below is the example from the &lt;a href='http://cromulent-testing.com/2011/08/25/mule-testing-proactively-testing-assumptions.html'&gt;last post&lt;/a&gt; in RSpec using the sequel gem.&lt;/p&gt;
 &lt;div class='highlight'&gt;&lt;pre&gt;&lt;span class='n'&gt;describe&lt;/span&gt; &lt;span class='s1'&gt;&amp;#39;products&amp;#39;&lt;/span&gt; &lt;span class='k'&gt;do&lt;/span&gt;
   &lt;span class='n'&gt;it&lt;/span&gt; &lt;span class='s1'&gt;&amp;#39;do not require a category&amp;#39;&lt;/span&gt; &lt;span class='k'&gt;do&lt;/span&gt;
     &lt;span class='n'&gt;sql&lt;/span&gt; &lt;span class='o'&gt;=&lt;/span&gt; &lt;span class='o'&gt;&amp;lt;&amp;lt;-&lt;/span&gt;&lt;span class='no'&gt;SQL&lt;/span&gt;
@@ -190,9 +190,9 @@
       
         <entry>
           <title>Mule Testing - proactively testing assumptions</title>
-          <link href="http://cromulent-testing-preprod.heroku.com//2011/08/25/mule-testing-proactively-testing-assumptions.html"/>
+          <link href="http://cromulent-testing.com//2011/08/25/mule-testing-proactively-testing-assumptions.html"/>
           <updated>2011-08-25T00:00:00+10:00</updated>
-          <id>http://cromulent-testing-preprod.heroku.com//2011/08/25/mule-testing-proactively-testing-assumptions</id>
+          <id>http://cromulent-testing.com//2011/08/25/mule-testing-proactively-testing-assumptions</id>
           <content type="html">&lt;p&gt;We were building a shiny new system that relied on data from a poorly understood legacy monster. Assumptions about this data were baked into our system. These unchallenged assumptions turned out to be wrong. Our shiny new system was no longer so shiny.&lt;/p&gt;
 
 &lt;p&gt;The wider the belief in the assumption, the more it’s en-grained in the business, the greater the need for it to be tested.&lt;/p&gt;
@@ -223,9 +223,9 @@
       
         <entry>
           <title>Validation and Verification</title>
-          <link href="http://cromulent-testing-preprod.heroku.com//2011/08/18/validation-and-verification.html"/>
+          <link href="http://cromulent-testing.com//2011/08/18/validation-and-verification.html"/>
           <updated>2011-08-18T00:00:00+10:00</updated>
-          <id>http://cromulent-testing-preprod.heroku.com//2011/08/18/validation-and-verification</id>
+          <id>http://cromulent-testing.com//2011/08/18/validation-and-verification</id>
           <content type="html">&lt;p&gt;So what is the difference?&lt;/p&gt;
 
 &lt;p&gt;It’s simple really, as long as you don’t read the plethora of arduous ISO and IEEE standards.&lt;/p&gt;
@@ -258,9 +258,9 @@
       
         <entry>
           <title>Chicken Little</title>
-          <link href="http://cromulent-testing-preprod.heroku.com//2011/08/07/chicken-little.html"/>
+          <link href="http://cromulent-testing.com//2011/08/07/chicken-little.html"/>
           <updated>2011-08-07T00:00:00+10:00</updated>
-          <id>http://cromulent-testing-preprod.heroku.com//2011/08/07/chicken-little</id>
+          <id>http://cromulent-testing.com//2011/08/07/chicken-little</id>
           <content type="html">&lt;p&gt;&lt;em&gt;Once upon a time there was a tiny chicken [tester] named Chicken Little. One day Chicken Little was scratching in the garden when an acorn fell on her head.&lt;/em&gt; &lt;em&gt;&amp;#8220;Oh,&amp;#8221; cried Chicken Little, &amp;#8220;The sky is falling! I must go tell the king [project manager].&amp;#8221;&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;It’s important to remember that this is a tester who really cares, we need to harness their passion. A panicked approach causes stress and real problems get lost in the noise. The tester will lose credibility, become marginalised and burnout.&lt;/p&gt;
@@ -293,9 +293,9 @@
       
         <entry>
           <title>Testing in the deep end</title>
-          <link href="http://cromulent-testing-preprod.heroku.com//2011/07/29/testing-in-the-deep-end.html"/>
+          <link href="http://cromulent-testing.com//2011/07/29/testing-in-the-deep-end.html"/>
           <updated>2011-07-29T00:00:00+10:00</updated>
-          <id>http://cromulent-testing-preprod.heroku.com//2011/07/29/testing-in-the-deep-end</id>
+          <id>http://cromulent-testing.com//2011/07/29/testing-in-the-deep-end</id>
           <content type="html">&lt;p&gt;Testers don’t have the luxury of a friendly group of people checking our work. Instead we get an angry mob with torches and pitch forks. We have to be honest about our limitations. It’s better you reveal them at the beginning, then get bitten by them at the end.&lt;/p&gt;
 
 &lt;p&gt;As a rule: If you’re testing something that you can’t explain to someone else, then you probably don’t understand enough to effectively test it.&lt;/p&gt;
@@ -326,10 +326,10 @@
       
         <entry>
           <title>Dealing with test fatigue</title>
-          <link href="http://cromulent-testing-preprod.heroku.com//2011/07/21/dealing-with-test-fatigue.html"/>
+          <link href="http://cromulent-testing.com//2011/07/21/dealing-with-test-fatigue.html"/>
           <updated>2011-07-21T00:00:00+10:00</updated>
-          <id>http://cromulent-testing-preprod.heroku.com//2011/07/21/dealing-with-test-fatigue</id>
-          <content type="html">&lt;p&gt;Here are the problems we raised in our &lt;a href='http://cromulent-testing-preprod.heroku.com/2011/07/14/do-you-know-about-test-fatigue.html'&gt;last post&lt;/a&gt; and ways we deal with them.&lt;/p&gt;
+          <id>http://cromulent-testing.com//2011/07/21/dealing-with-test-fatigue</id>
+          <content type="html">&lt;p&gt;Here are the problems we raised in our &lt;a href='http://cromulent-testing.com/2011/07/14/do-you-know-about-test-fatigue.html'&gt;last post&lt;/a&gt; and ways we deal with them.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;working overtime&lt;/strong&gt; - You can’t test tired. If you’re going to be working overtime for several hours, have a break. Take time away from the project and go out for dinner, like a second lunch. Adjust the workplace to your style, watch &lt;a href='http://www.youtube.com/watch?v=oHg5SJYRHA0'&gt;YouTube&lt;/a&gt; together and take frequent communal breaks.&lt;/p&gt;
 
@@ -337,9 +337,9 @@
 
 &lt;p&gt;&lt;strong&gt;thrashing&lt;/strong&gt; - Make a task list of what needs doing and divvy up the work. Stop people from interrupting (think: cone of silence) by politely explaining the urgency of what you’re working on. Remember, prioritisation! It’s normally better to finish some things than to partially complete lots of them.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;uninteresting work&lt;/strong&gt; - Spice up boring work by trying it in a new way. Any technique will do, invent your own or try something from your &lt;a href='http://cromulent-testing-preprod.heroku.com/'&gt;favourite testing blog&lt;/a&gt;. You can make work fun.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;uninteresting work&lt;/strong&gt; - Spice up boring work by trying it in a new way. Any technique will do, invent your own or try something from your &lt;a href='http://cromulent-testing.com/'&gt;favourite testing blog&lt;/a&gt;. You can make work fun.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;mechanical work&lt;/strong&gt; - Automate it, computers love repetitive tasks. Even if you &lt;a href='http://cromulent-testing-preprod.heroku.com/2011/07/05/disposable-automation.html'&gt;dispose of it later&lt;/a&gt;, you’re saving time. Delegate it to the development team, they love repetitive tasks.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;mechanical work&lt;/strong&gt; - Automate it, computers love repetitive tasks. Even if you &lt;a href='http://cromulent-testing.com/2011/07/05/disposable-automation.html'&gt;dispose of it later&lt;/a&gt;, you’re saving time. Delegate it to the development team, they love repetitive tasks.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;bad practices &amp;amp; disenfranchisement&lt;/strong&gt; - Why are you doing this to yourself? Good testers are a rare breed. Other companies want you, we want you. If you can’t fix it, leave.&lt;/p&gt;</content>
         </entry>
@@ -355,9 +355,9 @@
       
         <entry>
           <title>Do you know about test fatigue?</title>
-          <link href="http://cromulent-testing-preprod.heroku.com//2011/07/14/do-you-know-about-test-fatigue.html"/>
+          <link href="http://cromulent-testing.com//2011/07/14/do-you-know-about-test-fatigue.html"/>
           <updated>2011-07-14T00:00:00+10:00</updated>
-          <id>http://cromulent-testing-preprod.heroku.com//2011/07/14/do-you-know-about-test-fatigue</id>
+          <id>http://cromulent-testing.com//2011/07/14/do-you-know-about-test-fatigue</id>
           <content type="html">&lt;blockquote&gt;
 &lt;p&gt;Fatigue is a normal result of working, mental stress, overstimulation and understimulation, jet lag or active recreation, depression, and also boredom, disease and lack of sleep.[&lt;a href='http://en.wikipedia.org/wiki/Fatigue_(medical)'&gt;1&lt;/a&gt;]&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -388,9 +388,9 @@
       
         <entry>
           <title>Disposable Automation</title>
-          <link href="http://cromulent-testing-preprod.heroku.com//2011/07/05/disposable-automation.html"/>
+          <link href="http://cromulent-testing.com//2011/07/05/disposable-automation.html"/>
           <updated>2011-07-05T00:00:00+10:00</updated>
-          <id>http://cromulent-testing-preprod.heroku.com//2011/07/05/disposable-automation</id>
+          <id>http://cromulent-testing.com//2011/07/05/disposable-automation</id>
           <content type="html">&lt;p&gt;In our experience, testers have an unhealthy attachment to automated tests. We’re going to talk about times when throwaway automation is really helpful.&lt;/p&gt;
 
 &lt;h3 id='record_and_playback'&gt;Record and playback&lt;/h3&gt;
@@ -419,9 +419,9 @@
       
         <entry>
           <title>testing integration projects</title>
-          <link href="http://cromulent-testing-preprod.heroku.com//2011/06/27/testing-integration-projects.html"/>
+          <link href="http://cromulent-testing.com//2011/06/27/testing-integration-projects.html"/>
           <updated>2011-06-27T00:00:00+10:00</updated>
-          <id>http://cromulent-testing-preprod.heroku.com//2011/06/27/testing-integration-projects</id>
+          <id>http://cromulent-testing.com//2011/06/27/testing-integration-projects</id>
           <content type="html">&lt;p&gt;When problems arise (often) in integration projects (all of them) a lot of time and energy is spent arguing who&amp;#8217;s at fault. This is as about as useful as arguing whose side of the boat has a leak.&lt;/p&gt;
 
 &lt;p&gt;It&amp;#8217;s common for Team Upstream and Team Downstream to test their systems in isolation. However, the problems lurk in international waters, between teams. We must test the integration. Integration testing is like voting, do it early and do it often.&lt;/p&gt;
@@ -446,9 +446,9 @@
       
         <entry>
           <title>what we do in the case of an automation backlog?</title>
-          <link href="http://cromulent-testing-preprod.heroku.com//2011/06/21/what-we-do-in-the-case-of-an-automation-backlog.html"/>
+          <link href="http://cromulent-testing.com//2011/06/21/what-we-do-in-the-case-of-an-automation-backlog.html"/>
           <updated>2011-06-21T00:00:00+10:00</updated>
-          <id>http://cromulent-testing-preprod.heroku.com//2011/06/21/what-we-do-in-the-case-of-an-automation-backlog</id>
+          <id>http://cromulent-testing.com//2011/06/21/what-we-do-in-the-case-of-an-automation-backlog</id>
           <content type="html">&lt;p&gt;The behaviour people have when they are behind is often more damaging then being behind. We&amp;#8217;re going to focus on a couple of ways we can climb out of this hole.&lt;/p&gt;
 
 &lt;p&gt;Firstly, get the team to help us catch up!&lt;/p&gt;
@@ -473,9 +473,9 @@
       
         <entry>
           <title>when should we be doing automated testing?</title>
-          <link href="http://cromulent-testing-preprod.heroku.com//2011/06/14/when-should-we-be-doing-automation-testing.html"/>
+          <link href="http://cromulent-testing.com//2011/06/14/when-should-we-be-doing-automation-testing.html"/>
           <updated>2011-06-14T00:00:00+10:00</updated>
-          <id>http://cromulent-testing-preprod.heroku.com//2011/06/14/when-should-we-be-doing-automation-testing</id>
+          <id>http://cromulent-testing.com//2011/06/14/when-should-we-be-doing-automation-testing</id>
           <content type="html">&lt;p&gt;Automated tests, that are written &lt;strong&gt;before&lt;/strong&gt; the code; capture the intention of the code, inform design decisions, provide rapid feedback and let us know when we are done. All of this gets us thinking about testing and ensuring that our code can be automated.&lt;/p&gt;
 
 &lt;p&gt;One view of test automation is to write it &lt;strong&gt;after&lt;/strong&gt; the system code has been written so the automation has to cope with less change. We&amp;#8217;ve found this view doesn&amp;#8217;t hold up in practice, firstly we spend a lot of time reverse engineering the code to automate it. Secondly, if the code is changing then this is when we need test automation the most to provide us with a safety net.&lt;/p&gt;
@@ -498,9 +498,9 @@
       
         <entry>
           <title>a fear and loathing of testing</title>
-          <link href="http://cromulent-testing-preprod.heroku.com//2011/06/10/a-fear-an-loathing-of-testing.html"/>
+          <link href="http://cromulent-testing.com//2011/06/10/a-fear-an-loathing-of-testing.html"/>
           <updated>2011-06-10T00:00:00+10:00</updated>
-          <id>http://cromulent-testing-preprod.heroku.com//2011/06/10/a-fear-an-loathing-of-testing</id>
+          <id>http://cromulent-testing.com//2011/06/10/a-fear-an-loathing-of-testing</id>
           <content type="html">&lt;p&gt;&lt;strong&gt;Ash&lt;/strong&gt;: &lt;em&gt;We were somewhere around the waterfall, on the edge of the software lifecycle, when the tests began to take hold. I remember saying something like:&lt;/em&gt;&lt;/p&gt;
 &lt;br /&gt;
 &lt;p&gt;I feel a bit lightheaded. Maybe you should drive.&lt;/p&gt;
