@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://cromulent-testing.com/</loc>
-    <lastmod>2011-10-26T23:20:30+10:00</lastmod>
+    <loc></loc>
+    <lastmod>2011-10-27T16:58:32+10:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -52,7 +52,7 @@
     
       
         <url>
-          <loc>http://cromulent-testing.com//2011/08/25/mule-testing-proactively-testing-assumptions.html</loc>
+          <loc>/2011/08/25/mule-testing-proactively-testing-assumptions.html</loc>
           <lastmod>2011-08-25T00:00:00+10:00</lastmod>
           <changefreq>monthly</changefreq>
           <priority>0.8</priority>
@@ -68,7 +68,7 @@
     
       
         <url>
-          <loc>http://cromulent-testing.com//2011/08/18/validation-and-verification.html</loc>
+          <loc>/2011/08/18/validation-and-verification.html</loc>
           <lastmod>2011-08-18T00:00:00+10:00</lastmod>
           <changefreq>monthly</changefreq>
           <priority>0.8</priority>
@@ -84,7 +84,7 @@
     
       
         <url>
-          <loc>http://cromulent-testing.com//2011/08/07/chicken-little.html</loc>
+          <loc>/2011/08/07/chicken-little.html</loc>
           <lastmod>2011-08-07T00:00:00+10:00</lastmod>
           <changefreq>monthly</changefreq>
           <priority>0.8</priority>
@@ -100,7 +100,7 @@
     
       
         <url>
-          <loc>http://cromulent-testing.com//2011/07/29/testing-in-the-deep-end.html</loc>
+          <loc>/2011/07/29/testing-in-the-deep-end.html</loc>
           <lastmod>2011-07-29T00:00:00+10:00</lastmod>
           <changefreq>monthly</changefreq>
           <priority>0.8</priority>
@@ -116,7 +116,7 @@
     
       
         <url>
-          <loc>http://cromulent-testing.com//2011/07/21/dealing-with-test-fatigue.html</loc>
+          <loc>/2011/07/21/dealing-with-test-fatigue.html</loc>
           <lastmod>2011-07-21T00:00:00+10:00</lastmod>
           <changefreq>monthly</changefreq>
           <priority>0.8</priority>
@@ -132,7 +132,7 @@
     
       
         <url>
-          <loc>http://cromulent-testing.com//2011/07/14/do-you-know-about-test-fatigue.html</loc>
+          <loc>/2011/07/14/do-you-know-about-test-fatigue.html</loc>
           <lastmod>2011-07-14T00:00:00+10:00</lastmod>
           <changefreq>monthly</changefreq>
           <priority>0.8</priority>
@@ -148,7 +148,7 @@
     
       
         <url>
-          <loc>http://cromulent-testing.com//2011/07/05/disposable-automation.html</loc>
+          <loc>/2011/07/05/disposable-automation.html</loc>
           <lastmod>2011-07-05T00:00:00+10:00</lastmod>
           <changefreq>monthly</changefreq>
           <priority>0.8</priority>
@@ -164,7 +164,7 @@
     
       
         <url>
-          <loc>http://cromulent-testing.com//2011/06/27/testing-integration-projects.html</loc>
+          <loc>/2011/06/27/testing-integration-projects.html</loc>
           <lastmod>2011-06-27T00:00:00+10:00</lastmod>
           <changefreq>monthly</changefreq>
           <priority>0.8</priority>
@@ -180,7 +180,7 @@
     
       
         <url>
-          <loc>http://cromulent-testing.com//2011/06/21/what-we-do-in-the-case-of-an-automation-backlog.html</loc>
+          <loc>/2011/06/21/what-we-do-in-the-case-of-an-automation-backlog.html</loc>
           <lastmod>2011-06-21T00:00:00+10:00</lastmod>
           <changefreq>monthly</changefreq>
           <priority>0.8</priority>
@@ -196,7 +196,7 @@
     
       
         <url>
-          <loc>http://cromulent-testing.com//2011/06/14/when-should-we-be-doing-automation-testing.html</loc>
+          <loc>/2011/06/14/when-should-we-be-doing-automation-testing.html</loc>
           <lastmod>2011-06-14T00:00:00+10:00</lastmod>
           <changefreq>monthly</changefreq>
           <priority>0.8</priority>
@@ -212,7 +212,7 @@
     
       
         <url>
-          <loc>http://cromulent-testing.com//2011/06/10/a-fear-an-loathing-of-testing.html</loc>
+          <loc>/2011/06/10/a-fear-an-loathing-of-testing.html</loc>
           <lastmod>2011-06-10T00:00:00+10:00</lastmod>
           <changefreq>monthly</changefreq>
           <priority>0.8</priority>

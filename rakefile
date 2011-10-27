@@ -16,6 +16,7 @@ end
 desc "run the server on localhost:4000"
 task :server do
   `rm -rf _site/`
+  `cp -f _config.yml.local _config.yml`
   `jekyll --server --auto`
 end
 
