@@ -4,7 +4,7 @@
  <title>The Cromulent Testing Blog</title>
  <link href="http://cromulent-testing-preprod.heroku.com/feed/index.xml" rel="self"/>
  <link href="http://cromulent-testing-preprod.heroku.com/"/>
- <updated>2011-10-27T23:26:47+00:00</updated>
+ <updated>2011-10-27T23:37:01+00:00</updated>
  <id>http://cromulent-testing-preprod.heroku.com/</id>
  <author>
    <name>Ash Rollke</name>
@@ -16,6 +16,37 @@
    <name>Ryan Boucher</name>
  </author>
 
+  
+    
+    
+    
+    
+
+    
+      
+        <entry>
+          <title>What does it mean</title>
+          <link href="http://cromulent-testing-preprod.heroku.com//2011/10/27/what-does-it-mean.html"/>
+          <updated>2011-10-27T00:00:00+00:00</updated>
+          <id>http://cromulent-testing-preprod.heroku.com//2011/10/27/what-does-it-mean</id>
+          <content type="html">&lt;p&gt;Testing technical correctness is all well but by doing this you’re really not much more than a developer. Bonus points are awarded for testing semantic correctness (does it mean the right thing?). A lot of projects have done the wrong thing perfectly correctly. Here are some common semantic problems, expressed using a progressively more strained Star Wars metaphor.&lt;/p&gt;
+
+&lt;p&gt;Your feeling nostalgic and ask a friend to put on a Star Wars movie, they put on episode one - the phantom menace. While technically correct, it is a Star Wars movie, it isn’t want you meant, it was semantically wrong.&lt;/p&gt;
+
+&lt;p&gt;Problem: No shared understanding of what &amp;#8216;Star Wars’ means.&lt;/p&gt;
+
+&lt;p&gt;You clarify by saying, &amp;#8220;(insert starwars swearing here) frak no, put the first Star Wars episode on” the fiend stares at you blankly &amp;#8220;it’s on”.&lt;/p&gt;
+
+&lt;p&gt;Problem: the meaning of &amp;#8220;the first Star Wars episode” has evolved over time, does it mean episode 4, the first movie or episode 1, the first prequel. Your friend grew up in a different time, they might even like Jar Jar.&lt;/p&gt;
+
+&lt;p&gt;You’ve finished your Star wars marathon, your friend says lets watch another Star Wars film and puts on Caravan of Courage. Neither of you enjoy the film and that’s because it’s not a Star Wars film. It’s just set in the Star Wars universe.&lt;/p&gt;
+
+&lt;p&gt;Problem: In this case you both had a shared understanding it was just plain wrong. So very wrong.&lt;/p&gt;
+
+&lt;p&gt;Now watch this.&lt;/p&gt;</content>
+        </entry>
+      
+    
   
     
     
