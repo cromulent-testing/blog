@@ -7,7 +7,7 @@ tags:
 - semantically correct
 - meaning
 - understanding
-published: no
+published: yes
 ---
 Testing technical correctness is all well but by doing this you’re really not much more than a developer. Bonus points are awarded for testing semantic correctness (does it mean the right thing?). A lot of projects have done the wrong thing perfectly correctly. Here are some common semantic problems, expressed using a progressively more strained Star Wars metaphor.
 
