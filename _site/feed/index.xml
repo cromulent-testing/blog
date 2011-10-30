@@ -4,7 +4,7 @@
  <title>The Cromulent Testing Blog</title>
  <link href="http://cromulent-testing-preprod.heroku.com/feed/index.xml" rel="self"/>
  <link href="http://cromulent-testing-preprod.heroku.com/"/>
- <updated>2011-10-30T23:44:59+00:00</updated>
+ <updated>2011-10-30T23:46:28+00:00</updated>
  <id>http://cromulent-testing-preprod.heroku.com/</id>
  <author>
    <name>Ash Rollke</name>
@@ -179,11 +179,11 @@
 
 &lt;p&gt;You can use any automated testing tool - the one your project already uses is probably fine. Unless it’s QTP. Below is the example from the &lt;a href='http://cromulent-testing-preprod.heroku.com/2011/08/25/mule-testing-proactively-testing-assumptions.html'&gt;last post&lt;/a&gt; in RSpec using the sequel gem.&lt;/p&gt;
 
-&lt;p&gt;Liquid error: undefined method &lt;code&gt;join&amp;#39; for #&amp;lt;String:0xb7156550&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Liquid error: undefined method &lt;code&gt;join&amp;#39; for #&amp;lt;String:0xb715946c&amp;gt;&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;We use two helper functions as we phrase our tests to expect either at least one result or no results.&lt;/p&gt;
 
-&lt;p&gt;Liquid error: undefined method &lt;code&gt;join&amp;#39; for #&amp;lt;String:0xb71556dc&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Liquid error: undefined method &lt;code&gt;join&amp;#39; for #&amp;lt;String:0xb7158760&amp;gt;&lt;/code&gt;&lt;/p&gt;
 
 &lt;h3 id='getting_production_data'&gt;Getting production data&lt;/h3&gt;
 
