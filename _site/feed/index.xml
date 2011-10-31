@@ -4,7 +4,7 @@
  <title>The Cromulent Testing Blog</title>
  <link href="http://cromulent-testing-preprod.heroku.com/feed/index.xml" rel="self"/>
  <link href="http://cromulent-testing-preprod.heroku.com/"/>
- <updated>2011-10-31T02:01:18+00:00</updated>
+ <updated>2011-10-31T05:11:49+00:00</updated>
  <id>http://cromulent-testing-preprod.heroku.com/</id>
  <author>
    <name>Ash Rollke</name>
@@ -29,21 +29,23 @@
           <link href="http://cromulent-testing-preprod.heroku.com//2011/10/27/what-does-it-mean.html"/>
           <updated>2011-10-27T00:00:00+00:00</updated>
           <id>http://cromulent-testing-preprod.heroku.com//2011/10/27/what-does-it-mean</id>
-          <content type="html">&lt;p&gt;Testing technical correctness is all well but by doing this you’re really not much more than a developer. Bonus points are awarded for testing semantic correctness (does it mean the right thing?). A lot of projects have done the wrong thing perfectly correctly. Here are some common semantic problems, expressed using a progressively more strained Star Wars metaphor.&lt;/p&gt;
+          <content type="html">&lt;p&gt;Testing something works correctly (technical correctness) is all well and good, but testing meaning (semantic correctness) is the mark of a true tester. Without it, you’re not much more than a glorified developer.&lt;/p&gt;
 
-&lt;p&gt;Your feeling nostalgic and ask a friend to put on a Star Wars movie, they put on episode one - the phantom menace. While technically correct, it is a Star Wars movie, it isn’t want you meant, it was semantically wrong.&lt;/p&gt;
+&lt;p&gt;Here are some common semantic problems expressed using a progressively strained &lt;em&gt;Star Wars&lt;/em&gt; metaphor.&lt;/p&gt;
 
-&lt;p&gt;Problem: No shared understanding of what &amp;#8216;Star Wars’ means.&lt;/p&gt;
+&lt;p&gt;You’re feeling nostalgic and ask a friend to put on a &lt;em&gt;Star Wars&lt;/em&gt; movie, they put on episode one, &lt;em&gt;The Phantom Menace&lt;/em&gt;. While technically correct, it is a &lt;em&gt;Star Wars&lt;/em&gt; movie, it isn’t what you meant, it was semantically wrong.&lt;/p&gt;
 
-&lt;p&gt;You clarify by saying, &amp;#8220;(insert starwars swearing here) frak no, put the first Star Wars episode on” the fiend stares at you blankly &amp;#8220;it’s on”.&lt;/p&gt;
+&lt;p&gt;Problem: No shared understanding of what &amp;#8217;&lt;em&gt;Star Wars&lt;/em&gt;&amp;#8217; means.&lt;/p&gt;
 
-&lt;p&gt;Problem: the meaning of &amp;#8220;the first Star Wars episode” has evolved over time, does it mean episode 4, the first movie or episode 1, the first prequel. Your friend grew up in a different time, they might even like Jar Jar.&lt;/p&gt;
+&lt;p&gt;You clarify by saying, “&lt;a href='http://www.youtube.com/watch?NR=1&amp;amp;v=WWaLxFIVX1s'&gt;Noooooo&lt;/a&gt;, put the first &lt;em&gt;Star Wars&lt;/em&gt; episode on” the friend stares at you confused and says “we’re watching it”.&lt;/p&gt;
 
-&lt;p&gt;You’ve finished your Star wars marathon, your friend says lets watch another Star Wars film and puts on Caravan of Courage. Neither of you enjoy the film and that’s because it’s not a Star Wars film. It’s just set in the Star Wars universe.&lt;/p&gt;
+&lt;p&gt;Problem: the meaning of the first &lt;em&gt;Star Wars&lt;/em&gt; episode has evolved over time, does it mean episode 4, the first movie? Or episode 1, the first prequel? Your friend grew up in a different time, they may even like Jar Jar.&lt;/p&gt;
 
-&lt;p&gt;Problem: In this case you both had a shared understanding it was just plain wrong. So very wrong.&lt;/p&gt;
+&lt;p&gt;You’ve finished your &lt;em&gt;Star Wars&lt;/em&gt; marathon, your friend says. “lets watch another &lt;em&gt;Star Wars&lt;/em&gt; film” and puts on &lt;em&gt;Caravan of Courage&lt;/em&gt;. Neither of you enjoy the film because it’s not a &lt;em&gt;Star Wars&lt;/em&gt; film. It’s simply set in the &lt;em&gt;Star Wars&lt;/em&gt; universe.&lt;/p&gt;
 
-&lt;p&gt;Now watch this.&lt;/p&gt;</content>
+&lt;p&gt;Problem: In this case you both had a shared understanding, it was just wrong. So very wrong.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href='http://www.youtube.com/watch?v=FxKtZmQgxrI'&gt;Now watch this.&lt;/a&gt;&lt;/p&gt;</content>
         </entry>
       
     
