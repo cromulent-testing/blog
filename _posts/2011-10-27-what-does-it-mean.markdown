@@ -1,6 +1,6 @@
 ---
 layout: default
-title: What does it mean
+title: What does it mean?
 tags:
 - testing
 - technically correct
