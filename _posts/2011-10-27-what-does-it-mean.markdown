@@ -12,7 +12,7 @@ published: yes
 ---
 Testing something works correctly (technical correctness) is all well and good, but testing meaning (semantic correctness) is the mark of a true tester. Without it, you’re not much more than a glorified developer. 
 
-A lot of projects do the wrong thing correctly. Here are some common semantic problems expressed using a progressively strained _Star Wars_ metaphor. 
+Here are some common semantic problems expressed using a progressively strained _Star Wars_ metaphor. 
 
 You’re feeling nostalgic and ask a friend to put on a _Star Wars_ movie, they put on episode one, _The Phantom Menace_. While technically correct, it is a _Star Wars_ movie, it isn’t what you meant, it was semantically wrong. 
 
