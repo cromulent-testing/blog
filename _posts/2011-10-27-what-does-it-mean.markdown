@@ -9,21 +9,20 @@ tags:
 - understanding
 published: yes
 ---
-Testing technical correctness is all well but by doing this you’re really not much more than a developer. Bonus points are awarded for testing semantic correctness (does it mean the right thing?). A lot of projects have done the wrong thing perfectly correctly. Here are some common semantic problems, expressed using a progressively more strained Star Wars metaphor.
+Testing something works correctly (technical correctness) is all well and good, but testing meaning (semantic correctness) is the mark of a true tester. Without it, you’re not much more than a glorified developer.   
 
-Your feeling nostalgic and ask a friend to put on a Star Wars movie, they put on episode one - the phantom menace. While technically correct, it is a Star Wars movie, it isn’t want you meant, it was semantically wrong.
+Here are some common semantic problems expressed using a progressively strained _Star Wars_ metaphor.   
 
-Problem: No shared understanding of what 'Star Wars’ means.
+You’re feeling nostalgic and ask a friend to put on a _Star Wars_ movie, they put on episode one, _The Phantom Menace_. While technically correct, it is a _Star Wars_ movie, it isn’t what you meant, it was semantically wrong.   
 
+Problem: No shared understanding of what '*Star Wars*' means.   
 
-You clarify by saying, "(insert starwars swearing here) frak no, put the first Star Wars episode on” the fiend stares at you blankly "it’s on”.
+You clarify by saying, “[Noooooo](http://www.youtube.com/watch?NR=1&v=WWaLxFIVX1s), put the first _Star Wars_ episode on” the friend stares at you confused and says “we’re watching it”.   
 
-Problem: the meaning of "the first Star Wars episode” has evolved over time, does it mean episode 4, the first movie or episode 1, the first prequel. Your friend grew up in a different time, they might even like Jar Jar.
+Problem: the meaning of the first _Star Wars_ episode has evolved over time, does it mean episode 4, the first movie? Or episode 1, the first prequel? Your friend grew up in a different time, they may even like Jar Jar.   
 
+You’ve finished your _Star Wars_ marathon, your friend says. “lets watch another _Star Wars_ film” and puts on _Caravan of Courage_. Neither of you enjoy the film because it’s not a _Star Wars_ film. It’s simply set in the _Star Wars_ universe.   
 
-You’ve finished your Star wars marathon, your friend says lets watch another Star Wars film and puts on Caravan of Courage. Neither of you enjoy the film and that’s because it’s not a Star Wars film. It’s just set in the Star Wars universe.
+Problem: In this case you both had a shared understanding, it was just wrong. So very wrong.  
 
-Problem: In this case you both had a shared understanding it was just plain wrong. So very wrong.
-
-
-Now watch this.
+[Now watch this.](http://www.youtube.com/watch?v=FxKtZmQgxrI)
