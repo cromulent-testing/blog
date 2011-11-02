@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+<<<<<<< HEAD
     <loc>http://cromulent-testing-preprod.heroku.com/</loc>
     <lastmod>2011-10-31T05:17:41+10:00</lastmod>
+=======
+    <loc></loc>
+    <lastmod>2011-11-02T21:47:43+10:00</lastmod>
+>>>>>>> 01ce8e5832adc2f8a2deb15329c348a6c236e784
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -15,6 +20,7 @@
 
     
       
+<<<<<<< HEAD
         <url>
           <loc>http://cromulent-testing-preprod.heroku.com//2011/10/27/what-does-it-mean.html</loc>
           <lastmod>2011-10-27T00:00:00+00:00</lastmod>
@@ -22,6 +28,8 @@
           <priority>0.8</priority>
         </url>
       
+=======
+>>>>>>> 01ce8e5832adc2f8a2deb15329c348a6c236e784
     
   
     
