@@ -2,17 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>The Cromulent Testing Blog</title>
-<<<<<<< HEAD
  <link href="http://cromulent-testing-preprod.heroku.com/feed/index.xml" rel="self"/>
  <link href="http://cromulent-testing-preprod.heroku.com/"/>
- <updated>2011-10-31T05:17:39+00:00</updated>
+ <updated>2011-11-02T11:10:57+00:00</updated>
  <id>http://cromulent-testing-preprod.heroku.com/</id>
-=======
- <link href="feed/index.xml" rel="self"/>
- <link href=""/>
- <updated>2011-11-02T21:47:42+11:00</updated>
- <id></id>
->>>>>>> 01ce8e5832adc2f8a2deb15329c348a6c236e784
  <author>
    <name>Ash Rollke</name>
  </author>
@@ -181,21 +174,12 @@
       
         <entry>
           <title>Mule Specs - automated assumption testing</title>
-<<<<<<< HEAD
           <link href="http://cromulent-testing-preprod.heroku.com//2011/09/04/mule-specs-automated-assumption-testing.html"/>
           <updated>2011-09-04T00:00:00+00:00</updated>
           <id>http://cromulent-testing-preprod.heroku.com//2011/09/04/mule-specs-automated-assumption-testing</id>
           <content type="html">&lt;p&gt;In our last post we talked about &lt;a href='http://cromulent-testing-preprod.heroku.com/2011/08/25/mule-testing-proactively-testing-assumptions.html'&gt;mule testing&lt;/a&gt;. Assumptions need automation because they’re the foundation our systems are built upon; they can change at anytime. Mule specs are a way to automate mule tests.&lt;/p&gt;
 
 &lt;p&gt;You can use any automated testing tool - the one your project already uses is probably fine. Unless it’s QTP. Below is the example from the &lt;a href='http://cromulent-testing-preprod.heroku.com/2011/08/25/mule-testing-proactively-testing-assumptions.html'&gt;last post&lt;/a&gt; in RSpec using the sequel gem.&lt;/p&gt;
-=======
-          <link href="/2011/09/04/mule-specs-automated-assumption-testing.html"/>
-          <updated>2011-09-04T00:00:00+10:00</updated>
-          <id>/2011/09/04/mule-specs-automated-assumption-testing</id>
-          <content type="html">&lt;p&gt;In our last post we talked about &lt;a href='2011/08/25/mule-testing-proactively-testing-assumptions.html'&gt;mule testing&lt;/a&gt;. Assumptions need automation because they’re the foundation our systems are built upon; they can change at anytime. Mule specs are a way to automate mule tests.&lt;/p&gt;
-
-&lt;p&gt;You can use any automated testing tool - the one your project already uses is probably fine. Unless it’s QTP. Below is the example from the &lt;a href='2011/08/25/mule-testing-proactively-testing-assumptions.html'&gt;last post&lt;/a&gt; in RSpec using the sequel gem.&lt;/p&gt;
->>>>>>> 01ce8e5832adc2f8a2deb15329c348a6c236e784
 &lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='ruby'&gt;&lt;span class='n'&gt;describe&lt;/span&gt; &lt;span class='s1'&gt;&amp;#39;products&amp;#39;&lt;/span&gt; &lt;span class='k'&gt;do&lt;/span&gt;
   &lt;span class='n'&gt;it&lt;/span&gt; &lt;span class='s1'&gt;&amp;#39;do not require a category&amp;#39;&lt;/span&gt; &lt;span class='k'&gt;do&lt;/span&gt;
     &lt;span class='n'&gt;sql&lt;/span&gt; &lt;span class='o'&gt;=&lt;/span&gt; &lt;span class='o'&gt;&amp;lt;&amp;lt;-&lt;/span&gt;&lt;span class='no'&gt;SQL&lt;/span&gt;
