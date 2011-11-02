@@ -4,7 +4,7 @@
  <title>The Cromulent Testing Blog</title>
  <link href="feed/index.xml" rel="self"/>
  <link href=""/>
- <updated>2011-10-30T13:38:10+11:00</updated>
+ <updated>2011-11-02T21:47:42+11:00</updated>
  <id></id>
  <author>
    <name>Ash Rollke</name>
@@ -180,13 +180,29 @@
           <content type="html">&lt;p&gt;In our last post we talked about &lt;a href='2011/08/25/mule-testing-proactively-testing-assumptions.html'&gt;mule testing&lt;/a&gt;. Assumptions need automation because they’re the foundation our systems are built upon; they can change at anytime. Mule specs are a way to automate mule tests.&lt;/p&gt;
 
 &lt;p&gt;You can use any automated testing tool - the one your project already uses is probably fine. Unless it’s QTP. Below is the example from the &lt;a href='2011/08/25/mule-testing-proactively-testing-assumptions.html'&gt;last post&lt;/a&gt; in RSpec using the sequel gem.&lt;/p&gt;
+&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='ruby'&gt;&lt;span class='n'&gt;describe&lt;/span&gt; &lt;span class='s1'&gt;&amp;#39;products&amp;#39;&lt;/span&gt; &lt;span class='k'&gt;do&lt;/span&gt;
+  &lt;span class='n'&gt;it&lt;/span&gt; &lt;span class='s1'&gt;&amp;#39;do not require a category&amp;#39;&lt;/span&gt; &lt;span class='k'&gt;do&lt;/span&gt;
+    &lt;span class='n'&gt;sql&lt;/span&gt; &lt;span class='o'&gt;=&lt;/span&gt; &lt;span class='o'&gt;&amp;lt;&amp;lt;-&lt;/span&gt;&lt;span class='no'&gt;SQL&lt;/span&gt;
+&lt;span class='sh'&gt;      SELECT count(1) as row_count&lt;/span&gt;
+&lt;span class='sh'&gt;      FROM product&lt;/span&gt;
+&lt;span class='sh'&gt;      WHERE category IS NULL&lt;/span&gt;
+&lt;span class='no'&gt;    SQL&lt;/span&gt;
 
-&lt;p&gt;Liquid error: No such file or directory - posix_spawnp&lt;/p&gt;
-
+    &lt;span class='n'&gt;at_least_one_row_exists&lt;/span&gt; &lt;span class='n'&gt;sql&lt;/span&gt;
+  &lt;span class='k'&gt;end&lt;/span&gt;
+&lt;span class='k'&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 &lt;p&gt;We use two helper functions as we phrase our tests to expect either at least one result or no results.&lt;/p&gt;
+&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='ruby'&gt;&lt;span class='k'&gt;def&lt;/span&gt; &lt;span class='nf'&gt;at_least_one_row_exists&lt;/span&gt; &lt;span class='n'&gt;sql&lt;/span&gt;
+  &lt;span class='no'&gt;DB&lt;/span&gt;&lt;span class='o'&gt;[&lt;/span&gt;&lt;span class='n'&gt;sql&lt;/span&gt;&lt;span class='o'&gt;][&lt;/span&gt;&lt;span class='ss'&gt;:row_count&lt;/span&gt;&lt;span class='o'&gt;].&lt;/span&gt;&lt;span class='n'&gt;should&lt;/span&gt; &lt;span class='o'&gt;!=&lt;/span&gt; &lt;span class='mi'&gt;0&lt;/span&gt;
+&lt;span class='k'&gt;end&lt;/span&gt;
 
-&lt;p&gt;Liquid error: No such file or directory - posix_spawnp&lt;/p&gt;
-
+&lt;span class='k'&gt;def&lt;/span&gt; &lt;span class='nf'&gt;no_rows_exists&lt;/span&gt; &lt;span class='n'&gt;sql&lt;/span&gt;
+  &lt;span class='no'&gt;DB&lt;/span&gt;&lt;span class='o'&gt;[&lt;/span&gt;&lt;span class='n'&gt;sql&lt;/span&gt;&lt;span class='o'&gt;][&lt;/span&gt;&lt;span class='ss'&gt;:row_count&lt;/span&gt;&lt;span class='o'&gt;].&lt;/span&gt;&lt;span class='n'&gt;should&lt;/span&gt; &lt;span class='o'&gt;==&lt;/span&gt; &lt;span class='mi'&gt;0&lt;/span&gt;
+&lt;span class='k'&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 &lt;h3 id='getting_production_data'&gt;Getting production data&lt;/h3&gt;
 
 &lt;p&gt;Mule tests require prod data, the older and less realistic it is, the less certainty you have in your assumptions. Running Mule Specs on production data doesn’t mean running them on production, that’s a really bad idea. Copy the data elsewhere before execution. We arranged a sync from production every night and our Mule Specs run against it. So, when we arrive in the morning we know that as of yesterday, all our assumptions are still true.&lt;/p&gt;
@@ -219,9 +235,9 @@
 &lt;p&gt;An example Mule test (&lt;em&gt;it&amp;#8217;s blogging by example!&lt;/em&gt;)&lt;/p&gt;
 
 &lt;p&gt;Start with the assumption: &lt;em&gt;&amp;#8220;All products must have a category&amp;#8221;&lt;/em&gt; Find a way to challenge or validate it. In this case we would run a simple query against production data:&lt;/p&gt;
-
-&lt;p&gt;Liquid error: No such file or directory - posix_spawnp&lt;/p&gt;
-
+&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='sql'&gt;    &lt;span class='k'&gt;SELECT&lt;/span&gt; &lt;span class='o'&gt;*&lt;/span&gt; &lt;span class='k'&gt;FROM&lt;/span&gt; &lt;span class='n'&gt;products&lt;/span&gt; &lt;span class='k'&gt;WHERE&lt;/span&gt; &lt;span class='n'&gt;category&lt;/span&gt; &lt;span class='k'&gt;IS&lt;/span&gt; &lt;span class='k'&gt;NULL&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 &lt;p&gt;If the assumption holds true then rest easy. If it turns out to be false, congratulations you have just prevented a major bug. Share it with the team and update your old assumption to include the new facts. In this example &lt;em&gt;&amp;#8220;A product does not require a category&amp;#8221;&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;Mule testing has limits. It only helps you test assumptions that you know about. If the magic combination of data that breaks your assumptions doesn’t yet exist, it won’t fail. It only works with access to the latest production data.&lt;/p&gt;
