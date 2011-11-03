@@ -2,17 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>The Cromulent Testing Blog</title>
-<<<<<<< HEAD
  <link href="http://cromulent-testing-preprod.heroku.com/feed/index.xml" rel="self"/>
  <link href="http://cromulent-testing-preprod.heroku.com/"/>
- <updated>2011-11-02T11:10:57+00:00</updated>
+ <updated>2011-11-03T00:11:46+00:00</updated>
  <id>http://cromulent-testing-preprod.heroku.com/</id>
-=======
- <link href="feed/index.xml" rel="self"/>
- <link href=""/>
- <updated>2011-11-03T11:00:06+11:00</updated>
- <id></id>
->>>>>>> d7bae700926bab4ccfd126f4624def65a5b70df9
  <author>
    <name>Ash Rollke</name>
  </author>
@@ -33,15 +26,9 @@
       
         <entry>
           <title>What does it mean?</title>
-<<<<<<< HEAD
           <link href="http://cromulent-testing-preprod.heroku.com//2011/10/27/what-does-it-mean.html"/>
           <updated>2011-10-27T00:00:00+00:00</updated>
           <id>http://cromulent-testing-preprod.heroku.com//2011/10/27/what-does-it-mean</id>
-=======
-          <link href="/2011/10/27/what-does-it-mean.html"/>
-          <updated>2011-10-27T00:00:00+11:00</updated>
-          <id>/2011/10/27/what-does-it-mean</id>
->>>>>>> d7bae700926bab4ccfd126f4624def65a5b70df9
           <content type="html">&lt;p&gt;Testing something works correctly (technical correctness) is all well and good, but testing meaning (semantic correctness) is the mark of a true tester. Without it, you’re not much more than a glorified developer.&lt;/p&gt;
 
 &lt;p&gt;Here are some common semantic problems expressed using a progressively strained &lt;em&gt;Star Wars&lt;/em&gt; metaphor.&lt;/p&gt;
