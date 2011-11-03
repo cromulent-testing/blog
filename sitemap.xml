@@ -12,9 +12,9 @@ layout: nil
   
   {% for post in site.posts %}
     {% capture year  %}{{ post.date | date: '%Y' }}{% endcapture %}
-    {% capture month  %}{{ post.date | date: '%B' }}{% endcapture %}
+    {% capture month  %}{{ post.date | date: '%m' }}{% endcapture %}
     {% capture cyear %}{{ 'now' | date: '%Y' }}{% endcapture %}
-    {% capture cmonth %}{{ 'now' | date: '%B' }}{% endcapture %}
+    {% capture cmonth %}{{ 'now' | date: '%m' }}{% endcapture %}
 
     {% if year <= cyear %}
       {% if month <= cmonth %}
