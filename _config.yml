@@ -1,3 +1,7 @@
 pygments: true
 exclude: .idea, nbproject, rakefile, Gemfile, Gemfile.lock
+<<<<<<< HEAD
 baseurl: http://cromulent-testing.com/
+=======
+baseurl: http://cromulent-testing-preprod.heroku.com/
+>>>>>>> def26fe8b449db3c7ee1620e7d82ed7af0b59267

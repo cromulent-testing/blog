@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+<<<<<<< HEAD
     <loc>http://cromulent-testing.com/</loc>
     <lastmod>2011-10-31T05:25:56+10:00</lastmod>
+=======
+    <loc>http://cromulent-testing-preprod.heroku.com/</loc>
+    <lastmod>2011-11-03T11:17:58+10:00</lastmod>
+>>>>>>> def26fe8b449db3c7ee1620e7d82ed7af0b59267
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -16,8 +21,13 @@
     
       
         <url>
+<<<<<<< HEAD
           <loc>http://cromulent-testing.com//2011/10/27/what-does-it-mean.html</loc>
           <lastmod>2011-10-27T00:00:00+00:00</lastmod>
+=======
+          <loc>http://cromulent-testing-preprod.heroku.com//2011/10/27/what-does-it-mean.html</loc>
+          <lastmod>2011-10-27T00:00:00+11:00</lastmod>
+>>>>>>> def26fe8b449db3c7ee1620e7d82ed7af0b59267
           <changefreq>monthly</changefreq>
           <priority>0.8</priority>
         </url>
@@ -31,32 +41,12 @@
 
     
       
-    
-  
-    
-    
-    
-    
-
-    
-      
-    
-  
-    
-    
-    
-    
-
-    
-      
-    
-  
-    
-    
-    
-    
-
-    
+        <url>
+          <loc>http://cromulent-testing-preprod.heroku.com//2011/09/29/the-limits-of-automation.html</loc>
+          <lastmod>2011-09-29T00:00:00+10:00</lastmod>
+          <changefreq>monthly</changefreq>
+          <priority>0.8</priority>
+        </url>
       
     
   
@@ -68,8 +58,61 @@
     
       
         <url>
+          <loc>http://cromulent-testing-preprod.heroku.com//2011/09/22/challenging-assumptions.html</loc>
+          <lastmod>2011-09-22T00:00:00+10:00</lastmod>
+          <changefreq>monthly</changefreq>
+          <priority>0.8</priority>
+        </url>
+      
+    
+  
+    
+    
+    
+    
+
+    
+      
+        <url>
+          <loc>http://cromulent-testing-preprod.heroku.com//2011/09/08/ask-better-questions-listen.html</loc>
+          <lastmod>2011-09-08T00:00:00+10:00</lastmod>
+          <changefreq>monthly</changefreq>
+          <priority>0.8</priority>
+        </url>
+      
+    
+  
+    
+    
+    
+    
+
+    
+      
+        <url>
+          <loc>http://cromulent-testing-preprod.heroku.com//2011/09/04/mule-specs-automated-assumption-testing.html</loc>
+          <lastmod>2011-09-04T00:00:00+10:00</lastmod>
+          <changefreq>monthly</changefreq>
+          <priority>0.8</priority>
+        </url>
+      
+    
+  
+    
+    
+    
+    
+
+    
+      
+        <url>
+<<<<<<< HEAD
           <loc>http://cromulent-testing.com//2011/08/25/mule-testing-proactively-testing-assumptions.html</loc>
           <lastmod>2011-08-25T00:00:00+00:00</lastmod>
+=======
+          <loc>http://cromulent-testing-preprod.heroku.com//2011/08/25/mule-testing-proactively-testing-assumptions.html</loc>
+          <lastmod>2011-08-25T00:00:00+10:00</lastmod>
+>>>>>>> def26fe8b449db3c7ee1620e7d82ed7af0b59267
           <changefreq>monthly</changefreq>
           <priority>0.8</priority>
         </url>
@@ -84,8 +127,13 @@
     
       
         <url>
+<<<<<<< HEAD
           <loc>http://cromulent-testing.com//2011/08/18/validation-and-verification.html</loc>
           <lastmod>2011-08-18T00:00:00+00:00</lastmod>
+=======
+          <loc>http://cromulent-testing-preprod.heroku.com//2011/08/18/validation-and-verification.html</loc>
+          <lastmod>2011-08-18T00:00:00+10:00</lastmod>
+>>>>>>> def26fe8b449db3c7ee1620e7d82ed7af0b59267
           <changefreq>monthly</changefreq>
           <priority>0.8</priority>
         </url>
@@ -100,8 +148,13 @@
     
       
         <url>
+<<<<<<< HEAD
           <loc>http://cromulent-testing.com//2011/08/07/chicken-little.html</loc>
           <lastmod>2011-08-07T00:00:00+00:00</lastmod>
+=======
+          <loc>http://cromulent-testing-preprod.heroku.com//2011/08/07/chicken-little.html</loc>
+          <lastmod>2011-08-07T00:00:00+10:00</lastmod>
+>>>>>>> def26fe8b449db3c7ee1620e7d82ed7af0b59267
           <changefreq>monthly</changefreq>
           <priority>0.8</priority>
         </url>
@@ -116,8 +169,13 @@
     
       
         <url>
+<<<<<<< HEAD
           <loc>http://cromulent-testing.com//2011/07/29/testing-in-the-deep-end.html</loc>
           <lastmod>2011-07-29T00:00:00+00:00</lastmod>
+=======
+          <loc>http://cromulent-testing-preprod.heroku.com//2011/07/29/testing-in-the-deep-end.html</loc>
+          <lastmod>2011-07-29T00:00:00+10:00</lastmod>
+>>>>>>> def26fe8b449db3c7ee1620e7d82ed7af0b59267
           <changefreq>monthly</changefreq>
           <priority>0.8</priority>
         </url>
@@ -132,8 +190,13 @@
     
       
         <url>
+<<<<<<< HEAD
           <loc>http://cromulent-testing.com//2011/07/21/dealing-with-test-fatigue.html</loc>
           <lastmod>2011-07-21T00:00:00+00:00</lastmod>
+=======
+          <loc>http://cromulent-testing-preprod.heroku.com//2011/07/21/dealing-with-test-fatigue.html</loc>
+          <lastmod>2011-07-21T00:00:00+10:00</lastmod>
+>>>>>>> def26fe8b449db3c7ee1620e7d82ed7af0b59267
           <changefreq>monthly</changefreq>
           <priority>0.8</priority>
         </url>
@@ -148,8 +211,13 @@
     
       
         <url>
+<<<<<<< HEAD
           <loc>http://cromulent-testing.com//2011/07/14/do-you-know-about-test-fatigue.html</loc>
           <lastmod>2011-07-14T00:00:00+00:00</lastmod>
+=======
+          <loc>http://cromulent-testing-preprod.heroku.com//2011/07/14/do-you-know-about-test-fatigue.html</loc>
+          <lastmod>2011-07-14T00:00:00+10:00</lastmod>
+>>>>>>> def26fe8b449db3c7ee1620e7d82ed7af0b59267
           <changefreq>monthly</changefreq>
           <priority>0.8</priority>
         </url>
@@ -164,8 +232,13 @@
     
       
         <url>
+<<<<<<< HEAD
           <loc>http://cromulent-testing.com//2011/07/05/disposable-automation.html</loc>
           <lastmod>2011-07-05T00:00:00+00:00</lastmod>
+=======
+          <loc>http://cromulent-testing-preprod.heroku.com//2011/07/05/disposable-automation.html</loc>
+          <lastmod>2011-07-05T00:00:00+10:00</lastmod>
+>>>>>>> def26fe8b449db3c7ee1620e7d82ed7af0b59267
           <changefreq>monthly</changefreq>
           <priority>0.8</priority>
         </url>
@@ -180,8 +253,13 @@
     
       
         <url>
+<<<<<<< HEAD
           <loc>http://cromulent-testing.com//2011/06/27/testing-integration-projects.html</loc>
           <lastmod>2011-06-27T00:00:00+00:00</lastmod>
+=======
+          <loc>http://cromulent-testing-preprod.heroku.com//2011/06/27/testing-integration-projects.html</loc>
+          <lastmod>2011-06-27T00:00:00+10:00</lastmod>
+>>>>>>> def26fe8b449db3c7ee1620e7d82ed7af0b59267
           <changefreq>monthly</changefreq>
           <priority>0.8</priority>
         </url>
@@ -196,8 +274,13 @@
     
       
         <url>
+<<<<<<< HEAD
           <loc>http://cromulent-testing.com//2011/06/21/what-we-do-in-the-case-of-an-automation-backlog.html</loc>
           <lastmod>2011-06-21T00:00:00+00:00</lastmod>
+=======
+          <loc>http://cromulent-testing-preprod.heroku.com//2011/06/21/what-we-do-in-the-case-of-an-automation-backlog.html</loc>
+          <lastmod>2011-06-21T00:00:00+10:00</lastmod>
+>>>>>>> def26fe8b449db3c7ee1620e7d82ed7af0b59267
           <changefreq>monthly</changefreq>
           <priority>0.8</priority>
         </url>
@@ -212,8 +295,13 @@
     
       
         <url>
+<<<<<<< HEAD
           <loc>http://cromulent-testing.com//2011/06/14/when-should-we-be-doing-automation-testing.html</loc>
           <lastmod>2011-06-14T00:00:00+00:00</lastmod>
+=======
+          <loc>http://cromulent-testing-preprod.heroku.com//2011/06/14/when-should-we-be-doing-automation-testing.html</loc>
+          <lastmod>2011-06-14T00:00:00+10:00</lastmod>
+>>>>>>> def26fe8b449db3c7ee1620e7d82ed7af0b59267
           <changefreq>monthly</changefreq>
           <priority>0.8</priority>
         </url>
@@ -228,8 +316,13 @@
     
       
         <url>
+<<<<<<< HEAD
           <loc>http://cromulent-testing.com//2011/06/10/a-fear-an-loathing-of-testing.html</loc>
           <lastmod>2011-06-10T00:00:00+00:00</lastmod>
+=======
+          <loc>http://cromulent-testing-preprod.heroku.com//2011/06/10/a-fear-an-loathing-of-testing.html</loc>
+          <lastmod>2011-06-10T00:00:00+10:00</lastmod>
+>>>>>>> def26fe8b449db3c7ee1620e7d82ed7af0b59267
           <changefreq>monthly</changefreq>
           <priority>0.8</priority>
         </url>
