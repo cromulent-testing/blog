@@ -4,7 +4,11 @@
  <title>The Cromulent Testing Blog</title>
  <link href="http://cromulent-testing-preprod.heroku.com/feed/index.xml" rel="self"/>
  <link href="http://cromulent-testing-preprod.heroku.com/"/>
+<<<<<<< HEAD
  <updated>2011-11-03T00:11:46+00:00</updated>
+=======
+ <updated>2011-11-03T11:17:57+11:00</updated>
+>>>>>>> def26fe8b449db3c7ee1620e7d82ed7af0b59267
  <id>http://cromulent-testing-preprod.heroku.com/</id>
  <author>
    <name>Ash Rollke</name>
@@ -27,7 +31,11 @@
         <entry>
           <title>What does it mean?</title>
           <link href="http://cromulent-testing-preprod.heroku.com//2011/10/27/what-does-it-mean.html"/>
+<<<<<<< HEAD
           <updated>2011-10-27T00:00:00+00:00</updated>
+=======
+          <updated>2011-10-27T00:00:00+11:00</updated>
+>>>>>>> def26fe8b449db3c7ee1620e7d82ed7af0b59267
           <id>http://cromulent-testing-preprod.heroku.com//2011/10/27/what-does-it-mean</id>
           <content type="html">&lt;p&gt;Testing something works correctly (technical correctness) is all well and good, but testing meaning (semantic correctness) is the mark of a true tester. Without it, you’re not much more than a glorified developer.&lt;/p&gt;
 
@@ -60,7 +68,11 @@
         <entry>
           <title>the limits of automation</title>
           <link href="http://cromulent-testing-preprod.heroku.com//2011/09/29/the-limits-of-automation.html"/>
+<<<<<<< HEAD
           <updated>2011-09-29T00:00:00+00:00</updated>
+=======
+          <updated>2011-09-29T00:00:00+10:00</updated>
+>>>>>>> def26fe8b449db3c7ee1620e7d82ed7af0b59267
           <id>http://cromulent-testing-preprod.heroku.com//2011/09/29/the-limits-of-automation</id>
           <content type="html">&lt;p&gt;Automation testing is frequently evangelised as the cure-all of software quality woes. However automated testing has limits on its effectiveness. Understanding these limits will keep us from trying to automate something that should never be.&lt;/p&gt;
 
@@ -91,7 +103,11 @@
         <entry>
           <title>challenging assumptions</title>
           <link href="http://cromulent-testing-preprod.heroku.com//2011/09/22/challenging-assumptions.html"/>
+<<<<<<< HEAD
           <updated>2011-09-22T00:00:00+00:00</updated>
+=======
+          <updated>2011-09-22T00:00:00+10:00</updated>
+>>>>>>> def26fe8b449db3c7ee1620e7d82ed7af0b59267
           <id>http://cromulent-testing-preprod.heroku.com//2011/09/22/challenging-assumptions</id>
           <content type="html">&lt;p&gt;Many bugs can be prevented by challenging assumptions. Challenging the assumptions every one holds as well as paying attention to the seemingly small ones, will yield great results.&lt;/p&gt;
 
@@ -148,7 +164,11 @@
         <entry>
           <title>Ask better questions - Listen!</title>
           <link href="http://cromulent-testing-preprod.heroku.com//2011/09/08/ask-better-questions-listen.html"/>
+<<<<<<< HEAD
           <updated>2011-09-08T00:00:00+00:00</updated>
+=======
+          <updated>2011-09-08T00:00:00+10:00</updated>
+>>>>>>> def26fe8b449db3c7ee1620e7d82ed7af0b59267
           <id>http://cromulent-testing-preprod.heroku.com//2011/09/08/ask-better-questions-listen</id>
           <content type="html">&lt;p&gt;Everything that follows is a result of what you see here.&lt;/p&gt;
 
@@ -175,7 +195,11 @@
         <entry>
           <title>Mule Specs - automated assumption testing</title>
           <link href="http://cromulent-testing-preprod.heroku.com//2011/09/04/mule-specs-automated-assumption-testing.html"/>
+<<<<<<< HEAD
           <updated>2011-09-04T00:00:00+00:00</updated>
+=======
+          <updated>2011-09-04T00:00:00+10:00</updated>
+>>>>>>> def26fe8b449db3c7ee1620e7d82ed7af0b59267
           <id>http://cromulent-testing-preprod.heroku.com//2011/09/04/mule-specs-automated-assumption-testing</id>
           <content type="html">&lt;p&gt;In our last post we talked about &lt;a href='http://cromulent-testing-preprod.heroku.com/2011/08/25/mule-testing-proactively-testing-assumptions.html'&gt;mule testing&lt;/a&gt;. Assumptions need automation because they’re the foundation our systems are built upon; they can change at anytime. Mule specs are a way to automate mule tests.&lt;/p&gt;
 
@@ -224,7 +248,11 @@
         <entry>
           <title>Mule Testing - proactively testing assumptions</title>
           <link href="http://cromulent-testing-preprod.heroku.com//2011/08/25/mule-testing-proactively-testing-assumptions.html"/>
+<<<<<<< HEAD
           <updated>2011-08-25T00:00:00+00:00</updated>
+=======
+          <updated>2011-08-25T00:00:00+10:00</updated>
+>>>>>>> def26fe8b449db3c7ee1620e7d82ed7af0b59267
           <id>http://cromulent-testing-preprod.heroku.com//2011/08/25/mule-testing-proactively-testing-assumptions</id>
           <content type="html">&lt;p&gt;We were building a shiny new system that relied on data from a poorly understood legacy monster. Assumptions about this data were baked into our system. These unchallenged assumptions turned out to be wrong. Our shiny new system was no longer so shiny.&lt;/p&gt;
 
@@ -257,7 +285,11 @@
         <entry>
           <title>Validation and Verification</title>
           <link href="http://cromulent-testing-preprod.heroku.com//2011/08/18/validation-and-verification.html"/>
+<<<<<<< HEAD
           <updated>2011-08-18T00:00:00+00:00</updated>
+=======
+          <updated>2011-08-18T00:00:00+10:00</updated>
+>>>>>>> def26fe8b449db3c7ee1620e7d82ed7af0b59267
           <id>http://cromulent-testing-preprod.heroku.com//2011/08/18/validation-and-verification</id>
           <content type="html">&lt;p&gt;So what is the difference?&lt;/p&gt;
 
@@ -292,7 +324,11 @@
         <entry>
           <title>Chicken Little</title>
           <link href="http://cromulent-testing-preprod.heroku.com//2011/08/07/chicken-little.html"/>
+<<<<<<< HEAD
           <updated>2011-08-07T00:00:00+00:00</updated>
+=======
+          <updated>2011-08-07T00:00:00+10:00</updated>
+>>>>>>> def26fe8b449db3c7ee1620e7d82ed7af0b59267
           <id>http://cromulent-testing-preprod.heroku.com//2011/08/07/chicken-little</id>
           <content type="html">&lt;p&gt;&lt;em&gt;Once upon a time there was a tiny chicken [tester] named Chicken Little. One day Chicken Little was scratching in the garden when an acorn fell on her head.&lt;/em&gt; &lt;em&gt;&amp;#8220;Oh,&amp;#8221; cried Chicken Little, &amp;#8220;The sky is falling! I must go tell the king [project manager].&amp;#8221;&lt;/em&gt;&lt;/p&gt;
 
@@ -327,7 +363,11 @@
         <entry>
           <title>Testing in the deep end</title>
           <link href="http://cromulent-testing-preprod.heroku.com//2011/07/29/testing-in-the-deep-end.html"/>
+<<<<<<< HEAD
           <updated>2011-07-29T00:00:00+00:00</updated>
+=======
+          <updated>2011-07-29T00:00:00+10:00</updated>
+>>>>>>> def26fe8b449db3c7ee1620e7d82ed7af0b59267
           <id>http://cromulent-testing-preprod.heroku.com//2011/07/29/testing-in-the-deep-end</id>
           <content type="html">&lt;p&gt;Testers don’t have the luxury of a friendly group of people checking our work. Instead we get an angry mob with torches and pitch forks. We have to be honest about our limitations. It’s better you reveal them at the beginning, then get bitten by them at the end.&lt;/p&gt;
 
@@ -360,7 +400,11 @@
         <entry>
           <title>Dealing with test fatigue</title>
           <link href="http://cromulent-testing-preprod.heroku.com//2011/07/21/dealing-with-test-fatigue.html"/>
+<<<<<<< HEAD
           <updated>2011-07-21T00:00:00+00:00</updated>
+=======
+          <updated>2011-07-21T00:00:00+10:00</updated>
+>>>>>>> def26fe8b449db3c7ee1620e7d82ed7af0b59267
           <id>http://cromulent-testing-preprod.heroku.com//2011/07/21/dealing-with-test-fatigue</id>
           <content type="html">&lt;p&gt;Here are the problems we raised in our &lt;a href='http://cromulent-testing-preprod.heroku.com/2011/07/14/do-you-know-about-test-fatigue.html'&gt;last post&lt;/a&gt; and ways we deal with them.&lt;/p&gt;
 
@@ -389,7 +433,11 @@
         <entry>
           <title>Do you know about test fatigue?</title>
           <link href="http://cromulent-testing-preprod.heroku.com//2011/07/14/do-you-know-about-test-fatigue.html"/>
+<<<<<<< HEAD
           <updated>2011-07-14T00:00:00+00:00</updated>
+=======
+          <updated>2011-07-14T00:00:00+10:00</updated>
+>>>>>>> def26fe8b449db3c7ee1620e7d82ed7af0b59267
           <id>http://cromulent-testing-preprod.heroku.com//2011/07/14/do-you-know-about-test-fatigue</id>
           <content type="html">&lt;blockquote&gt;
 &lt;p&gt;Fatigue is a normal result of working, mental stress, overstimulation and understimulation, jet lag or active recreation, depression, and also boredom, disease and lack of sleep.[&lt;a href='http://en.wikipedia.org/wiki/Fatigue_(medical)'&gt;1&lt;/a&gt;]&lt;/p&gt;
@@ -422,7 +470,11 @@
         <entry>
           <title>Disposable Automation</title>
           <link href="http://cromulent-testing-preprod.heroku.com//2011/07/05/disposable-automation.html"/>
+<<<<<<< HEAD
           <updated>2011-07-05T00:00:00+00:00</updated>
+=======
+          <updated>2011-07-05T00:00:00+10:00</updated>
+>>>>>>> def26fe8b449db3c7ee1620e7d82ed7af0b59267
           <id>http://cromulent-testing-preprod.heroku.com//2011/07/05/disposable-automation</id>
           <content type="html">&lt;p&gt;In our experience, testers have an unhealthy attachment to automated tests. We’re going to talk about times when throwaway automation is really helpful.&lt;/p&gt;
 
@@ -453,7 +505,11 @@
         <entry>
           <title>testing integration projects</title>
           <link href="http://cromulent-testing-preprod.heroku.com//2011/06/27/testing-integration-projects.html"/>
+<<<<<<< HEAD
           <updated>2011-06-27T00:00:00+00:00</updated>
+=======
+          <updated>2011-06-27T00:00:00+10:00</updated>
+>>>>>>> def26fe8b449db3c7ee1620e7d82ed7af0b59267
           <id>http://cromulent-testing-preprod.heroku.com//2011/06/27/testing-integration-projects</id>
           <content type="html">&lt;p&gt;When problems arise (often) in integration projects (all of them) a lot of time and energy is spent arguing who&amp;#8217;s at fault. This is as about as useful as arguing whose side of the boat has a leak.&lt;/p&gt;
 
@@ -480,7 +536,11 @@
         <entry>
           <title>what we do in the case of an automation backlog?</title>
           <link href="http://cromulent-testing-preprod.heroku.com//2011/06/21/what-we-do-in-the-case-of-an-automation-backlog.html"/>
+<<<<<<< HEAD
           <updated>2011-06-21T00:00:00+00:00</updated>
+=======
+          <updated>2011-06-21T00:00:00+10:00</updated>
+>>>>>>> def26fe8b449db3c7ee1620e7d82ed7af0b59267
           <id>http://cromulent-testing-preprod.heroku.com//2011/06/21/what-we-do-in-the-case-of-an-automation-backlog</id>
           <content type="html">&lt;p&gt;The behaviour people have when they are behind is often more damaging then being behind. We&amp;#8217;re going to focus on a couple of ways we can climb out of this hole.&lt;/p&gt;
 
@@ -507,7 +567,11 @@
         <entry>
           <title>when should we be doing automated testing?</title>
           <link href="http://cromulent-testing-preprod.heroku.com//2011/06/14/when-should-we-be-doing-automation-testing.html"/>
+<<<<<<< HEAD
           <updated>2011-06-14T00:00:00+00:00</updated>
+=======
+          <updated>2011-06-14T00:00:00+10:00</updated>
+>>>>>>> def26fe8b449db3c7ee1620e7d82ed7af0b59267
           <id>http://cromulent-testing-preprod.heroku.com//2011/06/14/when-should-we-be-doing-automation-testing</id>
           <content type="html">&lt;p&gt;Automated tests, that are written &lt;strong&gt;before&lt;/strong&gt; the code; capture the intention of the code, inform design decisions, provide rapid feedback and let us know when we are done. All of this gets us thinking about testing and ensuring that our code can be automated.&lt;/p&gt;
 
@@ -532,7 +596,11 @@
         <entry>
           <title>a fear and loathing of testing</title>
           <link href="http://cromulent-testing-preprod.heroku.com//2011/06/10/a-fear-an-loathing-of-testing.html"/>
+<<<<<<< HEAD
           <updated>2011-06-10T00:00:00+00:00</updated>
+=======
+          <updated>2011-06-10T00:00:00+10:00</updated>
+>>>>>>> def26fe8b449db3c7ee1620e7d82ed7af0b59267
           <id>http://cromulent-testing-preprod.heroku.com//2011/06/10/a-fear-an-loathing-of-testing</id>
           <content type="html">&lt;p&gt;&lt;strong&gt;Ash&lt;/strong&gt;: &lt;em&gt;We were somewhere around the waterfall, on the edge of the software lifecycle, when the tests began to take hold. I remember saying something like:&lt;/em&gt;&lt;/p&gt;
 &lt;br /&gt;
