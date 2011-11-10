@@ -2,10 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>The Cromulent Testing Blog</title>
+<<<<<<< HEAD
  <link href="http://cromulent-testing-preprod.heroku.com/feed/index.xml" rel="self"/>
  <link href="http://cromulent-testing-preprod.heroku.com/"/>
  <updated>2011-11-10T08:19:49+00:00</updated>
  <id>http://cromulent-testing-preprod.heroku.com/</id>
+=======
+ <link href="feed/index.xml" rel="self"/>
+ <link href=""/>
+ <updated>2011-11-10T18:59:12+11:00</updated>
+ <id></id>
+>>>>>>> e375a1828f71068541451fd23fb928b878935440
  <author>
    <name>Ash Rollke</name>
  </author>
