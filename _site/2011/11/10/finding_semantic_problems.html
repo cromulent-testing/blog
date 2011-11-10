@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <title>Mule Testing - proactively testing assumptions</title>
+  <title>Finding Semantic Problems</title>
 
   <link rel=”alternate” type="application/atom+xml" title="The Cromulent Testing Blog" href="http://feeds.feedburner.com/CromulentTestingBlog"/>
 
@@ -30,29 +30,27 @@
     </p>
   </div>
   <div id="title">
-    <h1 class="header">Mule Testing - proactively testing assumptions</h1>
+    <h1 class="header">Finding Semantic Problems</h1>
     <h2 class="header padding-top"></h2>
   </div>
   <div class="author content-group"></div>
 </header>
 <article class="content">
-  <section><p>We were building a shiny new system that relied on data from a poorly understood legacy monster. Assumptions about this data were baked into our system. These unchallenged assumptions turned out to be wrong. Our shiny new system was no longer so shiny.</p>
+  <section><p>Last post we talked about common semantic problems. How can you find and prevent these insidious troublemakers?</p>
 
-<p>The wider the belief in the assumption, the more it’s en-grained in the business, the greater the need for it to be tested.</p>
+<p>In an ideal environment, with an <a href='http://specificationbyexample.com/'>executable specification</a>, using <a href='http://domaindrivendesign.org/node/132'>ubiquitous language</a>, most of these problems are solved before they occur.</p>
 
-<p>Why trust when you can know?</p>
+<p>When are things ideal? Usually never, so what do we do without any of the above in place.</p>
 
-<p>An example Mule test (<em>it&#8217;s blogging by example!</em>)</p>
+<p>First, seek understanding. You can’t be picky; to test you need understanding. Talk to people in the know, find out how they view the world. Test their assumptions with <a href='http://cromulent-testing.com/2011/08/25/mule-testing-proactively-testing-assumptions.html'>mule testing</a>. Never underestimate the wisdom of a crowd around a whiteboard. In extreme cases you could even start reading.</p>
 
-<p>Start with the assumption: <em>&#8220;All products must have a category&#8221;</em> Find a way to challenge or validate it. In this case we would run a simple query against production data:</p>
+<p>Can we create a bit of certainty? Take it all in, sift through the information, does it sit right in your head? Are there any gaps?</p>
 
-<p>Liquid error: No such file or directory - posix_spawnp</p>
+<p>Always test. Does what you know fit with the evidence? Apply what you know in new contexts, an address means different things depending on what side of the envelope it’s on.</p>
 
-<p>If the assumption holds true then rest easy. If it turns out to be false, congratulations you have just prevented a major bug. Share it with the team and update your old assumption to include the new facts. In this example <em>&#8220;A product does not require a category&#8221;</em>.</p>
+<p>Once you understand, share it, talk about it, make it part of your tests and code. Don’t stop now, you’re on a roll -you need to continuously build and re-enforce that shared understanding.</p>
 
-<p>Mule testing has limits. It only helps you test assumptions that you know about. If the magic combination of data that breaks your assumptions doesn’t yet exist, it won’t fail. It only works with access to the latest production data.</p>
-
-<p>Why the name mule testing? Because some people got the wrong idea when we called it ass testing.</p></section>
+<p><em>“Understanding is the knowing of misunderstanding”</em> ― Zivarnna Smithies</p></section>
 
   <div id="disqus_thread"></div>
   <script type="text/javascript">
@@ -60,8 +58,8 @@
       var disqus_shortname = 'thecromulenttestingblog'; // required: replace example with your forum shortname
 
       // The following are highly recommended additional parameters. Remove the slashes in front to use.
-      var disqus_identifier = 'http://www.cromulent-testing.com//2011/08/25/mule-testing-proactively-testing-assumptions.html';
-      var disqus_url = 'http://www.cromulent-testing.com//2011/08/25/mule-testing-proactively-testing-assumptions.html';
+      var disqus_identifier = 'http://www.cromulent-testing.com//2011/11/10/finding_semantic_problems.html';
+      var disqus_url = 'http://www.cromulent-testing.com//2011/11/10/finding_semantic_problems.html';
 
       /* * * DON'T EDIT BELOW THIS LINE * * */
       (function() {
@@ -78,12 +76,48 @@
 <footer>
   <div id="meta" class="content-group">
     <span class="small-text">
-      Published on <strong>August 25, 2011</strong>
+      Published on <strong>November 10, 2011</strong>
       <span class="defocus aside">(it was a Thursday)</span> under the broad topics of:
       <span class="defocus small-text aside">
         
           
-            and testing
+            
+              testing,
+            
+          
+        
+          
+            
+              semantic problems,
+            
+          
+        
+          
+            
+              semantic,
+            
+          
+        
+          
+            
+              executable specifications,
+            
+          
+        
+          
+            
+              ubiquitous language,
+            
+          
+        
+          
+            
+              talking
+            
+          
+        
+          
+            and Zivarnna Smithies
           
         
       </span>
