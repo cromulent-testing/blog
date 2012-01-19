@@ -29,12 +29,6 @@
   <ul class="archive">
     {% for post in site.posts %}
       {% if forloop.first == false %}
-        {% capture year  %}{{ post.date | date: '%Y' }}{% endcapture %}
-        {% capture month  %}{{ post.date | date: '%m' }}{% endcapture %}
-        {% capture cyear %}{{ 'now' | date: '%Y' }}{% endcapture %}
-        {% capture cmonth %}{{ 'now' | date: '%m' }}{% endcapture %}
-        {% if year <= cyear %}
-          {% if month <= cmonth %}
       <li>
         <a href="{{ post.url }}">{{ post.title }} -
           <span class="month-first subscript">{{ post.date | date: '%B' }}</span>
@@ -42,8 +36,6 @@
           <span class="year-first subscript">{{ post.date | date: '%Y' }}</span>
         </a>
       </li>
-          {% endif %}
-        {% endif %}
       {% endif %}
     {% endfor %}
   </ul>
