@@ -4,7 +4,7 @@
  <title>The Cromulent Testing Blog</title>
  <link href="http://cromulent-testing-preprod.heroku.com/feed/index.xml" rel="self"/>
  <link href="http://cromulent-testing-preprod.heroku.com/"/>
- <updated>2011-11-10T08:26:44+00:00</updated>
+ <updated>2012-01-19T09:18:30+00:00</updated>
  <id>http://cromulent-testing-preprod.heroku.com/</id>
  <author>
    <name>Ash Rollke</name>
@@ -25,25 +25,25 @@
     
       
         <entry>
-          <title>Finding Semantic Problems</title>
-          <link href="http://cromulent-testing-preprod.heroku.com//2011/11/10/finding_semantic_problems.html"/>
-          <updated>2011-11-10T00:00:00+00:00</updated>
-          <id>http://cromulent-testing-preprod.heroku.com//2011/11/10/finding_semantic_problems</id>
-          <content type="html">&lt;p&gt;Last post we talked about common semantic problems. How can you find and prevent these insidious troublemakers?&lt;/p&gt;
+          <title>Your Mum Doesn't Work Here</title>
+          <link href="http://cromulent-testing-preprod.heroku.com//2012/01/19/your_mum_doesnt_work_here.html"/>
+          <updated>2012-01-19T00:00:00+00:00</updated>
+          <id>http://cromulent-testing-preprod.heroku.com//2012/01/19/your_mum_doesnt_work_here</id>
+          <content type="html">&lt;p&gt;Dear Devs,&lt;/p&gt;
 
-&lt;p&gt;In an ideal environment, with an &lt;a href='http://specificationbyexample.com/'&gt;executable specification&lt;/a&gt;, using &lt;a href='http://domaindrivendesign.org/node/132'&gt;ubiquitous language&lt;/a&gt;, most of these problems are solved before they occur.&lt;/p&gt;
+&lt;p&gt;Have you ever had code bounce immediately out of test because it just didn’t work? It’s messy and wastes a lot time. You’re expecting the tester to do all your testing, a common mistake. We’re not asking you to do two jobs, with a little effort you can tidy as you go, catching these basic problems yourself.&lt;/p&gt;
 
-&lt;p&gt;When are things ideal? Usually never, so what do we do without any of the above in place.&lt;/p&gt;
+&lt;p&gt;The following are helpful, let our conscience be your guide.&lt;/p&gt;
 
-&lt;p&gt;First, seek understanding. You can’t be picky; to test you need understanding. Talk to people in the know, find out how they view the world. Test their assumptions with &lt;a href='http://cromulent-testing.com/2011/08/25/mule-testing-proactively-testing-assumptions.html'&gt;mule testing&lt;/a&gt;. Never underestimate the wisdom of a crowd around a whiteboard. In extreme cases you could even start reading.&lt;/p&gt;
+&lt;p&gt;Before you start work, check what you’re doing makes sense. Talk it over, ask who, what, where, when and why. Verify that what you’re going to do is what they want.&lt;/p&gt;
 
-&lt;p&gt;Can we create a bit of certainty? Take it all in, sift through the information, does it sit right in your head? Are there any gaps?&lt;/p&gt;
+&lt;p&gt;While coding, ensure the code actually does what you believe it does. Stray from the happy path; what could a user do by mistake? How could a user cheat the system? Ask questions like “What happens if I&amp;#8230;” and get answers. Not all who wander are lost.&lt;/p&gt;
 
-&lt;p&gt;Always test. Does what you know fit with the evidence? Apply what you know in new contexts, an address means different things depending on what side of the envelope it’s on.&lt;/p&gt;
+&lt;p&gt;Your development skills will help you. Use your knowledge of code to bend it a little. Does any part of the code make you feel queasy? Start there.&lt;/p&gt;
 
-&lt;p&gt;Once you understand, share it, talk about it, make it part of your tests and code. Don’t stop now, you’re on a roll -you need to continuously build and re-enforce that shared understanding.&lt;/p&gt;
+&lt;p&gt;Check white space, min and max lengths, validations, mandatory and optional fields, nulls. It’s literally (not figuratively) painful for testers to report these kinds of problems. Just make sure it works. Please.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;“Understanding is the knowing of misunderstanding”&lt;/em&gt; ― Zivarnna Smithies&lt;/p&gt;</content>
+&lt;p&gt;To conclude, your forays into testing won’t replace a competent tester but it will save them time and heart ache; let them focus on more devious aspects their craft.&lt;/p&gt;</content>
         </entry>
       
     
@@ -55,29 +55,14 @@
 
     
       
-        <entry>
-          <title>What does it mean?</title>
-          <link href="http://cromulent-testing-preprod.heroku.com//2011/10/27/what-does-it-mean.html"/>
-          <updated>2011-10-27T00:00:00+00:00</updated>
-          <id>http://cromulent-testing-preprod.heroku.com//2011/10/27/what-does-it-mean</id>
-          <content type="html">&lt;p&gt;Testing something works correctly (technical correctness) is all well and good, but testing meaning (semantic correctness) is the mark of a true tester. Without it, you’re not much more than a glorified developer.&lt;/p&gt;
+    
+  
+    
+    
+    
+    
 
-&lt;p&gt;Here are some common semantic problems expressed using a progressively strained &lt;em&gt;Star Wars&lt;/em&gt; metaphor.&lt;/p&gt;
-
-&lt;p&gt;You’re feeling nostalgic and ask a friend to put on a &lt;em&gt;Star Wars&lt;/em&gt; movie, they put on episode one, &lt;em&gt;The Phantom Menace&lt;/em&gt;. While technically correct, it is a &lt;em&gt;Star Wars&lt;/em&gt; movie, it isn’t what you meant, it was semantically wrong.&lt;/p&gt;
-
-&lt;p&gt;Problem: No shared understanding of what &amp;#8217;&lt;em&gt;Star Wars&lt;/em&gt;&amp;#8217; means.&lt;/p&gt;
-
-&lt;p&gt;You clarify by saying, “&lt;a href='http://www.youtube.com/watch?NR=1&amp;amp;v=WWaLxFIVX1s'&gt;Noooooo&lt;/a&gt;, put the first &lt;em&gt;Star Wars&lt;/em&gt; episode on” the friend stares at you confused and says “we’re watching it”.&lt;/p&gt;
-
-&lt;p&gt;Problem: the meaning of the first &lt;em&gt;Star Wars&lt;/em&gt; episode has evolved over time, does it mean episode 4, the first movie? Or episode 1, the first prequel? Your friend grew up in a different time, they may even like Jar Jar.&lt;/p&gt;
-
-&lt;p&gt;You’ve finished your &lt;em&gt;Star Wars&lt;/em&gt; marathon, your friend says. “lets watch another &lt;em&gt;Star Wars&lt;/em&gt; film” and puts on &lt;em&gt;Caravan of Courage&lt;/em&gt;. Neither of you enjoy the film because it’s not a &lt;em&gt;Star Wars&lt;/em&gt; film. It’s simply set in the &lt;em&gt;Star Wars&lt;/em&gt; universe.&lt;/p&gt;
-
-&lt;p&gt;Problem: In this case you both had a shared understanding, it was just wrong. So very wrong.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href='http://www.youtube.com/watch?v=FxKtZmQgxrI'&gt;Now watch this.&lt;/a&gt;&lt;/p&gt;</content>
-        </entry>
+    
       
     
   
@@ -88,27 +73,14 @@
 
     
       
-        <entry>
-          <title>the limits of automation</title>
-          <link href="http://cromulent-testing-preprod.heroku.com//2011/09/29/the-limits-of-automation.html"/>
-          <updated>2011-09-29T00:00:00+00:00</updated>
-          <id>http://cromulent-testing-preprod.heroku.com//2011/09/29/the-limits-of-automation</id>
-          <content type="html">&lt;p&gt;Automation testing is frequently evangelised as the cure-all of software quality woes. However automated testing has limits on its effectiveness. Understanding these limits will keep us from trying to automate something that should never be.&lt;/p&gt;
+    
+  
+    
+    
+    
+    
 
-&lt;h3 id='scoping_limitations'&gt;Scoping Limitations&lt;/h3&gt;
-
-&lt;p&gt;In an automated test, deviations from the norm are not necessarily reported as failures. We can work around that by writing more tests, each of them focusing on one factor of the system.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Practical Limitations&lt;/strong&gt;: automation comes with a maintenance cost as the product evolves. This places practicality limits around what we automate. It’s not feasible to automate everything, as we must maintain everything. We need to be prudent about what tests we want to keep.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Technological Limitations&lt;/strong&gt;: some testing activities are just not possible to automate, like user experience testing. As soon as we move into the area where subjective qualities are being measured automation breaks down.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Usefulness Limitations&lt;/strong&gt;: automated tests do not provide equal value to the team. The high use post-deploy smoke test is more valuable than checking whether the user name field supports “Travis” as well as “Cornelius”. Just like we risk and value assess our manual testing effort we should be doing the same with automation.&lt;/p&gt;
-
-&lt;h3 id='conflicting_limitations'&gt;Conflicting Limitations&lt;/h3&gt;
-
-&lt;p&gt;The limitations we touched on they fall into two categories; those that force us to be smarter about the small set of tests we automate and those that drive us to want more tests. We can’t have both. How we deal with this is what makes a good tester.&lt;/p&gt;</content>
-        </entry>
+    
       
     
   
@@ -119,53 +91,14 @@
 
     
       
-        <entry>
-          <title>challenging assumptions</title>
-          <link href="http://cromulent-testing-preprod.heroku.com//2011/09/22/challenging-assumptions.html"/>
-          <updated>2011-09-22T00:00:00+00:00</updated>
-          <id>http://cromulent-testing-preprod.heroku.com//2011/09/22/challenging-assumptions</id>
-          <content type="html">&lt;p&gt;Many bugs can be prevented by challenging assumptions. Challenging the assumptions every one holds as well as paying attention to the seemingly small ones, will yield great results.&lt;/p&gt;
+    
+  
+    
+    
+    
+    
 
-&lt;p&gt;Small things can be the most dangerous as they tend to go unnoticed, then gang up on you. It’s more common for projects to get overwhelmed by a build up of small things. The devil’s in the detail.&lt;/p&gt;
-
-&lt;p&gt;To find assumptions, listen to the way people speak. Assumptions can found in sentences that contain:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;must, always, mandatory, required&lt;/li&gt;
-
-&lt;li&gt;impossible, inconceivable, never&lt;/li&gt;
-
-&lt;li&gt;should, ought&lt;/li&gt;
-
-&lt;li&gt;doesn’t make sense&lt;/li&gt;
-&lt;/ul&gt;
-&lt;br /&gt;
-&lt;p&gt;&lt;em&gt;Doesn’t make sense is a favourite.&lt;/em&gt; This planet is filled with humans who do many things that make more money than sense.&lt;/p&gt;
-
-&lt;h3 id='an_example'&gt;An Example!&lt;/h3&gt;
-
-&lt;p&gt;Consider the following story:&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;As a customer&lt;/em&gt; &lt;br /&gt; &lt;em&gt;I want to know the average activity&lt;/em&gt; &lt;br /&gt; &lt;em&gt;So that I can compare this month’s activity against the average&lt;/em&gt; &lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Sounds simple&amp;#8230; but if you look a little deeper:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;What do we mean by ‘know’?&lt;/li&gt;
-
-&lt;li&gt;What do we mean by average? &lt;a href='http://en.wikipedia.org/wiki/Geometric_mean'&gt;Geometric&lt;/a&gt;, &lt;a href='http://en.wikipedia.org/wiki/Harmonic_mean'&gt;harmonic&lt;/a&gt; or &lt;a href='http://en.wikipedia.org/wiki/Arithmetic_mean'&gt;arithmetic mean&lt;/a&gt;?&lt;/li&gt;
-
-&lt;li&gt;What activity?&lt;/li&gt;
-
-&lt;li&gt;What do you mean by month? &lt;a href='http://en.wikipedia.org/wiki/Month#Months_in_various_calendars'&gt;How many days are in it?&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;Over what time span is the average calculated? Does it &lt;a href='http://en.wikipedia.org/wiki/Moving_average'&gt;move&lt;/a&gt;?&lt;/li&gt;
-
-&lt;li&gt;How are the numbers rounded? How is the &lt;a href='http://en.wikipedia.org/wiki/Rounding#Tie-breaking'&gt;tie broken&lt;/a&gt;?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Remember, the most hidden assumptions are those you yourself hold. As a tester, you need to challenge yourself and question everything.&lt;/p&gt;</content>
-        </entry>
+    
       
     
   
@@ -176,23 +109,14 @@
 
     
       
-        <entry>
-          <title>Ask better questions - Listen!</title>
-          <link href="http://cromulent-testing-preprod.heroku.com//2011/09/08/ask-better-questions-listen.html"/>
-          <updated>2011-09-08T00:00:00+00:00</updated>
-          <id>http://cromulent-testing-preprod.heroku.com//2011/09/08/ask-better-questions-listen</id>
-          <content type="html">&lt;p&gt;Everything that follows is a result of what you see here.&lt;/p&gt;
+    
+  
+    
+    
+    
+    
 
-&lt;p&gt;Testing relies heavily on asking questions. Questions allow us to challenge assumptions, confirm what we already know and uncover the unknown. Coming up with the right questions and understanding what to do with the answers is a real skill. Consider yourself a detective or scientist, whichever you find more motivating.&lt;/p&gt;
-
-&lt;p&gt;Have you read/seen ‘i Robot’? In the story, Detective Spooner has to solve a murder. It starts with him questioning a hologram of the victim, Dr Lanning. The hologram is a simple program, it can only give limited responses to specific questions.&lt;/p&gt;
-
-&lt;p&gt;Detective Spooner collects pieces of information, assesses them and re-evaluates what he knows. He uses that to piece together the right questions, fueling the cycle until he uncovers the fundamental flaw that had made it into (mass) production.&lt;/p&gt;
-
-&lt;p&gt;He could have asked the hologram many mindless questions, but that may never have allowed him to reach the right one. Testing can be as simple as asking questions but they are futile if you’re not listening to the answers and constantly evaluating what you know.&lt;/p&gt;
-
-&lt;p&gt;Beware of robots.&lt;/p&gt;</content>
-        </entry>
+    
       
     
   
@@ -203,45 +127,14 @@
 
     
       
-        <entry>
-          <title>Mule Specs - automated assumption testing</title>
-          <link href="http://cromulent-testing-preprod.heroku.com//2011/09/04/mule-specs-automated-assumption-testing.html"/>
-          <updated>2011-09-04T00:00:00+00:00</updated>
-          <id>http://cromulent-testing-preprod.heroku.com//2011/09/04/mule-specs-automated-assumption-testing</id>
-          <content type="html">&lt;p&gt;In our last post we talked about &lt;a href='http://cromulent-testing-preprod.heroku.com/2011/08/25/mule-testing-proactively-testing-assumptions.html'&gt;mule testing&lt;/a&gt;. Assumptions need automation because they’re the foundation our systems are built upon; they can change at anytime. Mule specs are a way to automate mule tests.&lt;/p&gt;
+    
+  
+    
+    
+    
+    
 
-&lt;p&gt;You can use any automated testing tool - the one your project already uses is probably fine. Unless it’s QTP. Below is the example from the &lt;a href='http://cromulent-testing-preprod.heroku.com/2011/08/25/mule-testing-proactively-testing-assumptions.html'&gt;last post&lt;/a&gt; in RSpec using the sequel gem.&lt;/p&gt;
-&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='ruby'&gt;&lt;span class='n'&gt;describe&lt;/span&gt; &lt;span class='s1'&gt;&amp;#39;products&amp;#39;&lt;/span&gt; &lt;span class='k'&gt;do&lt;/span&gt;
-  &lt;span class='n'&gt;it&lt;/span&gt; &lt;span class='s1'&gt;&amp;#39;do not require a category&amp;#39;&lt;/span&gt; &lt;span class='k'&gt;do&lt;/span&gt;
-    &lt;span class='n'&gt;sql&lt;/span&gt; &lt;span class='o'&gt;=&lt;/span&gt; &lt;span class='o'&gt;&amp;lt;&amp;lt;-&lt;/span&gt;&lt;span class='no'&gt;SQL&lt;/span&gt;
-&lt;span class='sh'&gt;      SELECT count(1) as row_count&lt;/span&gt;
-&lt;span class='sh'&gt;      FROM product&lt;/span&gt;
-&lt;span class='sh'&gt;      WHERE category IS NULL&lt;/span&gt;
-&lt;span class='no'&gt;    SQL&lt;/span&gt;
-
-    &lt;span class='n'&gt;at_least_one_row_exists&lt;/span&gt; &lt;span class='n'&gt;sql&lt;/span&gt;
-  &lt;span class='k'&gt;end&lt;/span&gt;
-&lt;span class='k'&gt;end&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;p&gt;We use two helper functions as we phrase our tests to expect either at least one result or no results.&lt;/p&gt;
-&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='ruby'&gt;&lt;span class='k'&gt;def&lt;/span&gt; &lt;span class='nf'&gt;at_least_one_row_exists&lt;/span&gt; &lt;span class='n'&gt;sql&lt;/span&gt;
-  &lt;span class='no'&gt;DB&lt;/span&gt;&lt;span class='o'&gt;[&lt;/span&gt;&lt;span class='n'&gt;sql&lt;/span&gt;&lt;span class='o'&gt;][&lt;/span&gt;&lt;span class='ss'&gt;:row_count&lt;/span&gt;&lt;span class='o'&gt;].&lt;/span&gt;&lt;span class='n'&gt;should&lt;/span&gt; &lt;span class='o'&gt;!=&lt;/span&gt; &lt;span class='mi'&gt;0&lt;/span&gt;
-&lt;span class='k'&gt;end&lt;/span&gt;
-
-&lt;span class='k'&gt;def&lt;/span&gt; &lt;span class='nf'&gt;no_rows_exists&lt;/span&gt; &lt;span class='n'&gt;sql&lt;/span&gt;
-  &lt;span class='no'&gt;DB&lt;/span&gt;&lt;span class='o'&gt;[&lt;/span&gt;&lt;span class='n'&gt;sql&lt;/span&gt;&lt;span class='o'&gt;][&lt;/span&gt;&lt;span class='ss'&gt;:row_count&lt;/span&gt;&lt;span class='o'&gt;].&lt;/span&gt;&lt;span class='n'&gt;should&lt;/span&gt; &lt;span class='o'&gt;==&lt;/span&gt; &lt;span class='mi'&gt;0&lt;/span&gt;
-&lt;span class='k'&gt;end&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;h3 id='getting_production_data'&gt;Getting production data&lt;/h3&gt;
-
-&lt;p&gt;Mule tests require prod data, the older and less realistic it is, the less certainty you have in your assumptions. Running Mule Specs on production data doesn’t mean running them on production, that’s a really bad idea. Copy the data elsewhere before execution. We arranged a sync from production every night and our Mule Specs run against it. So, when we arrive in the morning we know that as of yesterday, all our assumptions are still true.&lt;/p&gt;
-
-&lt;p&gt;Mule specs give us more than just a way of verifying assumptions. Written well, with good reporting, you produce verified documentation that’s updated every night when the mules run. Get the entire team involved. Ensure the analysts note their assumptions as they go and have the testers and developers implement them.&lt;/p&gt;
-
-&lt;p&gt;Follow your heart, run with the mules every night.&lt;/p&gt;</content>
-        </entry>
+    
       
     
   
@@ -252,29 +145,14 @@
 
     
       
-        <entry>
-          <title>Mule Testing - proactively testing assumptions</title>
-          <link href="http://cromulent-testing-preprod.heroku.com//2011/08/25/mule-testing-proactively-testing-assumptions.html"/>
-          <updated>2011-08-25T00:00:00+00:00</updated>
-          <id>http://cromulent-testing-preprod.heroku.com//2011/08/25/mule-testing-proactively-testing-assumptions</id>
-          <content type="html">&lt;p&gt;We were building a shiny new system that relied on data from a poorly understood legacy monster. Assumptions about this data were baked into our system. These unchallenged assumptions turned out to be wrong. Our shiny new system was no longer so shiny.&lt;/p&gt;
+    
+  
+    
+    
+    
+    
 
-&lt;p&gt;The wider the belief in the assumption, the more it’s en-grained in the business, the greater the need for it to be tested.&lt;/p&gt;
-
-&lt;p&gt;Why trust when you can know?&lt;/p&gt;
-
-&lt;p&gt;An example Mule test (&lt;em&gt;it&amp;#8217;s blogging by example!&lt;/em&gt;)&lt;/p&gt;
-
-&lt;p&gt;Start with the assumption: &lt;em&gt;&amp;#8220;All products must have a category&amp;#8221;&lt;/em&gt; Find a way to challenge or validate it. In this case we would run a simple query against production data:&lt;/p&gt;
-&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='sql'&gt;    &lt;span class='k'&gt;SELECT&lt;/span&gt; &lt;span class='o'&gt;*&lt;/span&gt; &lt;span class='k'&gt;FROM&lt;/span&gt; &lt;span class='n'&gt;products&lt;/span&gt; &lt;span class='k'&gt;WHERE&lt;/span&gt; &lt;span class='n'&gt;category&lt;/span&gt; &lt;span class='k'&gt;IS&lt;/span&gt; &lt;span class='k'&gt;NULL&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;p&gt;If the assumption holds true then rest easy. If it turns out to be false, congratulations you have just prevented a major bug. Share it with the team and update your old assumption to include the new facts. In this example &lt;em&gt;&amp;#8220;A product does not require a category&amp;#8221;&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;Mule testing has limits. It only helps you test assumptions that you know about. If the magic combination of data that breaks your assumptions doesn’t yet exist, it won’t fail. It only works with access to the latest production data.&lt;/p&gt;
-
-&lt;p&gt;Why the name mule testing? Because some people got the wrong idea when we called it ass testing.&lt;/p&gt;</content>
-        </entry>
+    
       
     
   
@@ -285,31 +163,14 @@
 
     
       
-        <entry>
-          <title>Validation and Verification</title>
-          <link href="http://cromulent-testing-preprod.heroku.com//2011/08/18/validation-and-verification.html"/>
-          <updated>2011-08-18T00:00:00+00:00</updated>
-          <id>http://cromulent-testing-preprod.heroku.com//2011/08/18/validation-and-verification</id>
-          <content type="html">&lt;p&gt;So what is the difference?&lt;/p&gt;
+    
+  
+    
+    
+    
+    
 
-&lt;p&gt;It’s simple really, as long as you don’t read the plethora of arduous ISO and IEEE standards.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Verification&lt;/strong&gt; is making sure what we built is working as we intended. This is acceptance testing, executable specifications and exploratory testing. These are testing fundamentals.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Validation&lt;/strong&gt; is asking the question, did we build the right thing? There is little point in building a entirely configurable system if the owners have no want or need to.&lt;/p&gt;
-
-&lt;p&gt;Our definitions, like most of the ones we’ve found, are defined in the past tense, which illustrates the real problem. Why wait to ask such important questions? It’s &lt;a href='http://www.youtube.com/watch?v=eZeYVIWz99I'&gt;Madness!&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Ask these questions early and often, then you’ll never have to bother with these definitions again:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Are building the right thing?&lt;/li&gt;
-
-&lt;li&gt;Is it working?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Defining your testing as verification or validation is largely irrelevant in the grand scheme of things. Dissecting testing into small chunks is a useful way to learn new things, however in the real world, evolving your expertise to include new things, like user experience design, is more effective.&lt;/p&gt;</content>
-        </entry>
+    
       
     
   
@@ -320,32 +181,6 @@
 
     
       
-        <entry>
-          <title>Chicken Little</title>
-          <link href="http://cromulent-testing-preprod.heroku.com//2011/08/07/chicken-little.html"/>
-          <updated>2011-08-07T00:00:00+00:00</updated>
-          <id>http://cromulent-testing-preprod.heroku.com//2011/08/07/chicken-little</id>
-          <content type="html">&lt;p&gt;&lt;em&gt;Once upon a time there was a tiny chicken [tester] named Chicken Little. One day Chicken Little was scratching in the garden when an acorn fell on her head.&lt;/em&gt; &lt;em&gt;&amp;#8220;Oh,&amp;#8221; cried Chicken Little, &amp;#8220;The sky is falling! I must go tell the king [project manager].&amp;#8221;&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;It’s important to remember that this is a tester who really cares, we need to harness their passion. A panicked approach causes stress and real problems get lost in the noise. The tester will lose credibility, become marginalised and burnout.&lt;/p&gt;
-
-&lt;h2 id='harness_the_passion'&gt;Harness the passion!&lt;/h2&gt;
-
-&lt;p&gt;We need to work closely with these testers who are emotionally invested and vulnerable to criticism. How they arrived at this behaviour is irrelevant. Two things we’ve found that help are to teach them prioritisation and to value quality over quantity.&lt;/p&gt;
-
-&lt;h2 id='teach_them_to_prioritise'&gt;Teach them to prioritise&lt;/h2&gt;
-
-&lt;p&gt;Ask them to rank bugs in the order they would like them fixed. If they struggle, begin by ranking one critical and one trivial bug. This forces them to understand some bugs are more important than others. Once they’re all ranked, discuss at which point we could release with the remaining bugs.&lt;/p&gt;
-
-&lt;h2 id='value_them'&gt;Value them&lt;/h2&gt;
-
-&lt;p&gt;Publicly acknowledge them for finding the good bugs. Let them see their good bugs being fixed. Recognise their less important bugs and use their prioritisation to explain why they won&amp;#8217;t be fixed.&lt;/p&gt;
-
-&lt;p&gt;Teach them how to find the important bugs &amp;#8230; coming soon&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;&amp;#8230;and they all lived happily ever after.&lt;/em&gt;&lt;/p&gt;</content>
-        </entry>
-      
     
   
     
@@ -355,30 +190,6 @@
 
     
       
-        <entry>
-          <title>Testing in the deep end</title>
-          <link href="http://cromulent-testing-preprod.heroku.com//2011/07/29/testing-in-the-deep-end.html"/>
-          <updated>2011-07-29T00:00:00+00:00</updated>
-          <id>http://cromulent-testing-preprod.heroku.com//2011/07/29/testing-in-the-deep-end</id>
-          <content type="html">&lt;p&gt;Testers don’t have the luxury of a friendly group of people checking our work. Instead we get an angry mob with torches and pitch forks. We have to be honest about our limitations. It’s better you reveal them at the beginning, then get bitten by them at the end.&lt;/p&gt;
-
-&lt;p&gt;As a rule: If you’re testing something that you can’t explain to someone else, then you probably don’t understand enough to effectively test it.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;How do you approach testing something you don’t understand?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Find people who understand it better than you. Talk to them. If you can’t find real people, find Google. Regardless of your source, cross reference information and consider the author’s bias.&lt;/p&gt;
-
-&lt;p&gt;There are fundamental techniques in testing that apply to most problems. Use them to explore, break it down and ask good questions. A common testing pattern is:&lt;/p&gt;
-
-&lt;p&gt;Given &lt;em&gt;precondition&lt;/em&gt; &lt;br /&gt; When &lt;em&gt;action&lt;/em&gt; &lt;br /&gt; Then &lt;em&gt;expected thing&lt;/em&gt; &lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Use this to think about what you need to set up, what you need to do and what results you should expect.&lt;/p&gt;
-
-&lt;p&gt;Since we can’t know everything we’re always out of our depth to some extent. So &lt;a href='http://bit.ly/lOw9RM'&gt;don’t panic&lt;/a&gt;. We have touched on three techniques to approach this problem: be honest, find someone who can help and fall back on your testing fundamentals.&lt;/p&gt;
-
-&lt;p&gt;Sometimes the most intelligent thing you can say is “I don’t know”.&lt;/p&gt;</content>
-        </entry>
-      
     
   
     
@@ -387,198 +198,6 @@
     
 
     
-      
-        <entry>
-          <title>Dealing with test fatigue</title>
-          <link href="http://cromulent-testing-preprod.heroku.com//2011/07/21/dealing-with-test-fatigue.html"/>
-          <updated>2011-07-21T00:00:00+00:00</updated>
-          <id>http://cromulent-testing-preprod.heroku.com//2011/07/21/dealing-with-test-fatigue</id>
-          <content type="html">&lt;p&gt;Here are the problems we raised in our &lt;a href='http://cromulent-testing-preprod.heroku.com/2011/07/14/do-you-know-about-test-fatigue.html'&gt;last post&lt;/a&gt; and ways we deal with them.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;working overtime&lt;/strong&gt; - You can’t test tired. If you’re going to be working overtime for several hours, have a break. Take time away from the project and go out for dinner, like a second lunch. Adjust the workplace to your style, watch &lt;a href='http://www.youtube.com/watch?v=oHg5SJYRHA0'&gt;YouTube&lt;/a&gt; together and take frequent communal breaks.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;delivery pressures&lt;/strong&gt; - The more pressure the team is under, the more likely they are to make mistakes and the more you need to test. &lt;a href='http://bit.ly/lOw9RM'&gt;DON’T PANIC.&lt;/a&gt; The less time you have the more you need to get it right the first time.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;thrashing&lt;/strong&gt; - Make a task list of what needs doing and divvy up the work. Stop people from interrupting (think: cone of silence) by politely explaining the urgency of what you’re working on. Remember, prioritisation! It’s normally better to finish some things than to partially complete lots of them.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;uninteresting work&lt;/strong&gt; - Spice up boring work by trying it in a new way. Any technique will do, invent your own or try something from your &lt;a href='http://cromulent-testing-preprod.heroku.com/'&gt;favourite testing blog&lt;/a&gt;. You can make work fun.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;mechanical work&lt;/strong&gt; - Automate it, computers love repetitive tasks. Even if you &lt;a href='http://cromulent-testing-preprod.heroku.com/2011/07/05/disposable-automation.html'&gt;dispose of it later&lt;/a&gt;, you’re saving time. Delegate it to the development team, they love repetitive tasks.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;bad practices &amp;amp; disenfranchisement&lt;/strong&gt; - Why are you doing this to yourself? Good testers are a rare breed. Other companies want you, we want you. If you can’t fix it, leave.&lt;/p&gt;</content>
-        </entry>
-      
-    
-  
-    
-    
-    
-    
-
-    
-      
-        <entry>
-          <title>Do you know about test fatigue?</title>
-          <link href="http://cromulent-testing-preprod.heroku.com//2011/07/14/do-you-know-about-test-fatigue.html"/>
-          <updated>2011-07-14T00:00:00+00:00</updated>
-          <id>http://cromulent-testing-preprod.heroku.com//2011/07/14/do-you-know-about-test-fatigue</id>
-          <content type="html">&lt;blockquote&gt;
-&lt;p&gt;Fatigue is a normal result of working, mental stress, overstimulation and understimulation, jet lag or active recreation, depression, and also boredom, disease and lack of sleep.[&lt;a href='http://en.wikipedia.org/wiki/Fatigue_(medical)'&gt;1&lt;/a&gt;]&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;We could rewrite the above quote to be:&lt;/p&gt;
-
-&lt;p&gt;Test fatigue is a normal result of testing, delivery pressures, thrashing, uninteresting work, disenfranchisement, mechanical work, bad practices and working overtime.&lt;/p&gt;
-
-&lt;p&gt;What’s wrong with that?&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&amp;#8230;mental fatigue, in turn, can manifest itself both as somnolence (decreased wakefulness), or just as a general decrease of attention, not necessarily including sleepiness. Decreased attention is known as ego depletion and occurs when the limited &amp;#8216;self regulatory capacity&amp;#8217; is depleted. It may also be described as a more or less decreased level of consciousness. In any case, this can be dangerous when performing tasks that require constant concentration, such as driving a vehicle&amp;#8230; [or testing][&lt;a href='http://en.wikipedia.org/wiki/Fatigue_(medical)'&gt;1&lt;/a&gt;]&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;This is a big topic, we have a lot more to say&amp;#8230;stay tuned.&lt;/p&gt;
-
-&lt;p&gt;[1]: &lt;a href='http://en.wikipedia.org/wiki/Fatigue_(medical'&gt;http://en.wikipedia.org/wiki/Fatigue_(medical)&lt;/a&gt;&lt;/p&gt;</content>
-        </entry>
-      
-    
-  
-    
-    
-    
-    
-
-    
-      
-        <entry>
-          <title>Disposable Automation</title>
-          <link href="http://cromulent-testing-preprod.heroku.com//2011/07/05/disposable-automation.html"/>
-          <updated>2011-07-05T00:00:00+00:00</updated>
-          <id>http://cromulent-testing-preprod.heroku.com//2011/07/05/disposable-automation</id>
-          <content type="html">&lt;p&gt;In our experience, testers have an unhealthy attachment to automated tests. We’re going to talk about times when throwaway automation is really helpful.&lt;/p&gt;
-
-&lt;h3 id='record_and_playback'&gt;Record and playback&lt;/h3&gt;
-
-&lt;p&gt;Sick and tired of clicking through page after page to find what you want to test? Record your path, run it, and test what actually matters. Record and playback is quick and easy. The code it creates will make your eyes bleed which doesn’t matter as long you dump it as soon as you’re done with it.&lt;/p&gt;
-
-&lt;h3 id='exploratory_automation'&gt;Exploratory Automation&lt;/h3&gt;
-
-&lt;p&gt;Sometimes you need to test things that can’t easily be done manually. We were exploring a bug lurking deep within a server and found ourselves manually crafting HTTP headers in telnet. We realised it’s a lot easier to do this in code. So we did. We found the bug and threw the automation away.&lt;/p&gt;
-
-&lt;h3 id='permutations_and_combinations'&gt;Permutations and Combinations&lt;/h3&gt;
-
-&lt;p&gt;There’s an adage that you can’t test everything. Sometimes, your tester senses tell you to cover a part of the system thoroughly. This can be done with a script that generates the various combinations. Run it over night and don’t leave your number.&lt;/p&gt;
-
-&lt;p&gt;Automation you decide to keep, you decide to maintain and “The things you own, end up owning you.” Tyler Durden&lt;/p&gt;</content>
-        </entry>
-      
-    
-  
-    
-    
-    
-    
-
-    
-      
-        <entry>
-          <title>testing integration projects</title>
-          <link href="http://cromulent-testing-preprod.heroku.com//2011/06/27/testing-integration-projects.html"/>
-          <updated>2011-06-27T00:00:00+00:00</updated>
-          <id>http://cromulent-testing-preprod.heroku.com//2011/06/27/testing-integration-projects</id>
-          <content type="html">&lt;p&gt;When problems arise (often) in integration projects (all of them) a lot of time and energy is spent arguing who&amp;#8217;s at fault. This is as about as useful as arguing whose side of the boat has a leak.&lt;/p&gt;
-
-&lt;p&gt;It&amp;#8217;s common for Team Upstream and Team Downstream to test their systems in isolation. However, the problems lurk in international waters, between teams. We must test the integration. Integration testing is like voting, do it early and do it often.&lt;/p&gt;
-
-&lt;p&gt;Traditionally, groups are brought together through marriage. In lieu of this, we&amp;#8217;ve had a lot of success sending emissaries to work with other teams. This doesn&amp;#8217;t mean endless meetings. It means joining forces and working together, reducing the us and them mentality.&lt;/p&gt;
-
-&lt;p&gt;We may be told that our responsibility ends with our system boundary, stay out of international waters. We may be told that it will all just work if we build it to spec. The reality is that we need to make sure the entire system works across all teams.&lt;/p&gt;
-
-&lt;p&gt;Current thinking is that our brains are geared towards living in small family groups, in competition with others. This distorts our view of other teams, causing us to presume they are either malicious or incompetent. We even dehumanise them, giving them nicknames like Team Downstream, instead of recognising them as fellow people doing the same job as us.&lt;/p&gt;
-
-&lt;p&gt;As the elders say: you must test the integration (and take these mushrooms!)&lt;/p&gt;</content>
-        </entry>
-      
-    
-  
-    
-    
-    
-    
-
-    
-      
-        <entry>
-          <title>what we do in the case of an automation backlog?</title>
-          <link href="http://cromulent-testing-preprod.heroku.com//2011/06/21/what-we-do-in-the-case-of-an-automation-backlog.html"/>
-          <updated>2011-06-21T00:00:00+00:00</updated>
-          <id>http://cromulent-testing-preprod.heroku.com//2011/06/21/what-we-do-in-the-case-of-an-automation-backlog</id>
-          <content type="html">&lt;p&gt;The behaviour people have when they are behind is often more damaging then being behind. We&amp;#8217;re going to focus on a couple of ways we can climb out of this hole.&lt;/p&gt;
-
-&lt;p&gt;Firstly, get the team to help us catch up!&lt;/p&gt;
-
-&lt;p&gt;Moving the culture to a test driven approach will fix the backlog and prevent it from happening. As changing culture can be long term, we can use &lt;a href='http://leanandkanban.wordpress.com/2009/05/14/wip-and-limits/'&gt;WIP&lt;/a&gt; (Work In Progress) limits; an easily implemented tool from Lean, to make the team aware of the problem and to move in the right direction.&lt;/p&gt;
-
-&lt;p&gt;For example, once the tester&amp;#8217;s WIP limit is reached, before anyone can start more work, they need to help the tester finish something. Get the team to stop starting and to start finishing. Optimizing the team as a whole increases work flow more than optimizing individual components.&lt;/p&gt;
-
-&lt;p&gt;The second tactic is damage control, and will stop us chasing our tails until the end of time. This approach assumes a team that is unwilling/unable to support the testers. For new work, we prioritise based on risk; covering the low priority work with mostly manual testing to stop the backlog from growing. To deal with the existing backlog, we write smoke tests to give us thin coverage and confidence over the functionality, filling in the gaps based on priority, balanced with the new work coming in.&lt;/p&gt;
-
-&lt;p&gt;More on information on WIP limits: &lt;a href='http://leanandkanban.wordpress.com/2009/05/14/wip-and-limits/'&gt;http://leanandkanban.wordpress.com/2009/05/14/wip-and-limits/&lt;/a&gt;&lt;/p&gt;</content>
-        </entry>
-      
-    
-  
-    
-    
-    
-    
-
-    
-      
-        <entry>
-          <title>when should we be doing automated testing?</title>
-          <link href="http://cromulent-testing-preprod.heroku.com//2011/06/14/when-should-we-be-doing-automation-testing.html"/>
-          <updated>2011-06-14T00:00:00+00:00</updated>
-          <id>http://cromulent-testing-preprod.heroku.com//2011/06/14/when-should-we-be-doing-automation-testing</id>
-          <content type="html">&lt;p&gt;Automated tests, that are written &lt;strong&gt;before&lt;/strong&gt; the code; capture the intention of the code, inform design decisions, provide rapid feedback and let us know when we are done. All of this gets us thinking about testing and ensuring that our code can be automated.&lt;/p&gt;
-
-&lt;p&gt;One view of test automation is to write it &lt;strong&gt;after&lt;/strong&gt; the system code has been written so the automation has to cope with less change. We&amp;#8217;ve found this view doesn&amp;#8217;t hold up in practice, firstly we spend a lot of time reverse engineering the code to automate it. Secondly, if the code is changing then this is when we need test automation the most to provide us with a safety net.&lt;/p&gt;
-
-&lt;p&gt;Automated tests that are written &lt;strong&gt;after&lt;/strong&gt; the code do not directly inform the design nor do they provide rapid feedback. When writing automated tests in this way we need to ask ourselves; why are we taking this approach?&lt;/p&gt;
-
-&lt;p&gt;If we are doing it to provide test coverage or run in the CI build then we are coming to the party late. Without visibility into what automation already exists we could be duplicating test effort. If these tests will help us build a better product then they should be written &lt;strong&gt;before&lt;/strong&gt; the code.&lt;/p&gt;
-
-&lt;p&gt;If we are using automation to do exploratory testing and we intend to throw the automation code away afterwards then we can write the tests &lt;strong&gt;after&lt;/strong&gt;. Not all automation needs to be kept it just has to help us explore.&lt;/p&gt;</content>
-        </entry>
-      
-    
-  
-    
-    
-    
-    
-
-    
-      
-        <entry>
-          <title>a fear and loathing of testing</title>
-          <link href="http://cromulent-testing-preprod.heroku.com//2011/06/10/a-fear-an-loathing-of-testing.html"/>
-          <updated>2011-06-10T00:00:00+00:00</updated>
-          <id>http://cromulent-testing-preprod.heroku.com//2011/06/10/a-fear-an-loathing-of-testing</id>
-          <content type="html">&lt;p&gt;&lt;strong&gt;Ash&lt;/strong&gt;: &lt;em&gt;We were somewhere around the waterfall, on the edge of the software lifecycle, when the tests began to take hold. I remember saying something like:&lt;/em&gt;&lt;/p&gt;
-&lt;br /&gt;
-&lt;p&gt;I feel a bit lightheaded. Maybe you should drive.&lt;/p&gt;
-&lt;br /&gt;
-&lt;p&gt;&lt;em&gt;Suddenly, there was a terrible roar all around us, and the software was full of what looked like huge bugs, all swooping and screeching and diving around the computer, and a voice was screaming:&lt;/em&gt;&lt;/p&gt;
-&lt;br /&gt;
-&lt;p&gt;Holy Jesus. What are these goddamn bugs?&lt;/p&gt;
-&lt;br /&gt;
-&lt;p&gt;&lt;strong&gt;Dr. Gonzo&lt;/strong&gt;: Did you say something?&lt;/p&gt;
-&lt;br /&gt;
-&lt;p&gt;&lt;strong&gt;Ash&lt;/strong&gt;: Hm? Never mind. It&amp;#8217;s your turn to test.&lt;/p&gt;
-&lt;br /&gt;
-&lt;p&gt;&lt;strong&gt;Ash&lt;/strong&gt;: &lt;em&gt;No point in mentioning these bugs, I thought. Poor bastard will see them soon enough.&lt;/em&gt;&lt;/p&gt;</content>
-        </entry>
       
     
   
