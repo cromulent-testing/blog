@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <title>Mule Testing - proactively testing assumptions</title>
+  <title>Your Mum Doesn't Work Here</title>
 
   <link rel=”alternate” type="application/atom+xml" title="The Cromulent Testing Blog" href="http://feeds.feedburner.com/CromulentTestingBlog"/>
 
@@ -30,29 +30,27 @@
     </p>
   </div>
   <div id="title">
-    <h1 class="header">Mule Testing - proactively testing assumptions</h1>
+    <h1 class="header">Your Mum Doesn't Work Here</h1>
     <h2 class="header padding-top"></h2>
   </div>
   <div class="author content-group"></div>
 </header>
 <article class="content">
-  <section><p>We were building a shiny new system that relied on data from a poorly understood legacy monster. Assumptions about this data were baked into our system. These unchallenged assumptions turned out to be wrong. Our shiny new system was no longer so shiny.</p>
+  <section><p>Dear Devs,</p>
 
-<p>The wider the belief in the assumption, the more it’s en-grained in the business, the greater the need for it to be tested.</p>
+<p>Have you ever had code bounce immediately out of test because it just didn’t work? It’s messy and wastes a lot time. You’re expecting the tester to do all your testing, a common mistake. We’re not asking you to do two jobs, with a little effort you can tidy as you go, catching these basic problems yourself.</p>
 
-<p>Why trust when you can know?</p>
+<p>The following are helpful, let our conscience be your guide.</p>
 
-<p>An example Mule test (<em>it&#8217;s blogging by example!</em>)</p>
+<p>Before you start work, check what you’re doing makes sense. Talk it over, ask who, what, where, when and why. Verify that what you’re going to do is what they want.</p>
 
-<p>Start with the assumption: <em>&#8220;All products must have a category&#8221;</em> Find a way to challenge or validate it. In this case we would run a simple query against production data:</p>
-<div class='highlight'><pre><code class='sql'>    <span class='k'>SELECT</span> <span class='o'>*</span> <span class='k'>FROM</span> <span class='n'>products</span> <span class='k'>WHERE</span> <span class='n'>category</span> <span class='k'>IS</span> <span class='k'>NULL</span>
-</code></pre>
-</div>
-<p>If the assumption holds true then rest easy. If it turns out to be false, congratulations you have just prevented a major bug. Share it with the team and update your old assumption to include the new facts. In this example <em>&#8220;A product does not require a category&#8221;</em>.</p>
+<p>While coding, ensure the code actually does what you believe it does. Stray from the happy path; what could a user do by mistake? How could a user cheat the system? Ask questions like “What happens if I&#8230;” and get answers. Not all who wander are lost.</p>
 
-<p>Mule testing has limits. It only helps you test assumptions that you know about. If the magic combination of data that breaks your assumptions doesn’t yet exist, it won’t fail. It only works with access to the latest production data.</p>
+<p>Your development skills will help you. Use your knowledge of code to bend it a little. Does any part of the code make you feel queasy? Start there.</p>
 
-<p>Why the name mule testing? Because some people got the wrong idea when we called it ass testing.</p></section>
+<p>Check white space, min and max lengths, validations, mandatory and optional fields, nulls. It’s literally (not figuratively) painful for testers to report these kinds of problems. Just make sure it works. Please.</p>
+
+<p>To conclude, your forays into testing won’t replace a competent tester but it will save them time and heart ache; let them focus on more devious aspects their craft.</p></section>
 
   <div id="disqus_thread"></div>
   <script type="text/javascript">
@@ -60,8 +58,8 @@
       var disqus_shortname = 'thecromulenttestingblog'; // required: replace example with your forum shortname
 
       // The following are highly recommended additional parameters. Remove the slashes in front to use.
-      var disqus_identifier = 'http://www.cromulent-testing.com//2011/08/25/mule-testing-proactively-testing-assumptions.html';
-      var disqus_url = 'http://www.cromulent-testing.com//2011/08/25/mule-testing-proactively-testing-assumptions.html';
+      var disqus_identifier = 'http://www.cromulent-testing.com//2012/01/19/your_mum_doesnt_work_here.html';
+      var disqus_url = 'http://www.cromulent-testing.com//2012/01/19/your_mum_doesnt_work_here.html';
 
       /* * * DON'T EDIT BELOW THIS LINE * * */
       (function() {
@@ -78,12 +76,42 @@
 <footer>
   <div id="meta" class="content-group">
     <span class="small-text">
-      Published on <strong>August 25, 2011</strong>
+      Published on <strong>January 19, 2012</strong>
       <span class="defocus aside">(it was a Thursday)</span> under the broad topics of:
       <span class="defocus small-text aside">
         
           
-            and testing
+            
+              testing,
+            
+          
+        
+          
+            
+              your mum,
+            
+          
+        
+          
+            
+              yo momma,
+            
+          
+        
+          
+            
+              tidy up,
+            
+          
+        
+          
+            
+              developers
+            
+          
+        
+          
+            and the little things
           
         
       </span>

@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <title>Mule Testing - proactively testing assumptions</title>
+  <title>Testing sans testers?</title>
 
   <link rel=”alternate” type="application/atom+xml" title="The Cromulent Testing Blog" href="http://feeds.feedburner.com/CromulentTestingBlog"/>
 
@@ -30,29 +30,55 @@
     </p>
   </div>
   <div id="title">
-    <h1 class="header">Mule Testing - proactively testing assumptions</h1>
+    <h1 class="header">Testing sans testers?</h1>
     <h2 class="header padding-top"></h2>
   </div>
   <div class="author content-group"></div>
 </header>
 <article class="content">
-  <section><p>We were building a shiny new system that relied on data from a poorly understood legacy monster. Assumptions about this data were baked into our system. These unchallenged assumptions turned out to be wrong. Our shiny new system was no longer so shiny.</p>
+  <section><p>Even without testers on the team, you still need to test, or your customers will.</p>
 
-<p>The wider the belief in the assumption, the more it’s en-grained in the business, the greater the need for it to be tested.</p>
+<p>Here are some ways the team can help fill the gap:</p>
 
-<p>Why trust when you can know?</p>
+<p>Right at the start:</p>
 
-<p>An example Mule test (<em>it&#8217;s blogging by example!</em>)</p>
+<ul>
+<li>Follow work flows until it’s understood what needs to be done. <a href='http://en.wikipedia.org/wiki/Swim_lane'>Swim lanes</a> help.</li>
 
-<p>Start with the assumption: <em>&#8220;All products must have a category&#8221;</em> Find a way to challenge or validate it. In this case we would run a simple query against production data:</p>
-<div class='highlight'><pre><code class='sql'>    <span class='k'>SELECT</span> <span class='o'>*</span> <span class='k'>FROM</span> <span class='n'>products</span> <span class='k'>WHERE</span> <span class='n'>category</span> <span class='k'>IS</span> <span class='k'>NULL</span>
-</code></pre>
-</div>
-<p>If the assumption holds true then rest easy. If it turns out to be false, congratulations you have just prevented a major bug. Share it with the team and update your old assumption to include the new facts. In this example <em>&#8220;A product does not require a category&#8221;</em>.</p>
+<li>Think edge cases. Do they reveal new scope or change the design?</li>
 
-<p>Mule testing has limits. It only helps you test assumptions that you know about. If the magic combination of data that breaks your assumptions doesn’t yet exist, it won’t fail. It only works with access to the latest production data.</p>
+<li>Find out why you’re doing what you’re doing</li>
 
-<p>Why the name mule testing? Because some people got the wrong idea when we called it ass testing.</p></section>
+<li>Remember where similar projects have gone wrong. Appear smart by telling others as if you just thought of it.</li>
+</ul>
+
+<p>Before people start <a href='http://4.bp.blogspot.com/-5jGvSfCRDjY/TxgU9VUwLCI/AAAAAAAAAIM/ERK2V8i7VHY/s400/Programming.gif'>coding</a>:</p>
+
+<ul>
+<li>What’s the least you can do to responsibly meet the requirements?</li>
+
+<li>Draw the possible paths, what happens at the end of each one?</li>
+
+<li>What assumptions are you making? How can you <a href='http://cromulent-testing.com/2011/09/22/challenging-assumptions.html'>challenge</a> them?</li>
+
+<li>How will you know when you’re done?</li>
+</ul>
+
+<p>Testing stuff works during and afterwards:</p>
+
+<ul>
+<li><a href='http://img.izismile.com/img/img3/20100316/moar_23.jpg'>Moar</a> automation. Developers rock at this.</li>
+
+<li>Run a tight ship; <a href='http://www.youtube.com/watch?v=DKJsSPATDLY'>check your own work</a> as you go</li>
+
+<li>Collaborate with your colleagues. Let them see your tests. Do handovers.</li>
+
+<li>Rotate, it’s best if someone else tests your work</li>
+</ul>
+
+<p>You probably also want to <a href='http://learn.cromulent-testing.com/'>read up</a> on user interaction/performance/security/infrastructure testing.</p>
+
+<p>Go for coffee and discuss how to test tricky problems. Work as a team. Share ideas. Get in there and have a good time. We still test because it’s fun.</p></section>
 
   <div id="disqus_thread"></div>
   <script type="text/javascript">
@@ -60,8 +86,8 @@
       var disqus_shortname = 'thecromulenttestingblog'; // required: replace example with your forum shortname
 
       // The following are highly recommended additional parameters. Remove the slashes in front to use.
-      var disqus_identifier = 'http://www.cromulent-testing.com//2011/08/25/mule-testing-proactively-testing-assumptions.html';
-      var disqus_url = 'http://www.cromulent-testing.com//2011/08/25/mule-testing-proactively-testing-assumptions.html';
+      var disqus_identifier = 'http://www.cromulent-testing.com//2012/02/16/what-do-you-do-when-your-team-has-no-testers.html';
+      var disqus_url = 'http://www.cromulent-testing.com//2012/02/16/what-do-you-do-when-your-team-has-no-testers.html';
 
       /* * * DON'T EDIT BELOW THIS LINE * * */
       (function() {
@@ -78,12 +104,36 @@
 <footer>
   <div id="meta" class="content-group">
     <span class="small-text">
-      Published on <strong>August 25, 2011</strong>
+      Published on <strong>February 16, 2012</strong>
       <span class="defocus aside">(it was a Thursday)</span> under the broad topics of:
       <span class="defocus small-text aside">
         
           
-            and testing
+            
+              testing,
+            
+          
+        
+          
+            
+              commando,
+            
+          
+        
+          
+            
+              developers,
+            
+          
+        
+          
+            
+              share the load
+            
+          
+        
+          
+            and swarming
           
         
       </span>
