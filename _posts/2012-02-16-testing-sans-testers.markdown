@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Testing sans testers?
+title: Testing sans testers
 tags:
 - testing
 - commando
