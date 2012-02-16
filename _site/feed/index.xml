@@ -2,10 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>The Cromulent Testing Blog</title>
+<<<<<<< HEAD
  <link href="http://cromulent-testing-preprod.heroku.com/feed/index.xml" rel="self"/>
  <link href="http://cromulent-testing-preprod.heroku.com/"/>
  <updated>2012-02-16T07:51:07+00:00</updated>
  <id>http://cromulent-testing-preprod.heroku.com/</id>
+=======
+ <link href="feed/index.xml" rel="self"/>
+ <link href=""/>
+ <updated>2012-02-16T18:48:32+11:00</updated>
+ <id></id>
+>>>>>>> 1b1d6f2ee4f223c1aa2a5d62c08c768b0a6eb5f2
  <author>
    <name>Ash Rollke</name>
  </author>
@@ -25,6 +32,7 @@
     
       
         <entry>
+<<<<<<< HEAD
           <title>Your Mum Doesn't Work Here</title>
           <link href="http://cromulent-testing-preprod.heroku.com//2012/01/19/your_mum_doesnt_work_here.html"/>
           <updated>2012-01-19T00:00:00+00:00</updated>
@@ -54,7 +62,91 @@
     
 
     
+=======
+          <title>Testing sans testers?</title>
+          <link href="/2012/02/16/what-do-you-do-when-your-team-has-no-testers.html"/>
+          <updated>2012-02-16T00:00:00+11:00</updated>
+          <id>/2012/02/16/what-do-you-do-when-your-team-has-no-testers</id>
+          <content type="html">&lt;p&gt;Even without testers on the team, you still need to test, or your customers will.&lt;/p&gt;
+
+&lt;p&gt;Here are some ways the team can help fill the gap:&lt;/p&gt;
+
+&lt;p&gt;Right at the start:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Follow work flows until it’s understood what needs to be done. &lt;a href='http://en.wikipedia.org/wiki/Swim_lane'&gt;Swim lanes&lt;/a&gt; help.&lt;/li&gt;
+
+&lt;li&gt;Think edge cases. Do they reveal new scope or change the design?&lt;/li&gt;
+
+&lt;li&gt;Find out why you’re doing what you’re doing&lt;/li&gt;
+
+&lt;li&gt;Remember where similar projects have gone wrong. Appear smart by telling others as if you just thought of it.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Before people start &lt;a href='http://4.bp.blogspot.com/-5jGvSfCRDjY/TxgU9VUwLCI/AAAAAAAAAIM/ERK2V8i7VHY/s400/Programming.gif'&gt;coding&lt;/a&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;What’s the least you can do to responsibly meet the requirements?&lt;/li&gt;
+
+&lt;li&gt;Draw the possible paths, what happens at the end of each one?&lt;/li&gt;
+
+&lt;li&gt;What assumptions are you making? How can you &lt;a href='http://cromulent-testing.com/2011/09/22/challenging-assumptions.html'&gt;challenge&lt;/a&gt; them?&lt;/li&gt;
+
+&lt;li&gt;How will you know when you’re done?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Testing stuff works during and afterwards:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href='http://img.izismile.com/img/img3/20100316/moar_23.jpg'&gt;Moar&lt;/a&gt; automation. Developers rock at this.&lt;/li&gt;
+
+&lt;li&gt;Run a tight ship; &lt;a href='http://www.youtube.com/watch?v=DKJsSPATDLY'&gt;check your own work&lt;/a&gt; as you go&lt;/li&gt;
+
+&lt;li&gt;Collaborate with your colleagues. Let them see your tests. Do handovers.&lt;/li&gt;
+
+&lt;li&gt;Rotate, it’s best if someone else tests your work&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You probably also want to &lt;a href='http://learn.cromulent-testing.com/'&gt;read up&lt;/a&gt; on user interaction/performance/security/infrastructure testing.&lt;/p&gt;
+
+&lt;p&gt;Go for coffee and discuss how to test tricky problems. Work as a team. Share ideas. Get in there and have a good time. We still test because it’s fun.&lt;/p&gt;</content>
+        </entry>
+>>>>>>> 1b1d6f2ee4f223c1aa2a5d62c08c768b0a6eb5f2
       
+    
+  
+    
+    
+    
+    
+
+    
+      
+<<<<<<< HEAD
+=======
+        <entry>
+          <title>Your Mum Doesn't Work Here</title>
+          <link href="/2012/01/19/your_mum_doesnt_work_here.html"/>
+          <updated>2012-01-19T00:00:00+11:00</updated>
+          <id>/2012/01/19/your_mum_doesnt_work_here</id>
+          <content type="html">&lt;p&gt;Dear Devs,&lt;/p&gt;
+
+&lt;p&gt;Have you ever had code bounce immediately out of test because it just didn’t work? It’s messy and wastes a lot time. You’re expecting the tester to do all your testing, a common mistake. We’re not asking you to do two jobs, with a little effort you can tidy as you go, catching these basic problems yourself.&lt;/p&gt;
+
+&lt;p&gt;The following are helpful, let our conscience be your guide.&lt;/p&gt;
+
+&lt;p&gt;Before you start work, check what you’re doing makes sense. Talk it over, ask who, what, where, when and why. Verify that what you’re going to do is what they want.&lt;/p&gt;
+
+&lt;p&gt;While coding, ensure the code actually does what you believe it does. Stray from the happy path; what could a user do by mistake? How could a user cheat the system? Ask questions like “What happens if I&amp;#8230;” and get answers. Not all who wander are lost.&lt;/p&gt;
+
+&lt;p&gt;Your development skills will help you. Use your knowledge of code to bend it a little. Does any part of the code make you feel queasy? Start there.&lt;/p&gt;
+
+&lt;p&gt;Check white space, min and max lengths, validations, mandatory and optional fields, nulls. It’s literally (not figuratively) painful for testers to report these kinds of problems. Just make sure it works. Please.&lt;/p&gt;
+
+&lt;p&gt;To conclude, your forays into testing won’t replace a competent tester but it will save them time and heart ache; let them focus on more devious aspects their craft.&lt;/p&gt;</content>
+        </entry>
+      
+>>>>>>> 1b1d6f2ee4f223c1aa2a5d62c08c768b0a6eb5f2
     
   
     
@@ -154,6 +246,8 @@
 
     
       
+<<<<<<< HEAD
+=======
     
   
     
@@ -163,6 +257,7 @@
 
     
       
+>>>>>>> 1b1d6f2ee4f223c1aa2a5d62c08c768b0a6eb5f2
     
   
     
@@ -172,6 +267,18 @@
 
     
       
+<<<<<<< HEAD
+=======
+    
+  
+    
+    
+    
+    
+
+    
+      
+>>>>>>> 1b1d6f2ee4f223c1aa2a5d62c08c768b0a6eb5f2
     
   
     
