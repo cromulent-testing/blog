@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+<<<<<<< HEAD
     <loc>http://cromulent-testing.com/</loc>
     <lastmod>2012-01-19T09:22:36+10:00</lastmod>
+=======
+    <loc></loc>
+    <lastmod>2012-02-16T18:48:33+10:00</lastmod>
+>>>>>>> d9dd218da4c6cf179e8b272558fe9b74480e0ee6
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -16,8 +21,13 @@
     
       
         <url>
+<<<<<<< HEAD
           <loc>http://cromulent-testing.com//2012/01/19/your_mum_doesnt_work_here.html</loc>
           <lastmod>2012-01-19T00:00:00+00:00</lastmod>
+=======
+          <loc>/2012/02/16/what-do-you-do-when-your-team-has-no-testers.html</loc>
+          <lastmod>2012-02-16T00:00:00+11:00</lastmod>
+>>>>>>> d9dd218da4c6cf179e8b272558fe9b74480e0ee6
           <changefreq>monthly</changefreq>
           <priority>0.8</priority>
         </url>
@@ -31,6 +41,16 @@
 
     
       
+<<<<<<< HEAD
+=======
+        <url>
+          <loc>/2012/01/19/your_mum_doesnt_work_here.html</loc>
+          <lastmod>2012-01-19T00:00:00+11:00</lastmod>
+          <changefreq>monthly</changefreq>
+          <priority>0.8</priority>
+        </url>
+      
+>>>>>>> d9dd218da4c6cf179e8b272558fe9b74480e0ee6
     
   
     
@@ -157,6 +177,18 @@
 
     
       
+<<<<<<< HEAD
+=======
+    
+  
+    
+    
+    
+    
+
+    
+      
+>>>>>>> d9dd218da4c6cf179e8b272558fe9b74480e0ee6
     
   
     
