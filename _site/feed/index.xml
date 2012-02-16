@@ -4,7 +4,7 @@
  <title>The Cromulent Testing Blog</title>
  <link href="http://cromulent-testing-preprod.heroku.com/feed/index.xml" rel="self"/>
  <link href="http://cromulent-testing-preprod.heroku.com/"/>
- <updated>2012-02-16T07:53:23+00:00</updated>
+ <updated>2012-02-16T08:33:46+00:00</updated>
  <id>http://cromulent-testing-preprod.heroku.com/</id>
  <author>
    <name>Ash Rollke</name>
@@ -25,7 +25,7 @@
     
       
         <entry>
-          <title>Testing sans testers?</title>
+          <title>Testing sans testers</title>
           <link href="http://cromulent-testing-preprod.heroku.com//2012/02/16/testing-sans-testers.html"/>
           <updated>2012-02-16T00:00:00+00:00</updated>
           <id>http://cromulent-testing-preprod.heroku.com//2012/02/16/testing-sans-testers</id>
