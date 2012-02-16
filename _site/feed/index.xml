@@ -2,17 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>The Cromulent Testing Blog</title>
-<<<<<<< HEAD
  <link href="http://cromulent-testing-preprod.heroku.com/feed/index.xml" rel="self"/>
  <link href="http://cromulent-testing-preprod.heroku.com/"/>
- <updated>2012-02-16T07:51:07+00:00</updated>
+ <updated>2012-02-16T07:53:23+00:00</updated>
  <id>http://cromulent-testing-preprod.heroku.com/</id>
-=======
- <link href="feed/index.xml" rel="self"/>
- <link href=""/>
- <updated>2012-02-16T18:48:32+11:00</updated>
- <id></id>
->>>>>>> 1b1d6f2ee4f223c1aa2a5d62c08c768b0a6eb5f2
  <author>
    <name>Ash Rollke</name>
  </author>
@@ -32,41 +25,10 @@
     
       
         <entry>
-<<<<<<< HEAD
-          <title>Your Mum Doesn't Work Here</title>
-          <link href="http://cromulent-testing-preprod.heroku.com//2012/01/19/your_mum_doesnt_work_here.html"/>
-          <updated>2012-01-19T00:00:00+00:00</updated>
-          <id>http://cromulent-testing-preprod.heroku.com//2012/01/19/your_mum_doesnt_work_here</id>
-          <content type="html">&lt;p&gt;Dear Devs,&lt;/p&gt;
-
-&lt;p&gt;Have you ever had code bounce immediately out of test because it just didn’t work? It’s messy and wastes a lot time. You’re expecting the tester to do all your testing, a common mistake. We’re not asking you to do two jobs, with a little effort you can tidy as you go, catching these basic problems yourself.&lt;/p&gt;
-
-&lt;p&gt;The following are helpful, let our conscience be your guide.&lt;/p&gt;
-
-&lt;p&gt;Before you start work, check what you’re doing makes sense. Talk it over, ask who, what, where, when and why. Verify that what you’re going to do is what they want.&lt;/p&gt;
-
-&lt;p&gt;While coding, ensure the code actually does what you believe it does. Stray from the happy path; what could a user do by mistake? How could a user cheat the system? Ask questions like “What happens if I&amp;#8230;” and get answers. Not all who wander are lost.&lt;/p&gt;
-
-&lt;p&gt;Your development skills will help you. Use your knowledge of code to bend it a little. Does any part of the code make you feel queasy? Start there.&lt;/p&gt;
-
-&lt;p&gt;Check white space, min and max lengths, validations, mandatory and optional fields, nulls. It’s literally (not figuratively) painful for testers to report these kinds of problems. Just make sure it works. Please.&lt;/p&gt;
-
-&lt;p&gt;To conclude, your forays into testing won’t replace a competent tester but it will save them time and heart ache; let them focus on more devious aspects their craft.&lt;/p&gt;</content>
-        </entry>
-      
-    
-  
-    
-    
-    
-    
-
-    
-=======
           <title>Testing sans testers?</title>
-          <link href="/2012/02/16/what-do-you-do-when-your-team-has-no-testers.html"/>
-          <updated>2012-02-16T00:00:00+11:00</updated>
-          <id>/2012/02/16/what-do-you-do-when-your-team-has-no-testers</id>
+          <link href="http://cromulent-testing-preprod.heroku.com//2012/02/16/testing-sans-testers.html"/>
+          <updated>2012-02-16T00:00:00+00:00</updated>
+          <id>http://cromulent-testing-preprod.heroku.com//2012/02/16/testing-sans-testers</id>
           <content type="html">&lt;p&gt;Even without testers on the team, you still need to test, or your customers will.&lt;/p&gt;
 
 &lt;p&gt;Here are some ways the team can help fill the gap:&lt;/p&gt;
@@ -111,7 +73,6 @@
 
 &lt;p&gt;Go for coffee and discuss how to test tricky problems. Work as a team. Share ideas. Get in there and have a good time. We still test because it’s fun.&lt;/p&gt;</content>
         </entry>
->>>>>>> 1b1d6f2ee4f223c1aa2a5d62c08c768b0a6eb5f2
       
     
   
@@ -122,13 +83,11 @@
 
     
       
-<<<<<<< HEAD
-=======
         <entry>
           <title>Your Mum Doesn't Work Here</title>
-          <link href="/2012/01/19/your_mum_doesnt_work_here.html"/>
-          <updated>2012-01-19T00:00:00+11:00</updated>
-          <id>/2012/01/19/your_mum_doesnt_work_here</id>
+          <link href="http://cromulent-testing-preprod.heroku.com//2012/01/19/your_mum_doesnt_work_here.html"/>
+          <updated>2012-01-19T00:00:00+00:00</updated>
+          <id>http://cromulent-testing-preprod.heroku.com//2012/01/19/your_mum_doesnt_work_here</id>
           <content type="html">&lt;p&gt;Dear Devs,&lt;/p&gt;
 
 &lt;p&gt;Have you ever had code bounce immediately out of test because it just didn’t work? It’s messy and wastes a lot time. You’re expecting the tester to do all your testing, a common mistake. We’re not asking you to do two jobs, with a little effort you can tidy as you go, catching these basic problems yourself.&lt;/p&gt;
@@ -146,7 +105,6 @@
 &lt;p&gt;To conclude, your forays into testing won’t replace a competent tester but it will save them time and heart ache; let them focus on more devious aspects their craft.&lt;/p&gt;</content>
         </entry>
       
->>>>>>> 1b1d6f2ee4f223c1aa2a5d62c08c768b0a6eb5f2
     
   
     
@@ -246,8 +204,6 @@
 
     
       
-<<<<<<< HEAD
-=======
     
   
     
@@ -257,7 +213,6 @@
 
     
       
->>>>>>> 1b1d6f2ee4f223c1aa2a5d62c08c768b0a6eb5f2
     
   
     
@@ -267,8 +222,6 @@
 
     
       
-<<<<<<< HEAD
-=======
     
   
     
@@ -278,7 +231,6 @@
 
     
       
->>>>>>> 1b1d6f2ee4f223c1aa2a5d62c08c768b0a6eb5f2
     
   
     
