@@ -2,10 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>The Cromulent Testing Blog</title>
+<<<<<<< HEAD
  <link href="http://cromulent-testing.com/feed/index.xml" rel="self"/>
  <link href="http://cromulent-testing.com/"/>
  <updated>2012-02-28T07:30:28+00:00</updated>
  <id>http://cromulent-testing.com/</id>
+=======
+ <link href="feed/index.xml" rel="self"/>
+ <link href=""/>
+ <updated>2012-03-25T18:13:51+11:00</updated>
+ <id></id>
+>>>>>>> 1c8c2bc2f0bad9cdf540d34f0b005f20df0f8546
  <author>
    <name>Ash Rollke</name>
  </author>
@@ -25,10 +32,106 @@
     
       
         <entry>
+<<<<<<< HEAD
           <title>Testing sans testers</title>
           <link href="http://cromulent-testing.com//2012/02/16/testing-sans-testers.html"/>
           <updated>2012-02-16T00:00:00+00:00</updated>
           <id>http://cromulent-testing.com//2012/02/16/testing-sans-testers</id>
+=======
+          <title>Stress Testing</title>
+          <link href="/2012/03/25/stress-testing.html"/>
+          <updated>2012-03-25T00:00:00+11:00</updated>
+          <id>/2012/03/25/stress-testing</id>
+          <content type="html">&lt;p&gt;Questions for stress testing&amp;#8230; yourself.&lt;/p&gt;
+
+&lt;p&gt;This questionnaire is taken from &lt;em&gt;&amp;#8220;Public Welfare, Vol. 39, No. 1, 1981, American Public Welfare Association&amp;#8221;&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Rate the 25 questions according to the following scale: &lt;br /&gt; 1 = Never &lt;br /&gt; 2 = Rarely &lt;br /&gt; 3 = Sometimes &lt;br /&gt; 4 = Often &lt;br /&gt; 5 = Always &lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id='do_you'&gt;Do you:&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;worry at night and have trouble sleeping?&lt;/li&gt;
+
+&lt;li&gt;feel less competent or effective then you used to feel?&lt;/li&gt;
+
+&lt;li&gt;consider yourself under appreciated or ‘used’ on the job?&lt;/li&gt;
+
+&lt;li&gt;always feel tired, even when you get enough sleep?&lt;/li&gt;
+
+&lt;li&gt;dread going to work?&lt;/li&gt;
+
+&lt;li&gt;get angry and irritated easily?&lt;/li&gt;
+
+&lt;li&gt;have recurring headaches, stomach aches, or lower back pain?&lt;/li&gt;
+
+&lt;li&gt;feel overwhelmed?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id='are_you'&gt;Are you:&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;always watching the clock?&lt;/li&gt;
+
+&lt;li&gt;avoiding conversation with co-workers?&lt;/li&gt;
+
+&lt;li&gt;rigidly applying rules without considering more creative solutions?&lt;/li&gt;
+
+&lt;li&gt;increasing your use of alcohol or drugs?&lt;/li&gt;
+
+&lt;li&gt;automatically expressing negative attitudes?&lt;/li&gt;
+
+&lt;li&gt;excessively absent?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id='does_your_job'&gt;Does your job:&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;overload you with work?&lt;/li&gt;
+
+&lt;li&gt;deny you breaks, lunch time, sick leave or vacation?&lt;/li&gt;
+
+&lt;li&gt;demand long shifts and frequent overtime?&lt;/li&gt;
+
+&lt;li&gt;pay too little?&lt;/li&gt;
+
+&lt;li&gt;lack access to a social-professional support group?&lt;/li&gt;
+
+&lt;li&gt;depend on capricious funding sources?&lt;/li&gt;
+
+&lt;li&gt;not have enough funds to accomplish agency goals?&lt;/li&gt;
+
+&lt;li&gt;lack clear guidelines?&lt;/li&gt;
+
+&lt;li&gt;entail so many different tasks that you feel fragmented?&lt;/li&gt;
+
+&lt;li&gt;require you to deal with rapid &lt;span&gt;program&lt;/span&gt; changes?&lt;/li&gt;
+
+&lt;li&gt;Demand coping with an angry public?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Tally your score.&lt;/p&gt;
+
+&lt;p&gt;Cliffhanger! Find out if you’ll survive next post!&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&amp;#8216;Burnout Questionnaire&amp;#8217;, Public Welfare, Vol. 39, No. 1, 1981, American Public Welfare Association&lt;/em&gt;&lt;/p&gt;</content>
+        </entry>
+      
+    
+  
+    
+    
+    
+    
+
+    
+      
+        <entry>
+          <title>Testing sans testers</title>
+          <link href="/2012/02/16/testing-sans-testers.html"/>
+          <updated>2012-02-16T00:00:00+11:00</updated>
+          <id>/2012/02/16/testing-sans-testers</id>
+>>>>>>> 1c8c2bc2f0bad9cdf540d34f0b005f20df0f8546
           <content type="html">&lt;p&gt;Even without testers on the team, you still need to test, or your customers will.&lt;/p&gt;
 
 &lt;p&gt;Here are some ways the team can help fill the gap:&lt;/p&gt;
