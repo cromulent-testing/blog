@@ -2,17 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>The Cromulent Testing Blog</title>
-<<<<<<< HEAD
  <link href="http://cromulent-testing-preprod.heroku.com/feed/index.xml" rel="self"/>
  <link href="http://cromulent-testing-preprod.heroku.com/"/>
- <updated>2012-02-28T06:03:49+00:00</updated>
+ <updated>2012-03-26T02:02:41+00:00</updated>
  <id>http://cromulent-testing-preprod.heroku.com/</id>
-=======
- <link href="feed/index.xml" rel="self"/>
- <link href=""/>
- <updated>2012-03-25T18:13:51+11:00</updated>
- <id></id>
->>>>>>> 1c8c2bc2f0bad9cdf540d34f0b005f20df0f8546
  <author>
    <name>Ash Rollke</name>
  </author>
@@ -32,16 +25,10 @@
     
       
         <entry>
-<<<<<<< HEAD
-          <title>Testing sans testers</title>
-          <link href="http://cromulent-testing-preprod.heroku.com//2012/02/16/testing-sans-testers.html"/>
-          <updated>2012-02-16T00:00:00+00:00</updated>
-          <id>http://cromulent-testing-preprod.heroku.com//2012/02/16/testing-sans-testers</id>
-=======
           <title>Stress Testing</title>
-          <link href="/2012/03/25/stress-testing.html"/>
-          <updated>2012-03-25T00:00:00+11:00</updated>
-          <id>/2012/03/25/stress-testing</id>
+          <link href="http://cromulent-testing-preprod.heroku.com//2012/03/25/stress-testing.html"/>
+          <updated>2012-03-25T00:00:00+00:00</updated>
+          <id>http://cromulent-testing-preprod.heroku.com//2012/03/25/stress-testing</id>
           <content type="html">&lt;p&gt;Questions for stress testing&amp;#8230; yourself.&lt;/p&gt;
 
 &lt;p&gt;This questionnaire is taken from &lt;em&gt;&amp;#8220;Public Welfare, Vol. 39, No. 1, 1981, American Public Welfare Association&amp;#8221;&lt;/em&gt;.&lt;/p&gt;
@@ -128,10 +115,9 @@
       
         <entry>
           <title>Testing sans testers</title>
-          <link href="/2012/02/16/testing-sans-testers.html"/>
-          <updated>2012-02-16T00:00:00+11:00</updated>
-          <id>/2012/02/16/testing-sans-testers</id>
->>>>>>> 1c8c2bc2f0bad9cdf540d34f0b005f20df0f8546
+          <link href="http://cromulent-testing-preprod.heroku.com//2012/02/16/testing-sans-testers.html"/>
+          <updated>2012-02-16T00:00:00+00:00</updated>
+          <id>http://cromulent-testing-preprod.heroku.com//2012/02/16/testing-sans-testers</id>
           <content type="html">&lt;p&gt;Even without testers on the team, you still need to test, or your customers will.&lt;/p&gt;
 
 &lt;p&gt;Here are some ways the team can help fill the gap:&lt;/p&gt;
