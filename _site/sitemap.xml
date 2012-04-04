@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+<<<<<<< HEAD
     <loc>http://cromulent-testing-preprod.heroku.com/</loc>
     <lastmod>2012-03-26T02:02:44+10:00</lastmod>
+=======
+    <loc></loc>
+    <lastmod>2012-04-04T19:48:37+10:00</lastmod>
+>>>>>>> a343db3388a9109d901ea2368ce4c0f1e4874f5b
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -16,8 +21,29 @@
     
       
         <url>
+<<<<<<< HEAD
           <loc>http://cromulent-testing-preprod.heroku.com//2012/03/25/stress-testing.html</loc>
           <lastmod>2012-03-25T00:00:00+00:00</lastmod>
+=======
+          <loc>/2012/04/04/stress-testing-results.html</loc>
+          <lastmod>2012-04-04T00:00:00+10:00</lastmod>
+          <changefreq>monthly</changefreq>
+          <priority>0.8</priority>
+        </url>
+      
+    
+  
+    
+    
+    
+    
+
+    
+      
+        <url>
+          <loc>/2012/03/25/stress-testing.html</loc>
+          <lastmod>2012-03-25T00:00:00+11:00</lastmod>
+>>>>>>> a343db3388a9109d901ea2368ce4c0f1e4874f5b
           <changefreq>monthly</changefreq>
           <priority>0.8</priority>
         </url>
