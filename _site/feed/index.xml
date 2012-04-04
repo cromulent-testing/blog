@@ -4,7 +4,7 @@
  <title>The Cromulent Testing Blog</title>
  <link href="feed/index.xml" rel="self"/>
  <link href=""/>
- <updated>2012-04-04T19:48:31+10:00</updated>
+ <updated>2012-04-04T20:48:29+10:00</updated>
  <id></id>
  <author>
    <name>Ash Rollke</name>
@@ -31,7 +31,7 @@
           <id>/2012/04/04/stress-testing-results</id>
           <content type="html">&lt;p&gt;Cromulent Testing returns. Did you survive? Find out!&lt;/p&gt;
 
-&lt;p&gt;You need your score from &lt;a href=''&gt;this&lt;/a&gt; survey.&lt;/p&gt;
+&lt;p&gt;You need your score from &lt;a href='/2012/03/25/stress-testing.html'&gt;this&lt;/a&gt; survey.&lt;/p&gt;
 
 &lt;h2 id='25__35'&gt;25 - 35&lt;/h2&gt;
 
