@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-<<<<<<< HEAD
     <loc>http://cromulent-testing-preprod.heroku.com/</loc>
-    <lastmod>2012-04-04T10:42:12+10:00</lastmod>
-=======
-    <loc></loc>
-    <lastmod>2012-04-04T20:48:30+10:00</lastmod>
->>>>>>> f520696d56a9b779a4e61b66f989a47b7ab59f35
+    <lastmod>2012-04-04T10:49:16+10:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
