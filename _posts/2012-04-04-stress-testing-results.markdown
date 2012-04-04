@@ -11,7 +11,7 @@ published: yes
 ---
 Cromulent Testing returns. Did you survive? Find out!
 
-You need your score from [this]({{ site.baseurl }}/2012/03/25/stress-testing.html) survey.
+You need your score from [this]({{ site.baseurl }}2012/03/25/stress-testing.html) survey.
 
 ## 25 - 35
 You appear impressively mellow, with almost no job stress and seem practically burnout proof
