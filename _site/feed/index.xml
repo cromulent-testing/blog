@@ -2,17 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>The Cromulent Testing Blog</title>
-<<<<<<< HEAD
  <link href="http://cromulent-testing.com/feed/index.xml" rel="self"/>
  <link href="http://cromulent-testing.com/"/>
- <updated>2012-03-26T04:14:40+00:00</updated>
+ <updated>2012-04-04T10:52:50+00:00</updated>
  <id>http://cromulent-testing.com/</id>
-=======
- <link href="feed/index.xml" rel="self"/>
- <link href=""/>
- <updated>2012-04-04T20:48:29+10:00</updated>
- <id></id>
->>>>>>> d71a7f9925e7641732f7ec6d01a1b6a7531226b6
  <author>
    <name>Ash Rollke</name>
  </author>
@@ -33,12 +26,12 @@
       
         <entry>
           <title>Stress Testing Results</title>
-          <link href="/2012/04/04/stress-testing-results.html"/>
-          <updated>2012-04-04T00:00:00+10:00</updated>
-          <id>/2012/04/04/stress-testing-results</id>
+          <link href="http://cromulent-testing.com//2012/04/04/stress-testing-results.html"/>
+          <updated>2012-04-04T00:00:00+00:00</updated>
+          <id>http://cromulent-testing.com//2012/04/04/stress-testing-results</id>
           <content type="html">&lt;p&gt;Cromulent Testing returns. Did you survive? Find out!&lt;/p&gt;
 
-&lt;p&gt;You need your score from &lt;a href='/2012/03/25/stress-testing.html'&gt;this&lt;/a&gt; survey.&lt;/p&gt;
+&lt;p&gt;You need your score from &lt;a href='http://cromulent-testing.com/2012/03/25/stress-testing.html'&gt;this&lt;/a&gt; survey.&lt;/p&gt;
 
 &lt;h2 id='25__35'&gt;25 - 35&lt;/h2&gt;
 
