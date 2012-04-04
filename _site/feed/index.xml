@@ -2,17 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>The Cromulent Testing Blog</title>
-<<<<<<< HEAD
  <link href="http://cromulent-testing-preprod.heroku.com/feed/index.xml" rel="self"/>
  <link href="http://cromulent-testing-preprod.heroku.com/"/>
- <updated>2012-03-26T02:02:41+00:00</updated>
+ <updated>2012-04-04T10:42:09+00:00</updated>
  <id>http://cromulent-testing-preprod.heroku.com/</id>
-=======
- <link href="feed/index.xml" rel="self"/>
- <link href=""/>
- <updated>2012-04-04T19:48:31+10:00</updated>
- <id></id>
->>>>>>> a343db3388a9109d901ea2368ce4c0f1e4874f5b
  <author>
    <name>Ash Rollke</name>
  </author>
@@ -33,9 +26,9 @@
       
         <entry>
           <title>Stress Testing Results</title>
-          <link href="/2012/04/04/stress-testing-results.html"/>
-          <updated>2012-04-04T00:00:00+10:00</updated>
-          <id>/2012/04/04/stress-testing-results</id>
+          <link href="http://cromulent-testing-preprod.heroku.com//2012/04/04/stress-testing-results.html"/>
+          <updated>2012-04-04T00:00:00+00:00</updated>
+          <id>http://cromulent-testing-preprod.heroku.com//2012/04/04/stress-testing-results</id>
           <content type="html">&lt;p&gt;Cromulent Testing returns. Did you survive? Find out!&lt;/p&gt;
 
 &lt;p&gt;You need your score from &lt;a href=''&gt;this&lt;/a&gt; survey.&lt;/p&gt;
