@@ -2,10 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>The Cromulent Testing Blog</title>
+<<<<<<< HEAD
  <link href="http://cromulent-testing.com/feed/index.xml" rel="self"/>
  <link href="http://cromulent-testing.com/"/>
  <updated>2012-03-26T04:14:40+00:00</updated>
  <id>http://cromulent-testing.com/</id>
+=======
+ <link href="feed/index.xml" rel="self"/>
+ <link href=""/>
+ <updated>2012-04-04T20:48:29+10:00</updated>
+ <id></id>
+>>>>>>> d71a7f9925e7641732f7ec6d01a1b6a7531226b6
  <author>
    <name>Ash Rollke</name>
  </author>
@@ -16,6 +23,55 @@
    <name>Ryan Boucher</name>
  </author>
 
+  
+    
+    
+    
+    
+
+    
+      
+        <entry>
+          <title>Stress Testing Results</title>
+          <link href="/2012/04/04/stress-testing-results.html"/>
+          <updated>2012-04-04T00:00:00+10:00</updated>
+          <id>/2012/04/04/stress-testing-results</id>
+          <content type="html">&lt;p&gt;Cromulent Testing returns. Did you survive? Find out!&lt;/p&gt;
+
+&lt;p&gt;You need your score from &lt;a href='/2012/03/25/stress-testing.html'&gt;this&lt;/a&gt; survey.&lt;/p&gt;
+
+&lt;h2 id='25__35'&gt;25 - 35&lt;/h2&gt;
+
+&lt;p&gt;You appear impressively mellow, with almost no job stress and seem practically burnout proof&lt;/p&gt;
+
+&lt;h2 id='36__50'&gt;36 - 50&lt;/h2&gt;
+
+&lt;p&gt;You express a low amount of job-related stress and are not likely to burn out. Look over those questions on which you scored a 3 or above and think about ways you can reduce the stresses involved.&lt;/p&gt;
+
+&lt;h2 id='51__70'&gt;51 - 70&lt;/h2&gt;
+
+&lt;p&gt;You seem to be under a moderate amount of stress on the job and have a fair chance of burning out. For each question on which you scored a 4 or above, consider ways you can reduce the stresses involved. If possible, take action to improve your attitude or the situation surrounding those things that trouble you most.&lt;/p&gt;
+
+&lt;h2 id='71__90'&gt;71 - 90&lt;/h2&gt;
+
+&lt;p&gt;You express a high amount of job-related stress and may have begun to burn out. Consider studying stress reduction, assertiveness, and burnout prevention. Mark each question on which you scored a 4 or above and rank them in order of their effect on you - beginning with the ones that bother you most. For at least your top three, make a list of ways you can reduce the stresses involved and take action to improve your attitude and/or situation. lf your body is reflecting this stress, get a medical checkup.&lt;/p&gt;
+
+&lt;h2 id='91__up'&gt;91 &amp;amp; up&lt;/h2&gt;
+
+&lt;p&gt;You seem to be under a dangerous amount of stress and are probably nearing an advanced stage of burnout. Without some changes in your behaviours, attitude, and job situation your potential for succumbing to stress-related illness is high. Consider taking classes in stress reduction and burnout prevention and/or seeking professional help.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What the cromulent testers think:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;While the above advice is sound, its focus is on changing attitudes. This is important, but sometimes the place you work needs to change or you need to change the place you work.&lt;/p&gt;
+
+&lt;p&gt;Or in extreme cases, exercise.&lt;/p&gt;
+
+&lt;p&gt;Peace out.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&amp;#8216;Burnout Questionnaire&amp;#8217;, Public Welfare, Vol. 39, No. 1, 1981, American Public Welfare Association&lt;/em&gt;&lt;/p&gt;</content>
+        </entry>
+      
+    
   
     
     
