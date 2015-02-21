@@ -10,8 +10,11 @@
   <meta property="og:site_name" content="Cromulent Testing" />
   <meta property="article:author", content: "http://facebook.com/distributedlife" />
   <meta property="article:author", content: "https://plus.google.com/u/1/+RyanBoucher_distributedlife" />
+  <meta property="article:author", content: "http://twitter.com/distributedlife" />
   <meta property="article:author", content: "Ryan Boucher" />
+  <meta property="article:author", content: "http://twitter.com/mike_bain" />
   <meta property="article:author", content: "Mike Bain" />
+  <meta property="article:author", content: "http://twitter.com/higlak" />
   <meta property="article:author", content: "Ash Rollke" />
   <meta property="article:section", content: "Testing" />
   <meta property="article:tag", content: "cromulent testing" />
@@ -27,6 +30,9 @@
   <meta property="article:tag", content: "bugs" />
   <meta property="article:tag", content: "exploratory testing" />
   <meta property="article:tag", content: "manual testing" />
+  {% for tag in page.tags %}
+  <meta property="article:tag", content: "{{ tag }}" />
+  {% endfor %}
 
   <meta name="description" content="Cromulent Testing. A perfectly cromulent blog about testing.">
   <meta name="keywords" content="cromulent testing,testing,test,quality assurance,qa,agile,agile testing,lean,test automation,automated testing,bugs,exploratory testing, manual testing">
