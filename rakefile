@@ -4,21 +4,21 @@ desc "clean and build site using Jekyll"
 task :build do
   `rm -rf _site/`
   `cp -f _config.yml.prod _config.yml`
-  `jekyll`
+  `bundle exec jekyll`
 end
 
 desc "build for staging"
 task :build_staging do
   `rm -rf _site/`
   `cp -f _config.yml.staging _config.yml`
-  `jekyll`
+  `bundle exec jekyll`
 end
 
 desc "run the server on localhost:4000"
 task :server do
   `rm -rf _site/`
   `cp -f _config.yml.local _config.yml`
-  `jekyll --server --auto`
+  `bundle exec jekyll --server --auto`
 end
 
 desc "Get the required gems"

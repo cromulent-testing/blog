@@ -6,6 +6,37 @@
 
   <link rel=”alternate” type="application/atom+xml" title="The Cromulent Testing Blog" href="http://feeds.feedburner.com/CromulentTestingBlog"/>
 
+  <meta property="og:title" content="Mule Testing - proactively testing assumptions" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="http://www.cromulent-testing.com//2011/08/25/mule-testing-proactively-testing-assumptions.html" />
+  <meta property="og:description" content="Cromulent Testing. A perfectly cromulent blog about testing." />
+  <meta property="og:site_name" content="Cromulent Testing" />
+  <meta property="article:author", content: "http://facebook.com/distributedlife" />
+  <meta property="article:author", content: "https://plus.google.com/u/1/+RyanBoucher_distributedlife" />
+  <meta property="article:author", content: "http://twitter.com/distributedlife" />
+  <meta property="article:author", content: "Ryan Boucher" />
+  <meta property="article:author", content: "http://twitter.com/mike_bain" />
+  <meta property="article:author", content: "Mike Bain" />
+  <meta property="article:author", content: "http://twitter.com/higlak" />
+  <meta property="article:author", content: "Ash Rollke" />
+  <meta property="article:section", content: "Testing" />
+  <meta property="article:tag", content: "cromulent testing" />
+  <meta property="article:tag", content: "testing" />
+  <meta property="article:tag", content: "test" />
+  <meta property="article:tag", content: "quality assurance" />
+  <meta property="article:tag", content: "qa" />
+  <meta property="article:tag", content: "agile" />
+  <meta property="article:tag", content: "agile testing" />
+  <meta property="article:tag", content: "lean" />
+  <meta property="article:tag", content: "test automation" />
+  <meta property="article:tag", content: "automated testing" />
+  <meta property="article:tag", content: "bugs" />
+  <meta property="article:tag", content: "exploratory testing" />
+  <meta property="article:tag", content: "manual testing" />
+  
+  <meta property="article:tag", content: "testing" />
+  
+
   <meta name="description" content="Cromulent Testing. A perfectly cromulent blog about testing.">
   <meta name="keywords" content="cromulent testing,testing,test,quality assurance,qa,agile,agile testing,lean,test automation,automated testing,bugs,exploratory testing, manual testing">
   <meta name="author" content="Mike Bain, Ryan Boucher, Ash Rollke">
@@ -36,23 +67,25 @@
   <div class="author content-group"></div>
 </header>
 <article class="content">
-  <section><p>We were building a shiny new system that relied on data from a poorly understood legacy monster. Assumptions about this data were baked into our system. These unchallenged assumptions turned out to be wrong. Our shiny new system was no longer so shiny.</p>
+  <section>
+<p>We were building a shiny new system that relied on data from a poorly understood legacy monster. Assumptions about this data were baked into our system. These unchallenged assumptions turned out to be wrong. Our shiny new system was no longer so shiny.</p>
 
 <p>The wider the belief in the assumption, the more it’s en-grained in the business, the greater the need for it to be tested.</p>
 
 <p>Why trust when you can know?</p>
 
-<p>An example Mule test (<em>it&#8217;s blogging by example!</em>)</p>
+<p>An example Mule test (<em>it’s blogging by example!</em>)</p>
 
-<p>Start with the assumption: <em>&#8220;All products must have a category&#8221;</em> Find a way to challenge or validate it. In this case we would run a simple query against production data:</p>
-<div class='highlight'><pre><code class='sql'>    <span class='k'>SELECT</span> <span class='o'>*</span> <span class='k'>FROM</span> <span class='n'>products</span> <span class='k'>WHERE</span> <span class='n'>category</span> <span class='k'>IS</span> <span class='k'>NULL</span>
-</code></pre>
-</div>
-<p>If the assumption holds true then rest easy. If it turns out to be false, congratulations you have just prevented a major bug. Share it with the team and update your old assumption to include the new facts. In this example <em>&#8220;A product does not require a category&#8221;</em>.</p>
+<p>Start with the assumption: <em>“All products must have a category”</em> Find a way to challenge or validate it. In this case we would run a simple query against production data:</p>
+
+<p>Liquid error: No such file or directory - when spawning ‘pygmentize’</p>
+
+<p>If the assumption holds true then rest easy. If it turns out to be false, congratulations you have just prevented a major bug. Share it with the team and update your old assumption to include the new facts. In this example <em>“A product does not require a category”</em>.</p>
 
 <p>Mule testing has limits. It only helps you test assumptions that you know about. If the magic combination of data that breaks your assumptions doesn’t yet exist, it won’t fail. It only works with access to the latest production data.</p>
 
-<p>Why the name mule testing? Because some people got the wrong idea when we called it ass testing.</p></section>
+<p>Why the name mule testing? Because some people got the wrong idea when we called it ass testing.</p>
+</section>
 
   <div id="disqus_thread"></div>
   <script type="text/javascript">

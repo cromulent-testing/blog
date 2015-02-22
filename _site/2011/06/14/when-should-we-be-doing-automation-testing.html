@@ -6,6 +6,43 @@
 
   <link rel=”alternate” type="application/atom+xml" title="The Cromulent Testing Blog" href="http://feeds.feedburner.com/CromulentTestingBlog"/>
 
+  <meta property="og:title" content="when should we be doing automated testing?" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="http://www.cromulent-testing.com//2011/06/14/when-should-we-be-doing-automation-testing.html" />
+  <meta property="og:description" content="Cromulent Testing. A perfectly cromulent blog about testing." />
+  <meta property="og:site_name" content="Cromulent Testing" />
+  <meta property="article:author", content: "http://facebook.com/distributedlife" />
+  <meta property="article:author", content: "https://plus.google.com/u/1/+RyanBoucher_distributedlife" />
+  <meta property="article:author", content: "http://twitter.com/distributedlife" />
+  <meta property="article:author", content: "Ryan Boucher" />
+  <meta property="article:author", content: "http://twitter.com/mike_bain" />
+  <meta property="article:author", content: "Mike Bain" />
+  <meta property="article:author", content: "http://twitter.com/higlak" />
+  <meta property="article:author", content: "Ash Rollke" />
+  <meta property="article:section", content: "Testing" />
+  <meta property="article:tag", content: "cromulent testing" />
+  <meta property="article:tag", content: "testing" />
+  <meta property="article:tag", content: "test" />
+  <meta property="article:tag", content: "quality assurance" />
+  <meta property="article:tag", content: "qa" />
+  <meta property="article:tag", content: "agile" />
+  <meta property="article:tag", content: "agile testing" />
+  <meta property="article:tag", content: "lean" />
+  <meta property="article:tag", content: "test automation" />
+  <meta property="article:tag", content: "automated testing" />
+  <meta property="article:tag", content: "bugs" />
+  <meta property="article:tag", content: "exploratory testing" />
+  <meta property="article:tag", content: "manual testing" />
+  
+  <meta property="article:tag", content: "testing" />
+  
+  <meta property="article:tag", content: "automation" />
+  
+  <meta property="article:tag", content: "exploratory" />
+  
+  <meta property="article:tag", content: "test driven" />
+  
+
   <meta name="description" content="Cromulent Testing. A perfectly cromulent blog about testing.">
   <meta name="keywords" content="cromulent testing,testing,test,quality assurance,qa,agile,agile testing,lean,test automation,automated testing,bugs,exploratory testing, manual testing">
   <meta name="author" content="Mike Bain, Ryan Boucher, Ash Rollke">
@@ -36,15 +73,17 @@
   <div class="author content-group"></div>
 </header>
 <article class="content">
-  <section><p>Automated tests, that are written <strong>before</strong> the code; capture the intention of the code, inform design decisions, provide rapid feedback and let us know when we are done. All of this gets us thinking about testing and ensuring that our code can be automated.</p>
+  <section>
+<p>Automated tests, that are written <strong>before</strong> the code; capture the intention of the code, inform design decisions, provide rapid feedback and let us know when we are done. All of this gets us thinking about testing and ensuring that our code can be automated.</p>
 
-<p>One view of test automation is to write it <strong>after</strong> the system code has been written so the automation has to cope with less change. We&#8217;ve found this view doesn&#8217;t hold up in practice, firstly we spend a lot of time reverse engineering the code to automate it. Secondly, if the code is changing then this is when we need test automation the most to provide us with a safety net.</p>
+<p>One view of test automation is to write it <strong>after</strong> the system code has been written so the automation has to cope with less change. We’ve found this view doesn’t hold up in practice, firstly we spend a lot of time reverse engineering the code to automate it. Secondly, if the code is changing then this is when we need test automation the most to provide us with a safety net.</p>
 
 <p>Automated tests that are written <strong>after</strong> the code do not directly inform the design nor do they provide rapid feedback. When writing automated tests in this way we need to ask ourselves; why are we taking this approach?</p>
 
 <p>If we are doing it to provide test coverage or run in the CI build then we are coming to the party late. Without visibility into what automation already exists we could be duplicating test effort. If these tests will help us build a better product then they should be written <strong>before</strong> the code.</p>
 
-<p>If we are using automation to do exploratory testing and we intend to throw the automation code away afterwards then we can write the tests <strong>after</strong>. Not all automation needs to be kept it just has to help us explore.</p></section>
+<p>If we are using automation to do exploratory testing and we intend to throw the automation code away afterwards then we can write the tests <strong>after</strong>. Not all automation needs to be kept it just has to help us explore.</p>
+</section>
 
   <div id="disqus_thread"></div>
   <script type="text/javascript">
